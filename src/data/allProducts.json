@@ -1,0 +1,344 @@
+{
+    "categories": [
+        {
+            "name": "topProducts",
+            "products": [
+                {
+                    "name": "mango",
+                    "image": "https://example.com/mango.jpg"
+                },
+                {
+                    "name": "banana",
+                    "image": "https://example.com/banana.jpg"
+                },
+                {
+                    "name": "tomato",
+                    "image": "https://example.com/tomato.jpg"
+                },
+                {
+                    "name": "onion",
+                    "image": "https://example.com/onion.jpg"
+                },
+                {
+                    "name": "ginger",
+                    "image": "https://example.com/ginger.jpg"
+                },
+                {
+                    "name": "garlic",
+                    "image": "https://example.com/garlic.jpg"
+                },
+                {
+                    "name": "coriander powder",
+                    "image": "https://example.com/corianderpowder.jpg"
+                },
+                {
+                    "name": "red chili powder",
+                    "image": "https://example.com/redchilipowder.jpg"
+                },
+                {
+                    "name": "multi grain atta",
+                    "image": "https://example.com/multigrainatta.jpg"
+                },
+                {
+                    "name": "ghee",
+                    "image": "https://example.com/ghee.jpg"
+                }
+            ]
+        },
+        {
+            "name": "fruits",
+            "products": [
+                {
+                    "name": "watermelon",
+                    "image": "https://example.com/watermelon.jpg"
+                },
+                {
+                    "name": "kharbuj",
+                    "image": "https://example.com/kharbuj.jpg"
+                },
+                {
+                    "name": "banana",
+                    "image": "https://example.com/banana.jpg"
+                },
+                {
+                    "name": "papaya",
+                    "image": "https://example.com/papaya.jpg"
+                },
+                {
+                    "name": "mango",
+                    "image": "https://example.com/mango.jpg"
+                },
+                {
+                    "name": "chiku",
+                    "image": "https://example.com/chiku.jpg"
+                },
+                {
+                    "name": "jackfruit",
+                    "image": "https://example.com/jackfruit.jpg"
+                },
+                {
+                    "name": "guava",
+                    "image": "https://example.com/guava.jpg"
+                },
+                {
+                    "name": "lemon",
+                    "image": "https://example.com/lemon.jpg"
+                },
+                {
+                    "name": "orange",
+                    "image": "https://example.com/orange.jpg"
+                }
+            ]
+        },
+        {
+            "name": "vegetables",
+            "products": [
+                {
+                    "name": "potato",
+                    "image": "https://example.com/potato.jpg"
+                },
+                {
+                    "name": "onion",
+                    "image": "https://example.com/onion.jpg"
+                },
+                {
+                    "name": "ginger",
+                    "image": "https://example.com/ginger.jpg"
+                },
+                {
+                    "name": "garlic",
+                    "image": "https://example.com/garlic.jpg"
+                },
+                {
+                    "name": "arvi",
+                    "image": "https://example.com/arvi.jpg"
+                },
+                {
+                    "name": "sweet potato",
+                    "image": "https://example.com/sweetpotato.jpg"
+                },
+                {
+                    "name": "tomato",
+                    "image": "https://example.com/tomato.jpg"
+                },
+                {
+                    "name": "brinjal",
+                    "image": "https://example.com/brinjal.jpg"
+                },
+                {
+                    "name": "pumpkin",
+                    "image": "https://example.com/pumpkin.jpg"
+                },
+                {
+                    "name": "bottle gourd",
+                    "image": "https://example.com/bottlegourd.jpg"
+                },
+                {
+                    "name": "ridge gourd",
+                    "image": "https://example.com/ridgegourd.jpg"
+                },
+                {
+                    "name": "cucumber",
+                    "image": "https://example.com/cucumber.jpg"
+                },
+                {
+                    "name": "radish",
+                    "image": "https://example.com/radish.jpg"
+                },
+                {
+                    "name": "cauliflower",
+                    "image": "https://example.com/cauliflower.jpg"
+                },
+                {
+                    "name": "okra",
+                    "image": "https://example.com/okra.jpg"
+                },
+                {
+                    "name": "chili",
+                    "image": "https://example.com/chili.jpg"
+                },
+                {
+                    "name": "bell pepper",
+                    "image": "https://example.com/bellpepper.jpg"
+                },
+                {
+                    "name": "yam",
+                    "image": "https://example.com/yam.jpg"
+                },
+                {
+                    "name": "bitter gourd",
+                    "image": "https://example.com/bittergourd.jpg"
+                },
+                {
+                    "name": "cluster beans",
+                    "image": "https://example.com/clusterbeans.jpg"
+                },
+                {
+                    "name": "chickpeas",
+                    "image": "https://example.com/chickpeas.jpg"
+                },
+                {
+                    "name": "tinda",
+                    "image": "https://example.com/tinda.jpg"
+                },
+                {
+                    "name": "carrot",
+                    "image": "https://example.com/carrot.jpg"
+                },
+                {
+                    "name": "mint",
+                    "image": "https://example.com/mint.jpg"
+                },
+                {
+                    "name": "coriander",
+                    "image": "https://example.com/coriander.jpg"
+                },
+                {
+                    "name": "spinach",
+                    "image": "https://example.com/spinach.jpg"
+                },
+                {
+                    "name": "basil",
+                    "image": "https://example.com/basil.jpg"
+                }
+            ]
+        },
+        {
+            "name": "spices",
+            "products": [
+                {
+                    "name": "coriander powder",
+                    "image": "https://example.com/corianderpowder.jpg"
+                },
+                {
+                    "name": "red chili powder",
+                    "image": "https://example.com/redchilipowder.jpg"
+                },
+                {
+                    "name": "chili flakes",
+                    "image": "https://example.com/chiliflakes.jpg"
+                },
+                {
+                    "name": "turmeric powder",
+                    "image": "https://example.com/turmericpowder.jpg"
+                },
+                {
+                    "name": "ginger powder",
+                    "image": "https://example.com/gingerpowder.jpg"
+                },
+                {
+                    "name": "fenugreek seeds",
+                    "image": "https://example.com/fenugreekseeds.jpg"
+                },
+                {
+                    "name": "mustard seeds",
+                    "image": "https://example.com/mustardseeds.jpg"
+                }
+            ]
+        },
+        {
+            "name": "flour",
+            "products": [
+                {
+                    "name": "multi grain atta",
+                    "image": "https://example.com/multigrainatta.jpg"
+                },
+                {
+                    "name": "sharbati atta",
+                    "image": "https://example.com/sharbatiatta.jpg"
+                },
+                {
+                    "name": "bansi atta",
+                    "image": "https://example.com/bansiatta.jpg"
+                },
+                {
+                    "name": "besan",
+                    "image": "https://example.com/besan.jpg"
+                },
+                {
+                    "name": "makkai atta",
+                    "image": "https://example.com/makkaiatta.jpg"
+                }
+            ]
+        },
+        {
+            "name": "cereals",
+            "products": [
+                {
+                    "name": "wheat",
+                    "image": "https://example.com/wheat.jpg"
+                },
+                {
+                    "name": "rice",
+                    "image": "https://example.com/rice.jpg"
+                },
+                {
+                    "name": "broken wheat",
+                    "image": "https://example.com/brokenwheat.jpg"
+                },
+                {
+                    "name": "moong",
+                    "image": "https://example.com/moong.jpg"
+                },
+                {
+                    "name": "chickpeas",
+                    "image": "https://example.com/chickpeas.jpg"
+                },
+                {
+                    "name": "lentils",
+                    "image": "https://example.com/lentils.jpg"
+                }
+            ]
+        },
+        {
+            "name": "pulses",
+            "products": [
+                {
+                    "name": "moong dal",
+                    "image": "https://example.com/moongdal.jpg"
+                },
+                {
+                    "name": "dhuli moong dal",
+                    "image": "https://example.com/dhulimoongdal.jpg"
+                },
+                {
+                    "name": "channa dal",
+                    "image": "https://example.com/channadal.jpg"
+                },
+                {
+                    "name": "toor dal",
+                    "image": "https://example.com/toordal.jpg"
+                },
+                {
+                    "name": "masoor dal",
+                    "image": "https://example.com/masoordal.jpg"
+                }
+            ]
+        },
+        {
+            "name": "grocery",
+            "products": [
+                {
+                    "name": "ghee",
+                    "image": "https://example.com/ghee.jpg"
+                },
+                {
+                    "name": "mushroom powder",
+                    "image": "https://example.com/mushroompowder.jpg"
+                },
+                {
+                    "name": "honey",
+                    "image": "https://example.com/honey.jpg"
+                },
+                {
+                    "name": "jaggery",
+                    "image": "https://example.com/jaggery.jpg"
+                },
+                {
+                    "name": "brown sugar",
+                    "image": "https://example.com/brownsugar.jpg"
+                }
+            ]
+        }
+    ]
+}
