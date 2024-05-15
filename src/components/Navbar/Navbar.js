@@ -42,6 +42,16 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
+                <NavLink to="/blog" onClick={() => setMenuOpen(false)}>
+                  Blog
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/gallery" onClick={() => setMenuOpen(false)}>
+                  Gallery
+                </NavLink>
+              </li>
+              <li>
                 <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
                   Contact
                 </NavLink>

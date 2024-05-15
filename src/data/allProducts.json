@@ -2,6 +2,9 @@
     "categories": [
         {
             "name": "topProducts",
+            "icon": "assets/category-icons/hot-pepper.512x472.png",
+            "description": "Explore our selection of fresh, top-quality produce harvested directly from our organic farm. From juicy mangoes to flavorful spices, find everything you need for a healthy lifestyle.",
+            "bgColor": "#E2E4FE",
             "products": [
                 {
                     "name": "mango",
@@ -47,26 +50,29 @@
         },
         {
             "name": "fruits",
+            "icon": "assets/category-icons/fruits.svg",
+            "description": "Indulge in the sweetness of nature with our delicious assortment of organically grown fruits. From watermelons to bananas, each bite is bursting with natural flavor and nutrition.",
+            "bgColor": "#FFE7E7",
             "products": [
                 {
                     "name": "watermelon",
-                    "image": "https://example.com/watermelon.jpg"
+                    "image": "assets/products/fruits/watermelon.png"
                 },
                 {
                     "name": "kharbuj",
-                    "image": "https://example.com/kharbuj.jpg"
+                    "image": "assets/products/fruits/watermelon.png"
                 },
                 {
                     "name": "banana",
-                    "image": "https://example.com/banana.jpg"
+                    "image": "assets/products/fruits/banana.png"
                 },
                 {
                     "name": "papaya",
-                    "image": "https://example.com/papaya.jpg"
+                    "image": "assets/products/fruits/papaya.png"
                 },
                 {
                     "name": "mango",
-                    "image": "https://example.com/mango.jpg"
+                    "image": "assets/products/fruits/mango.png"
                 },
                 {
                     "name": "chiku",
@@ -74,24 +80,27 @@
                 },
                 {
                     "name": "jackfruit",
-                    "image": "https://example.com/jackfruit.jpg"
+                    "image": "assets/products/fruits/Jackfruit.png"
                 },
                 {
                     "name": "guava",
-                    "image": "https://example.com/guava.jpg"
+                    "image": "assets/products/fruits/Guava.png"
                 },
                 {
                     "name": "lemon",
-                    "image": "https://example.com/lemon.jpg"
+                    "image": "assets/products/fruits/lemon.png"
                 },
                 {
                     "name": "orange",
-                    "image": "https://example.com/orange.jpg"
+                    "image": "assets/products/fruits/orange.png"
                 }
             ]
         },
         {
             "name": "vegetables",
+            "icon": "assets/category-icons/vegetables.svg",
+            "description": "Discover a rainbow of freshness with our vibrant array of organically cultivated vegetables. From crunchy cucumbers to leafy spinach, our farm-fresh produce will elevate any meal.",
+            "bgColor": "#EAF6D9",
             "products": [
                 {
                     "name": "potato",
@@ -205,6 +214,9 @@
         },
         {
             "name": "spices",
+            "icon": "assets/category-icons/spices.svg",
+            "description": "Enhance your culinary creations with our aromatic selection of spices. From fiery red chili powder to fragrant coriander, add depth and complexity to your dishes with our premium spices.",
+            "bgColor": "#E2E4FE",
             "products": [
                 {
                     "name": "coriander powder",
@@ -238,6 +250,9 @@
         },
         {
             "name": "flour",
+            "icon": "assets/category-icons/flour.svg",
+            "description": "Savor the wholesome goodness of our freshly milled flours. Whether you're baking bread or making rotis, our premium-quality flours ensure delicious results every time.",
+            "bgColor": "#FFE7E7",
             "products": [
                 {
                     "name": "multi grain atta",
@@ -263,6 +278,9 @@
         },
         {
             "name": "cereals",
+            "icon": "assets/category-icons/spices.svg",
+            "description": "Start your day right with our nutritious selection of cereals. From hearty wheat to protein-rich lentils, our cereals are packed with essential nutrients to fuel your day.",
+            "bgColor": "#EAF6D9",
             "products": [
                 {
                     "name": "wheat",
@@ -292,6 +310,9 @@
         },
         {
             "name": "pulses",
+            "icon": "assets/category-icons/flour.svg",
+            "description": "Add a protein punch to your meals with our range of pulses. From creamy moong dal to nutty chickpeas, our pulses are a versatile and nutritious addition to any dish.",
+            "bgColor": "#E2E4FE",
             "products": [
                 {
                     "name": "moong dal",
@@ -317,6 +338,9 @@
         },
         {
             "name": "grocery",
+            "icon": "assets/category-icons/flour.svg",
+            "description": "Stock your pantry with our premium grocery essentials. From rich ghee to flavorful honey, our grocery selection includes everything you need for a well-stocked kitchen.",
+            "bgColor": "#FFE7E7",
             "products": [
                 {
                     "name": "ghee",
