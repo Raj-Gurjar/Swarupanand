@@ -3,6 +3,7 @@ import productsData from "../data/allProducts.json";
 import ProductCard from "../components/Cards.js/ProductCard";
 import { NavLink } from "react-router-dom";
 import "./product.scss";
+import categoryBg from "../data/assets/background/category-bg.jpeg";
 
 export default function Products() {
   const [selectedCategory, setSelectedCategory] = useState("topProducts");
@@ -14,14 +15,26 @@ export default function Products() {
 
   return (
     <div>
-      <div className="bg-blue-500 h-[300px]">Top Heading/ design</div>
+      <div className=" h-[300px] m-5 flex justify-center align-middle text-center rounded-lg overflow-hidden ">
+        <div className="z-10 absolute bg-red-300 mt-[140px]">
+          <h1 className="text-2xl">Product Category</h1>
+          <div>
+            Home - <span>{selectedCategory}</span>
+          </div>
+        </div>
+        <img
+          src={categoryBg}
+          alt="categoryBg"
+          className="z-1 object-fill h-[300px] w-full blur-[1px] rounded-lg"
+        />
+      </div>
 
       <div className="products">
         <h1> Products' Category </h1>
 
         <img src={allProducts?.categories?.product?.image} alt="" />
 
-        <div className="flex gap-5">
+        <div className="flex gap-5 flex-wrap">
           {allProducts.categories.map((category, index) => (
             <div key={index} className="flex gap-5 bg-red-400">
               <button onClick={() => handleCategoryClick(category.name)}>

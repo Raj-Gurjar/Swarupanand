@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Error from "./pages/Error";
 import Products from "./pages/Products";
 import Gallery from "./pages/Gallery";
-import Blog from "./pages/Blog";
+import Blog from "./components/Blog";
 
 function App() {
   return (

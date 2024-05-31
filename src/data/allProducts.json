@@ -104,11 +104,11 @@
             "products": [
                 {
                     "name": "potato",
-                    "image": "https://example.com/potato.jpg"
+                    "image": "assets/products/vegetables/potato.png"
                 },
                 {
                     "name": "onion",
-                    "image": "https://example.com/onion.jpg"
+                    "image": "assets/products/vegetables/Onion.png"
                 },
                 {
                     "name": "ginger",
@@ -116,7 +116,7 @@
                 },
                 {
                     "name": "garlic",
-                    "image": "https://example.com/garlic.jpg"
+                    "image": "assets/products/vegetables/Garlic.png"
                 },
                 {
                     "name": "arvi",
@@ -132,11 +132,11 @@
                 },
                 {
                     "name": "brinjal",
-                    "image": "https://example.com/brinjal.jpg"
+                    "image": "assets/products/vegetables/Eggplant.png"
                 },
                 {
                     "name": "pumpkin",
-                    "image": "https://example.com/pumpkin.jpg"
+                    "image": "assets/products/vegetables/pumpkin.png"
                 },
                 {
                     "name": "bottle gourd",
@@ -148,7 +148,7 @@
                 },
                 {
                     "name": "cucumber",
-                    "image": "https://example.com/cucumber.jpg"
+                    "image": "assets/products/vegetables/Cucumber.png"
                 },
                 {
                     "name": "radish",
@@ -156,7 +156,7 @@
                 },
                 {
                     "name": "cauliflower",
-                    "image": "https://example.com/cauliflower.jpg"
+                    "image": "assets/products/vegetables/Cauliflower.png"
                 },
                 {
                     "name": "okra",

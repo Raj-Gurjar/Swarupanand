@@ -41,11 +41,7 @@ const Navbar = () => {
                   View Products
                 </NavLink>
               </li>
-              <li>
-                <NavLink to="/blog" onClick={() => setMenuOpen(false)}>
-                  Blog
-                </NavLink>
-              </li>
+             
               <li>
                 <NavLink to="/gallery" onClick={() => setMenuOpen(false)}>
                   Gallery

@@ -10,7 +10,25 @@
     width: 54px;
     z-index: 9;
 }
+.footer {
+    background-image: url(https://demo.casethemes.net/organio/wp-content/uploads/2021/03/bg-footer-top.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.underline
+{
+    width: 18px; 
+    
+    margin: 0 auto;
+    margin-left: 0;
+    border-radius: 2px;
+    // content: " ";
+    padding: 10px;
+    border: 2px solid green;
+    border-style: solid;
+}
 // .swiper-button-prev {
 //     background-color: red;
 //     font-size: 10px;
