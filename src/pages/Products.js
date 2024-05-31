@@ -15,7 +15,7 @@ export default function Products() {
 
   return (
     <div>
-      <div className=" h-[300px] m-5 flex justify-center align-middle text-center rounded-lg overflow-hidden ">
+      <div className=" h-[300px] m-5 flex justify-center align-middle text-center rounded-lg overflow-hidden bg-black">
         <div className="z-10 absolute bg-red-300 mt-[140px]">
           <h1 className="text-2xl">Product Category</h1>
           <div>
@@ -25,7 +25,7 @@ export default function Products() {
         <img
           src={categoryBg}
           alt="categoryBg"
-          className="z-1 object-fill h-[300px] w-full blur-[1px] rounded-lg"
+          className="z-1 object-fill h-[300px] w-full rounded-lg opacity-70"
         />
       </div>
 

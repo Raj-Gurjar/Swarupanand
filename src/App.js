@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="py-16">
+      <div className="pt-16">
         <Routes>
           <Route index element={<Home />} />
 
