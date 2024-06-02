@@ -6,7 +6,7 @@ import "./product.scss";
 import categoryBg from "../data/assets/background/category-bg.jpeg";
 
 export default function Products() {
-  const [selectedCategory, setSelectedCategory] = useState("topProducts");
+  const [selectedCategory, setSelectedCategory] = useState("top Products");
   const allProducts = productsData;
 
   const handleCategoryClick = (categoryName) => {
@@ -34,17 +34,28 @@ export default function Products() {
 
         <img src={allProducts?.categories?.product?.image} alt="" />
 
-        <div className="flex gap-5 flex-wrap">
+        <div className="flex gap-5 flex-wrap m-1 bg-red-400 justify-evenly">
           {allProducts.categories.map((category, index) => (
-            <div key={index} className="flex gap-5 bg-red-400">
-              <button onClick={() => handleCategoryClick(category.name)}>
+            <div
+              onClick={() => handleCategoryClick(category.name)}
+              key={index}
+              className="cat-container flex flex-col gap-1 bg-gray-400 justify-center"
+            >
+              <div className="flex justify-center">
                 <img
                   src={category?.icon}
                   alt={category.name + "-img"}
-                  className="h-[100px] w-[100px]"
+                  className={`bg-blue-400 h-[70px] w-[70px]`}
                 />
-                <p className="flex gap-5 bg-green-400">{category.name}</p>
-              </button>
+              </div>
+
+              <p
+                className={` flex justify-center capitalize ${
+                  category.name === selectedCategory ? "active-cat-text" : ""
+                }`}
+              >
+                {category.name}
+              </p>
             </div>
           ))}
         </div>

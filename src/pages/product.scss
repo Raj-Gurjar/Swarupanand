@@ -4,5 +4,18 @@
     background-position: -6px 165px;
     background-repeat: no-repeat;
     padding: 70px;
+}
+
+
+.cat-container
+{
+    &:hover
+    {
+        background-color: green;
+    }
     
+}
+.active-cat-text
+{
+    background:red;
 }

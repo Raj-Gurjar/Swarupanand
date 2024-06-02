@@ -23,27 +23,54 @@ const features = [
 
 const Features = () => {
   return (
-    <div className="m-[55px] bg-red-200">
+    <div className="my-7 bg-[#f7f6f2]">
       <h1>Features</h1>
 
-      <div className="feature-box flex relative justify-evenly flex-wrap ml-auto mr-auto gap-5 align-middle text-center bg-blue-300 ">
-        {features.map((feature, index) => (
-          <div
-            className="feature-subBox flex  flex-col relative w-[30%] p-10"
-            key={index}
-          >
-            <figure className="img-box flex justify-center">
-              <img
-                src={feature.image}
-                alt={feature.title}
-                className="w-[90px] h-[90px]"
-              />
-            </figure>
+      <div className="ftr-container">
+        <div className="title">
+          <strong className="text-[#78b144] text-[2rem] italic font-black">
+            Why Choose Us
+          </strong>
+        </div>
 
-            <h1 className="text-[18px] font-extrabold">{feature.title}</h1>
-            <p>{feature?.tagline}</p>
+        <div className="ftr-row">
+          <div className="block">
+            <div class="block_content">
+              <div class="block align-middle text-center">
+                <img
+                  src="https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/leaves_bede3183-15b2-42a5-9885-5597551ed12c_100x.png?v=1614305448"
+                  alt=""
+                />
+
+                <div class="title font-700 text-uppercase">Always fresh</div>
+                <div class="desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </div>
+
+              <div class="block">
+                <img
+                  src="https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/heath_ff26dec2-aad7-4f82-afd2-822ad05e5161_100x.png?v=1614305448"
+                  alt=""
+                />
+
+                <div class="title font-700 text-uppercase">Super Healthy</div>
+                <div class="desc">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-        ))}
+
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 {
     "categories": [
         {
-            "name": "topProducts",
+            "name": "top Products",
             "icon": "assets/category-icons/hot-pepper.512x472.png",
             "description": "Explore our selection of fresh, top-quality produce harvested directly from our organic farm. From juicy mangoes to flavorful spices, find everything you need for a healthy lifestyle.",
             "bgColor": "#E2E4FE",

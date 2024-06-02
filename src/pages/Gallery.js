@@ -18,7 +18,7 @@ export default function App() {
   const [index, setIndex] = useState(-1);
 
   return (
-    <div className="bg-red-100">
+    <div className="bg-red-100 mt-5">
       <PhotoAlbum 
       className="rounded-full"
         photos={photos}
