@@ -2,7 +2,7 @@
     "categories": [
         {
             "name": "top Products",
-            "icon": "assets/category-icons/hot-pepper.512x472.png",
+            "icon": "assets/category-icons/flour.svg",
             "description": "Explore our selection of fresh, top-quality produce harvested directly from our organic farm. From juicy mangoes to flavorful spices, find everything you need for a healthy lifestyle.",
             "bgColor": "#E2E4FE",
             "products": [
@@ -50,7 +50,7 @@
         },
         {
             "name": "fruits",
-            "icon": "assets/category-icons/fruits.svg",
+            "icon": "assets/category-icons/flour.svg",
             "description": "Indulge in the sweetness of nature with our delicious assortment of organically grown fruits. From watermelons to bananas, each bite is bursting with natural flavor and nutrition.",
             "bgColor": "#FFE7E7",
             "products": [
@@ -98,7 +98,7 @@
         },
         {
             "name": "vegetables",
-            "icon": "assets/category-icons/vegetables.svg",
+            "icon": "assets/category-icons/flour.svg",
             "description": "Discover a rainbow of freshness with our vibrant array of organically cultivated vegetables. From crunchy cucumbers to leafy spinach, our farm-fresh produce will elevate any meal.",
             "bgColor": "#EAF6D9",
             "products": [
@@ -214,7 +214,7 @@
         },
         {
             "name": "spices",
-            "icon": "assets/category-icons/spices.svg",
+            "icon": "assets/category-icons/flour.svg",
             "description": "Enhance your culinary creations with our aromatic selection of spices. From fiery red chili powder to fragrant coriander, add depth and complexity to your dishes with our premium spices.",
             "bgColor": "#E2E4FE",
             "products": [
@@ -278,7 +278,7 @@
         },
         {
             "name": "cereals",
-            "icon": "assets/category-icons/spices.svg",
+            "icon": "assets/category-icons/flour.svg",
             "description": "Start your day right with our nutritious selection of cereals. From hearty wheat to protein-rich lentils, our cereals are packed with essential nutrients to fuel your day.",
             "bgColor": "#EAF6D9",
             "products": [

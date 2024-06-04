@@ -11,19 +11,19 @@ export default function Blog() {
 
       <div className="blog-page">
         {allPostData?.map((post) => (
-          <div class="w-[29%]">
-            <div class="card split">
-              <div class="image">
+          <div className="w-[29%]">
+            <div className="card split">
+              <div className="image">
                 <img src={post?.image?.url} alt="post-img" />
               </div>
 
-              <div class="content">
+              <div className="content">
                 <h1>{post?.title}</h1>
                 <div className="flex justify-between">
                   <p>By : {post?.author}</p>
                   <p>Data : {post?.datePublished}</p>
                 </div>
-                <p class="copy">{post?.content.substring(0, 100)}....</p>
+                <p className="copy">{post?.content.substring(0, 100)}....</p>
                 <div className="btn">
                   <a href={post?.readUrl} className="text-blue-500">
                     Read More

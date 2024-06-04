@@ -5,7 +5,7 @@ export default function CategoryCard({ data }) {
   return (
     <div
       style={{ backgroundColor: data.bgColor }}
-      className="item-content relative md:rounded-[500px] rounded-[20px] mx-[15px] p-10"
+      className="item-content relative md:rounded-[500px] rounded-[20px] mx-[15px] p-10 pointer"
     >
       <div className={`h-[100px] flex` }>
         <div className="flex flex-col">

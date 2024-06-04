@@ -6,10 +6,10 @@ const ProductCard = ({ product }) => {
       <img
         src={product.image}
         alt={product.name}
-        className=" h-[150px] w-full w-[100px] bg-red-100"
+        className=" h-[150px] w-full w-[100px] "
       />
       <div className="mt-2">
-        <h3 className="text-lg font-bold">{product.name}</h3>
+        <h3 className="text-lg font-bold capitalize">{product.name}</h3>
         {/* You can add more details here if needed */}
       </div>
     </div>

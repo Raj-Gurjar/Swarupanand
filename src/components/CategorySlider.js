@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -7,12 +6,17 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import { FreeMode, Pagination, Autoplay, Navigation } from "swiper/modules";
 import productsData from "../data/allProducts.json";
-
 import CategoryCard from "./CategoryCard";
+import { useNavigate } from "react-router-dom";
 
 export default function CategorySlider() {
   const allProducts = productsData;
-  console.log("ap", allProducts);
+  const navigate = useNavigate();
+
+  const handleCategoryClick = (categoryName) => {
+    navigate("/view-products", { state: { chooseCategory: categoryName } });
+  };
+
   return (
     <div className="m-5">
       <h1 className="title">Explore our all Categories</h1>
@@ -42,7 +46,9 @@ export default function CategorySlider() {
       >
         {allProducts?.categories.map((category, index) => (
           <SwiperSlide key={index}>
-            <CategoryCard data={category} />
+            <div onClick={() => handleCategoryClick(category.name)} className="cursor-pointer">
+              <CategoryCard data={category} />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

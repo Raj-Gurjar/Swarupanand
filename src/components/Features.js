@@ -23,7 +23,7 @@ const features = [
 
 const Features = () => {
   return (
-    <div className="py-10 px-1 bg-[#f7f6f2]">
+    <div className="my-[8rem] px-1 bg-[#f7f6f2] overflow-hidden">
       <div className="bg-white m-auto align-middle pt-5 flex justify-center">
         <img
           className=""
