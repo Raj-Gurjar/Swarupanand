@@ -1,10 +1,11 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 import contactBg from "../data/assets/background/contact-bg.jpg";
 import { useNavigate } from "react-router-dom";
 import ContactCard from "../components/ContactCard";
-// import { FaLocationDot } from "react-icons/fa6";
-// import { FaPhoneVolume } from "react-icons/fa6";
-// import { IoIosMail } from "react-icons/io";
+import { FaLocationDot } from "react-icons/fa6";
+import { FaPhoneVolume } from "react-icons/fa6";
+import { IoIosMail } from "react-icons/io";
 
 export default function Contact() {
   const navigate = useNavigate();
@@ -31,13 +32,35 @@ export default function Contact() {
 
       <div>
         <div className="flex gap-5 justify-around px-5">
-          <ContactCard icon={"i"} head="Address" data="lorem5fsdfsdf sdfsdf" />
           <ContactCard
-            icon={"i"}
+            icon={<FaLocationDot />}
+            head="Address"
+            data="lorem5fsdfsdf sdfsdf"
+          />
+          <ContactCard
+            icon={<FaPhoneVolume />}
             head="Phone No."
             data="lorem5fsdfsdf sdfsdf"
           />
-          <ContactCard icon={"i"} head="Email" data="lorem5fsdfsdf sdfsdf" />
+          <ContactCard
+            icon={<IoIosMail />}
+            head="Email"
+            data="lorem5fsdfsdf sdfsdf"
+          />
+        </div>
+
+        <div className="g-map-container">
+          <iframe
+            width="100%"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=gupta%20ground,narmadapuram+(Home)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          >
+            <a href="https://www.gps.ie/">gps vehicle tracker</a>
+          </iframe>
         </div>
       </div>
     </div>

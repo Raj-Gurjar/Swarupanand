@@ -6,7 +6,7 @@ export default function ContactCard({ icon, head, data }) {
       <div className="bg-[#76a713] contact-card-container">
         <p>{icon}</p>
         <h1>{head}</h1>
-        <p>{data}</p>
+        <h3>{data}</h3>
       </div>
     </div>
   );

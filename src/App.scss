@@ -121,42 +121,81 @@
     padding: 40px 5px;
     text-align: center;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     z-index: 1;
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
     transition: transform 0.3s cubic-bezier(0.24, 0.74, 0.58, 1);
-}
 
-.contact-card-container::before {
-    content: "";
-    position: absolute;
-    top: -10px; /* Adjust as needed */
-    right: -10px; /* Adjust as needed */
-    bottom: -10px; /* Adjust as needed */
-    left: -10px; /* Adjust as needed */
-    border-top-left-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border: 4px dotted green;
-    opacity: 0; /* Initially hidden */
-    pointer-events: none;
-    transition: opacity 0.3s cubic-bezier(0.24, 0.74, 0.58, 1);
-    transform-origin: center;
-}
+    &::before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        bottom: -20px;
+        left: -20px;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border: 4px dotted green;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s cubic-bezier(0.24, 0.74, 0.58, 1);
+        transform-origin: center;
+    }
 
-.contact-card-container:hover {
-    transform: scale(0.85);
-}
+    &:hover {
+        transform: scale(0.8);
 
-.contact-card-container:hover::before {
-    opacity: 1;
-    animation: orbit 3s linear infinite;
+        &::before {
+            opacity: 1;
+            // animation: orbit 3s linear infinite;
+        }
+    }
+    p {
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+        background-color: #fff;
+        border-radius: 70px;
+        line-height: 70px;
+        position: relative;
+        color: green;
+        font-size: 30px;
+        // margin-bottom: 6px;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    h1 {
+        margin-bottom: 10px;
+        font-size: 26px;
+        color: #fff;
+        font-family: "lora, sans-serif";
+        clear: both;
+        line-height: 1.2;
+        margin: 0 0 15px;
+        font-weight: 700;
+    }
+    h3 {
+        font-size: 18px;
+        color: #fff;
+    }
+}
+.g-map-container
+{
+    margin-top: 50px;
+    width: 50%;
 }
 
 @keyframes orbit {
     0% {
-        transform: rotate(0deg) translateX(4px) rotate(0deg); /* Adjust translateX as needed */
+        transform: rotate(0deg) translateX(4px) rotate(0deg);
     }
     100% {
-        transform: rotate(360deg) translateX(4px) rotate(-360deg); /* Adjust translateX as needed */
+        transform: rotate(360deg) translateX(4px) rotate(-360deg);
     }
 }
