@@ -25,7 +25,7 @@ export default function App() {
     <div className="bg-red-100 mt-5">
       <div className=" h-[300px] mb-[110px] flex justify-center align-middle text-center overflow-hidden bg-black">
         <div className="z-10 absolute bg-red-300 mt-[140px]">
-          <h1 className="title-2">Product Category</h1>
+          <h1 className="title-2">Gallery</h1>
           <div className="text-[16px] text-white">
             <span onClick={() => navigate("/")} className="cursor-pointer">
               {" "}
@@ -40,25 +40,42 @@ export default function App() {
           alt="categoryBg"
           className="z-1 object-fill h-[300px] w-full rounded-lg opacity-50"
         />
-      </div> 
+      </div>
+
+      <div className="flex flex-col justify-center text-center m-5 mt-10">
+        <div className="head-2">
+          <span>
+            <span>~</span>
+            Don't Panic Go Organic
+            <span>~</span>
+          </span>
+        </div>
+        <div className="head-3">
+          <h1>Watch Our Portfolio</h1>
+        </div>
+      </div>
       <div className="bg-red-400 py-10 px-4">
         <PhotoAlbum
           style={{ backgroundColor: "green" }}
           photos={media?.images}
           layout="masonry"
-          spacing={15}
+          spacing={20}
+          columns={3}
           // targetColumnHeight={3}
           onClick={({ index }) => setIndex(index)}
         />
       </div>
-      <Lightbox
-        slides={media?.images}
-        open={index >= 0}
-        index={index}
-        close={() => setIndex(-1)}
-        // enable optional lightbox plugins
-        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
-      />
+
+      <div>
+        <Lightbox
+          slides={media?.images}
+          open={index >= 0}
+          index={index}
+          close={() => setIndex(-1)}
+          // enable optional lightbox plugins
+          plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+        />
+      </div>
     </div>
   );
 }
