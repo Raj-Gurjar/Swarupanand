@@ -2,7 +2,7 @@
 import React from "react";
 import contactBg from "../data/assets/background/contact-bg.jpg";
 import { useNavigate } from "react-router-dom";
-import ContactCard from "../components/ContactCard";
+import ContactCard from "../components/Cards/ContactCard";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";

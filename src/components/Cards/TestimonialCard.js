@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TestimonialCard({ data }) {
   return (
-    <div className="bg-red-300 h-[300px] p-4 flex flex-col justify-center align-middle text-center">
+    <div className="bg-red-300 m-5 h-[300px] p-4 flex flex-col justify-center align-middle text-center">
       <figure className="flex justify-center">
         <img
           src={data?.img}
@@ -12,7 +12,6 @@ export default function TestimonialCard({ data }) {
       </figure>
       <h1 className="text-2xl text-bold m-5">{data?.name}</h1>
       <p>{data?.review}</p>
-      <div></div>
     </div>
   );
 }

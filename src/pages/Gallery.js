@@ -54,6 +54,10 @@ export default function App() {
           <h1>Watch Our Portfolio</h1>
         </div>
       </div>
+
+      <div>
+        
+      </div>
       <div className="bg-red-400 py-10 px-4">
         <PhotoAlbum
           style={{ backgroundColor: "green" }}

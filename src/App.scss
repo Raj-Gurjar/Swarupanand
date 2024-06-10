@@ -298,14 +298,56 @@
     }
 }
 
-.react-photo-album--photo
-{
+.react-photo-album--photo {
     background-color: #bb5903;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
 
-    &:hover
-    {
+    &:hover {
         transform: scale(1.05);
     }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+.topBanner-head-2 {
+    font-size: 50px;
+    font-family: "lexend", sans-serif;
+    font-weight: 700;
+    width: 60%;
+    margin-bottom: 30px;
+    line-height: 60px;
+
+    span {
+        color: green;
+    }
+}
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+.homeBanner {
+    overflow: hidden;
+    height: 90vh;
+    background-color: rgb(227, 223, 223);
+    img {
+        object-fit: fill;
+        height: 100vh;
+    }
+}
+.topBanner-head-1 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 60%;
+    // margin: 0px 30px;
+    line-height: 60px;
+
+    span {
+        color: green;
+    }
+}
+btn {
+    background-color: rgb(4, 189, 53);
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-top: 150px;
+    color: white;
+    font-weight: 500;
 }

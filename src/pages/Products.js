@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import productsData from "../data/allProducts.json";
-import ProductCard from "../components/Cards.js/ProductCard";
+import ProductCard from "../components/Cards/ProductCard";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./product.scss";
 import categoryBg from "../data/assets/background/category-bg.jpeg";
