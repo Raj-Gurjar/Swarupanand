@@ -3,6 +3,7 @@
         {
             "name": "top Products",
             "icon": "assets/category-icons/flour.svg",
+            "catImg": "assets/category-icons/top1.png",
             "description": "Explore our selection of fresh, top-quality produce harvested directly from our organic farm. From juicy mangoes to flavorful spices, find everything you need for a healthy lifestyle.",
             "bgColor": "#E2E4FE",
             "products": [
@@ -51,6 +52,7 @@
         {
             "name": "fruits",
             "icon": "assets/category-icons/flour.svg",
+            "catImg": "assets/category-icons/fru1.png",
             "description": "Indulge in the sweetness of nature with our delicious assortment of organically grown fruits. From watermelons to bananas, each bite is bursting with natural flavor and nutrition.",
             "bgColor": "#FFE7E7",
             "products": [
@@ -99,6 +101,7 @@
         {
             "name": "vegetables",
             "icon": "assets/category-icons/flour.svg",
+            "catImg": "assets/category-icons/veg1.png",
             "description": "Discover a rainbow of freshness with our vibrant array of organically cultivated vegetables. From crunchy cucumbers to leafy spinach, our farm-fresh produce will elevate any meal.",
             "bgColor": "#EAF6D9",
             "products": [
@@ -215,6 +218,7 @@
         {
             "name": "spices",
             "icon": "assets/category-icons/flour.svg",
+            "catImg": "assets/category-icons/spi1.png",
             "description": "Enhance your culinary creations with our aromatic selection of spices. From fiery red chili powder to fragrant coriander, add depth and complexity to your dishes with our premium spices.",
             "bgColor": "#E2E4FE",
             "products": [
@@ -251,6 +255,7 @@
         {
             "name": "flour",
             "icon": "assets/category-icons/flour.svg",
+            "catImg": "assets/category-icons/flo1.png",
             "description": "Savor the wholesome goodness of our freshly milled flours. Whether you're baking bread or making rotis, our premium-quality flours ensure delicious results every time.",
             "bgColor": "#FFE7E7",
             "products": [
@@ -279,6 +284,7 @@
         {
             "name": "cereals",
             "icon": "assets/category-icons/flour.svg",
+            "catImg": "assets/category-icons/cer1.png",
             "description": "Start your day right with our nutritious selection of cereals. From hearty wheat to protein-rich lentils, our cereals are packed with essential nutrients to fuel your day.",
             "bgColor": "#EAF6D9",
             "products": [
@@ -311,6 +317,7 @@
         {
             "name": "pulses",
             "icon": "assets/category-icons/flour.svg",
+            "catImg": "assets/category-icons/pul1.png",
             "description": "Add a protein punch to your meals with our range of pulses. From creamy moong dal to nutty chickpeas, our pulses are a versatile and nutritious addition to any dish.",
             "bgColor": "#E2E4FE",
             "products": [
@@ -339,6 +346,7 @@
         {
             "name": "grocery",
             "icon": "assets/category-icons/flour.svg",
+            "catImg": "assets/category-icons/gro1.png",
             "description": "Stock your pantry with our premium grocery essentials. From rich ghee to flavorful honey, our grocery selection includes everything you need for a well-stocked kitchen.",
             "bgColor": "#FFE7E7",
             "products": [

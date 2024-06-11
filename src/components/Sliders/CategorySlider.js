@@ -19,8 +19,15 @@ export default function CategorySlider() {
 
   return (
     <div className="m-5">
-      <h1 className="title">Explore our all Categories</h1>
-      <p className="wave"></p>
+      {/* <h1 className="title">Explore our all Categories</h1> */}
+      <div className="head-2 justify-center text-center m-5">
+        <span>
+          <span>~</span>
+           Explore Our Categories
+          <span>~</span>
+        </span>
+      </div>
+      {/* <p className="wave"></p> */}
       <Swiper
         style={{
           "--swiper-navigation-size": "20px",
@@ -46,7 +53,10 @@ export default function CategorySlider() {
       >
         {allProducts?.categories.map((category, index) => (
           <SwiperSlide key={index}>
-            <div onClick={() => handleCategoryClick(category.name)} className="cursor-pointer">
+            <div
+              onClick={() => handleCategoryClick(category.name)}
+              className="cursor-pointer"
+            >
               <CategoryCard data={category} />
             </div>
           </SwiperSlide>

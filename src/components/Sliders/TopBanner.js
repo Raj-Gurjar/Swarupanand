@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import banner1 from "../../data/assets/Home-Banners/slider-1.png";
-import banner2 from "../../data/assets/Home-Banners/slider-2.png";
+import banner1 from "../../data/assets/Home-Banners/slider-5.jpg";
+import banner2 from "../../data/assets/Home-Banners/h7-banner1.png";
 import { Link } from "react-router-dom";
 
 function SampleArrow(props) {
@@ -27,7 +27,7 @@ export default function TopBanner() {
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     fade: true,
     autoplaySpeed: 2500,
     cssEase: "linear",
@@ -44,12 +44,17 @@ export default function TopBanner() {
             <h1 className="topBanner-head-1">
               <span>Swarupanand's</span> 100% Genuine Product Served
             </h1>
-            <h2 className="topBanner-head-2">
+            <h2 className="topBanner-head-2 ">
               Organic & <span>Healthy</span> Food Everyday
             </h2>
 
-            <btn>
-              <Link to="/view-products"> Shop Now</Link>
+            <btn className="flex">
+              <div className="btn-11">
+                <Link to="/view-products"> Shop Now</Link>
+              </div>
+              <div className="btn-22">
+                <Link to="/about"> About Us</Link>
+              </div>
             </btn>
           </div>
 
@@ -57,7 +62,7 @@ export default function TopBanner() {
             <img
               src={banner1}
               alt={banner1}
-              className="object-cover min-h-[74vh] w-full"
+              className="object-cover min-h-[14vh] w-[60%] opacity-0"
             />
           </div>
         </div>
@@ -71,8 +76,13 @@ export default function TopBanner() {
               We will serve you the Best <span>Organic</span> Food Everyday
             </h2>
 
-            <btn>
-              <Link to="/view-products"> Shop Now</Link>
+             <btn className="flex">
+              <div className="btn-11">
+                <Link to="/view-products"> Shop Now</Link>
+              </div>
+              <div className="btn-22">
+                <Link to="/about"> About Us</Link>
+              </div>
             </btn>
           </div>
 
@@ -80,7 +90,7 @@ export default function TopBanner() {
             <img
               src={banner2}
               alt={banner2}
-              className="object-cover min-h-[74vh] w-full"
+              className="object-fill w-full"
             />
           </div>
         </div>
