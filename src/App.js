@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="pt-16">
+      <div className="">
         <Routes>
           <Route index element={<Home />} />
 

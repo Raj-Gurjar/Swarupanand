@@ -15,6 +15,54 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    .footer-head-1 {
+        font-family: "lora", sans-serif;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .footer-links-container {
+        .footer-link {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            justify-content: left;
+            margin: 8px 0px;
+            transition: all 0.3s ease-in-out;
+
+            span {
+                font-size: 15px;
+                margin-right: 5px;
+                margin-left: -5px;
+            }
+            h3 {
+                font-size: 14px;
+            }
+
+            &:hover {
+                // background-color: red;
+                margin-left: 3px;
+
+                transform: scale(1.05);
+                span {
+                    transform: scale(1.3);
+                    color: #04bd35;
+                }
+                h3 {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .footer-official-info {
+        span1 {
+            color: #04bd35;
+            margin-top: 5px;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+    }
 }
 
 .underline {
@@ -425,7 +473,7 @@ btn {
         text-align: center;
         max-height: 200px;
         min-height: 150px;
-        align-items:flex-start;
+        align-items: flex-start;
 
         // margin: auto;
 

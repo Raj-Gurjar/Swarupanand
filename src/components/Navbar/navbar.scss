@@ -1,153 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #cbd5e11a;
-
-    backdrop-filter: blur(30px);
-    color: white;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    // margin: ;
+.navbar {
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
     box-shadow:
-        rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+        rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, 0);
+    border: 1px solid black;
 
-    .logo {
-        /* Adjust logo styles */
-        font-size: 20px;
-        color: #02e6ff;
-        font-weight: 800;
-        background-color: #4874b597;
-        padding: 4px 14px;
-        border-radius: 30px;
+    .nav-menu {
+        transition: all 0.3s ease-in-out;
+        li {
+            font-family: "fira sans", sans-serif;
+            font-size: 16px;
+            color: #1a2428;
+            font-weight: 700;
 
-        &:hover
-        {
-            background-color: #4a5b746a;
-        }
-
-    }
-
-    .menu-toggle {
-        cursor: pointer;
-        display: none;
-        padding: 0 20px;
-
-        .bar1,
-        .bar2,
-        .bar3 {
-            width: 30px;
-            height: 3px;
-            background-color: #38BDF8;
-            margin: 6px 0;
-            transition: 0.4s;
-        }
-
-        &.open {
-            .bar1 {
-                transform: rotate(-45deg) translate(-6px, 6px);
+            .active {
+                // background-color: paleturquoise;
+                padding-bottom: 3px;
+                border-bottom: 3px solid rgb(9, 240, 21);
             }
-
-            .bar2 {
-                opacity: 0;
-            }
-
-            .bar3 {
-                transform: rotate(45deg) translate(-6px, -6px);
+            &:hover {
+                background-color: gold;
             }
         }
     }
 
-    .links-and-buttons {
-        display: flex;
-        align-items: center;
+    .sticky {
         // background-color: red;
-        padding: 0 25px;
-
-        ul {
-            list-style: none;
-            display: flex;
-            margin: 0;
-            padding: 0;
-
-            li {
-                margin-right: 20px;
-
-                a {
-                    text-decoration: none;
-                    color: white;
-
-                    &.active {
-                        font-weight: bold;
-                        color: #38BDF8;
-                    }
-                }
-            }
-        }
-
-        .auth-section {
-            display: flex;
-            align-items: center;
-            
-
-            button {
-                margin-left: 10px;
-                padding: 4px 9px;
-                background-color: #38BDF8;
-                color: white;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-
-                &:hover {
-                    background-color:#38bff883;
-                }
-            }
-        }
-    }
-
-    @media (max-width: 768px) {
-        .menu-toggle {
-            display: block;
-        }
-
-        .links-and-buttons {
-            padding: 30px 10px;
-            flex-direction: column;
-            position: absolute;
-            top: 60px;
-            left: 29%;
-            right: 0;
-            width: 70%;
-            border-radius: 10px;
-            // background-color: #1e293bdf;
-            // backdrop-filter: blur(30px);
-            --tw-bg-opacity: 1;
-            background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-            display: none;
-
-            &.open {
-                display: flex;
-            }
-
-            ul {
-                flex-direction: column;
-
-                li {
-                    margin-right: 0;
-                    margin-bottom: 10px;
-                }
-            }
-
-            .auth-section {
-                margin-top: 10px;
-                flex-direction: column;
-                gap:10px;
-            }
-        }
+        padding: 10px 40px;
+        transition: all 0.3s ease-in-out;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     }
 }

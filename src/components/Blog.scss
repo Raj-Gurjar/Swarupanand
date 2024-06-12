@@ -108,6 +108,8 @@
 }
 
 // -------------------------------
+
+
 .ftr-container {
     // background-color: rgba(232, 27, 27, 0.674);
     width: 100%;
@@ -139,7 +141,7 @@
         justify-content: space-around;
         margin-right: -15px;
         margin-left: -15px;
-      
+
         // background-color: aqua;
 
         .sub-title {
@@ -163,7 +165,6 @@
             align-items: center;
             // background-color: #f3f3f3;
             margin: 40px 10px;
-            
 
             img {
                 overflow-clip-margin: content-box;
@@ -190,4 +191,5 @@
             }
         }
     }
+
 }

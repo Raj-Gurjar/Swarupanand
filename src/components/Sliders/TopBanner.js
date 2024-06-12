@@ -40,7 +40,7 @@ export default function TopBanner() {
     <div className="homeBanner">
       <Slider {...settings}>
         <div>
-          <div className="absolute z-10 my-[70px] mx-[30px]">
+          <div className="absolute z-10 my-[130px] mx-[40px]">
             <h1 className="topBanner-head-1">
               <span>Swarupanand's</span> 100% Genuine Product Served
             </h1>

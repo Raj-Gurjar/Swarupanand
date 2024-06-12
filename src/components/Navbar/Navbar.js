@@ -1,20 +1,40 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./navbar.scss";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > window.innerHeight) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
-    <div className="navbar bg-red-200 relative">
-      <div className="row flex flex-wrap align-middle justify-around py-5">
-        <div className="bg-red-500">
-          <ul className="flex align-middle gap-10">
-            <li>
+    <div className={`navbar bg-[#ffffff] fixed z-10 w-[90%]`}>
+      <div
+        className={`nav-menu row flex flex-wrap align-middle justify-between ${
+          scrolled ? "sticky" : "px-[50px] py-5"
+        } `}
+      >
+        <div className="">
+          <ul className="flex align-middle gap-[90px]">
+            <li className="nav-link">
               <NavLink to="/" onClick={() => setMenuOpen(false)}>
                 Home
               </NavLink>
@@ -35,10 +55,15 @@ const Navbar = () => {
           <h1>LOGO</h1>
         </div>
         <div>
-          <ul className="flex align-middle gap-10">
+          <ul className="flex align-middle gap-[90px]">
             <li>
               <NavLink to="/gallery" onClick={() => setMenuOpen(false)}>
                 Gallery
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
+                Contact
               </NavLink>
             </li>
             <li>
