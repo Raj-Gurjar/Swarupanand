@@ -34,7 +34,7 @@ export default function Contact() {
       </div>
 
       <div>
-        <div className="flex gap-5 justify-around px-5">
+        <div className="px-[80px] flex gap-10 justify-around">
           <ContactCard
             icon={<FaLocationDot />}
             head="Address"
@@ -53,8 +53,14 @@ export default function Contact() {
         </div>
 
         <div className="">
-          <h1 className="m-10 text-center">Follow Us on</h1>
-          <div className="flex justify-evenly gap-5 text-center align-middle">
+          <div className="head-2">
+            <span1>
+              <span>~</span>
+              Follow Us On
+              <span>~</span>
+            </span1>
+          </div>
+          <div className="flex bg-red-100 justify-evenly gap-5 text-center align-middle">
             <div className="contact-social">
               <p className="contact-icon">
                 <FaInstagram />
@@ -92,11 +98,11 @@ export default function Contact() {
 
         <div className="flex flex-col justify-center text-center m-5 mt-10">
           <div className="head-2">
-            <span>
+            <span1>
               <span>~</span>
               Contact Us
               <span>~</span>
-            </span>
+            </span1>
           </div>
           <div className="head-3">
             <h1>Feel Free to Contact us Anytime</h1>

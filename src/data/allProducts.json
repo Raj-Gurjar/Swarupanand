@@ -2,7 +2,7 @@
     "categories": [
         {
             "name": "top Products",
-            "icon": "assets/category-icons/flour.svg",
+            "icon": "assets/category-icons/top2.png",
             "catImg": "assets/category-icons/top1.png",
             "description": "Explore our selection of fresh, top-quality produce harvested directly from our organic farm. From juicy mangoes to flavorful spices, find everything you need for a healthy lifestyle.",
             "bgColor": "#E2E4FE",
@@ -51,7 +51,7 @@
         },
         {
             "name": "fruits",
-            "icon": "assets/category-icons/flour.svg",
+            "icon": "assets/category-icons/fru2.png",
             "catImg": "assets/category-icons/fru1.png",
             "description": "Indulge in the sweetness of nature with our delicious assortment of organically grown fruits. From watermelons to bananas, each bite is bursting with natural flavor and nutrition.",
             "bgColor": "#FFE7E7",
@@ -62,7 +62,7 @@
                 },
                 {
                     "name": "kharbuj",
-                    "image": "assets/products/fruits/watermelon.png"
+                    "image": "assets/products/fruits/muskmelon.png"
                 },
                 {
                     "name": "banana",
@@ -78,7 +78,7 @@
                 },
                 {
                     "name": "chiku",
-                    "image": "https://example.com/chiku.jpg"
+                    "image": "assets/products/fruits/chiku.png"
                 },
                 {
                     "name": "jackfruit",
@@ -100,7 +100,7 @@
         },
         {
             "name": "vegetables",
-            "icon": "assets/category-icons/flour.svg",
+            "icon": "assets/category-icons/veg2.png",
             "catImg": "assets/category-icons/veg1.png",
             "description": "Discover a rainbow of freshness with our vibrant array of organically cultivated vegetables. From crunchy cucumbers to leafy spinach, our farm-fresh produce will elevate any meal.",
             "bgColor": "#EAF6D9",
@@ -111,27 +111,27 @@
                 },
                 {
                     "name": "onion",
-                    "image": "assets/products/vegetables/Onion.png"
+                    "image": "assets/products/vegetables/onion.png"
                 },
                 {
                     "name": "ginger",
-                    "image": "https://example.com/ginger.jpg"
+                    "image": "assets/products/vegetables/ginger.png"
                 },
                 {
                     "name": "garlic",
-                    "image": "assets/products/vegetables/Garlic.png"
+                    "image": "assets/products/vegetables/garlic.png"
                 },
                 {
                     "name": "arvi",
-                    "image": "https://example.com/arvi.jpg"
+                    "image": "assets/products/vegetables/arvi.png"
                 },
                 {
                     "name": "sweet potato",
-                    "image": "https://example.com/sweetpotato.jpg"
+                    "image": "assets/products/vegetables/sweet-potato.png"
                 },
                 {
                     "name": "tomato",
-                    "image": "https://example.com/tomato.jpg"
+                    "image": "assets/products/vegetables/tomato.png"
                 },
                 {
                     "name": "brinjal",
@@ -143,232 +143,221 @@
                 },
                 {
                     "name": "bottle gourd",
-                    "image": "https://example.com/bottlegourd.jpg"
+                    "image": "assets/products/vegetables/bottle-gourd.png"
                 },
                 {
                     "name": "ridge gourd",
-                    "image": "https://example.com/ridgegourd.jpg"
+                    "image": "assets/products/vegetables/ridge-gourd.png"
                 },
                 {
                     "name": "cucumber",
-                    "image": "assets/products/vegetables/Cucumber.png"
+                    "image": "assets/products/vegetables/cucumber.png"
                 },
                 {
                     "name": "radish",
-                    "image": "https://example.com/radish.jpg"
+                    "image": "assets/products/vegetables/radish.png"
                 },
                 {
                     "name": "cauliflower",
-                    "image": "assets/products/vegetables/Cauliflower.png"
+                    "image": "assets/products/vegetables/cauliflower.png"
                 },
                 {
                     "name": "okra",
-                    "image": "https://example.com/okra.jpg"
+                    "image": "assets/products/vegetables/okra.png"
                 },
                 {
                     "name": "chili",
-                    "image": "https://example.com/chili.jpg"
+                    "image": "assets/products/vegetables/chili.png"
                 },
                 {
                     "name": "bell pepper",
-                    "image": "https://example.com/bellpepper.jpg"
+                    "image": "assets/products/vegetables/bell-pepper.png"
                 },
                 {
                     "name": "yam",
-                    "image": "https://example.com/yam.jpg"
+                    "image": "assets/products/vegetables/yam.png"
                 },
                 {
                     "name": "bitter gourd",
-                    "image": "https://example.com/bittergourd.jpg"
+                    "image": "assets/products/vegetables/bitter-gourd.png"
                 },
                 {
                     "name": "cluster beans",
-                    "image": "https://example.com/clusterbeans.jpg"
-                },
-                {
-                    "name": "chickpeas",
-                    "image": "https://example.com/chickpeas.jpg"
+                    "image": "assets/products/vegetables/cluster-bean.png"
                 },
                 {
                     "name": "tinda",
-                    "image": "https://example.com/tinda.jpg"
+                    "image": "assets/products/vegetables/tinda.png"
                 },
                 {
                     "name": "carrot",
-                    "image": "https://example.com/carrot.jpg"
+                    "image": "assets/products/vegetables/carrot.png"
                 },
                 {
                     "name": "mint",
-                    "image": "https://example.com/mint.jpg"
+                    "image": "assets/products/vegetables/mint.png"
                 },
                 {
                     "name": "coriander",
-                    "image": "https://example.com/coriander.jpg"
+                    "image": "assets/products/vegetables/coriander.png"
                 },
                 {
                     "name": "spinach",
-                    "image": "https://example.com/spinach.jpg"
+                    "image": "assets/products/vegetables/spinach.png"
                 },
                 {
                     "name": "basil",
-                    "image": "https://example.com/basil.jpg"
+                    "image": "assets/products/vegetables/basil.png"
                 }
             ]
         },
         {
             "name": "spices",
-            "icon": "assets/category-icons/flour.svg",
+            "icon": "assets/category-icons/spi2.png",
             "catImg": "assets/category-icons/spi1.png",
             "description": "Enhance your culinary creations with our aromatic selection of spices. From fiery red chili powder to fragrant coriander, add depth and complexity to your dishes with our premium spices.",
             "bgColor": "#E2E4FE",
             "products": [
                 {
                     "name": "coriander powder",
-                    "image": "https://example.com/corianderpowder.jpg"
+                    "image": "assets/products/spices/coriander-powder.png"
                 },
                 {
                     "name": "red chili powder",
-                    "image": "https://example.com/redchilipowder.jpg"
+                    "image": "assets/products/spices/redChilli-powder.png"
                 },
                 {
                     "name": "chili flakes",
-                    "image": "https://example.com/chiliflakes.jpg"
+                    "image": "assets/products/spices/chilli-flakes.png"
                 },
                 {
                     "name": "turmeric powder",
-                    "image": "https://example.com/turmericpowder.jpg"
+                    "image": "assets/products/spices/turmeric-powder.png"
                 },
                 {
                     "name": "ginger powder",
-                    "image": "https://example.com/gingerpowder.jpg"
+                    "image": "assets/products/spices/ginger-powder.png"
                 },
                 {
                     "name": "fenugreek seeds",
-                    "image": "https://example.com/fenugreekseeds.jpg"
+                    "image": "assets/products/spices/fenugreek-seeds.png"
                 },
                 {
                     "name": "mustard seeds",
-                    "image": "https://example.com/mustardseeds.jpg"
+                    "image": "assets/products/spices/mustard-seeds.png"
                 }
             ]
         },
         {
             "name": "flour",
-            "icon": "assets/category-icons/flour.svg",
+            "icon": "assets/category-icons/flo2.png",
             "catImg": "assets/category-icons/flo1.png",
             "description": "Savor the wholesome goodness of our freshly milled flours. Whether you're baking bread or making rotis, our premium-quality flours ensure delicious results every time.",
             "bgColor": "#FFE7E7",
             "products": [
                 {
-                    "name": "multi grain atta",
-                    "image": "https://example.com/multigrainatta.jpg"
+                    "name": "multi grain flour",
+                    "image": "assets/products/flours/multi-grain-flour.png"
                 },
                 {
-                    "name": "sharbati atta",
-                    "image": "https://example.com/sharbatiatta.jpg"
+                    "name": "sharbati(wheat) atta",
+                    "image": "assets/products/flours/sharbati-flour.png"
                 },
                 {
-                    "name": "bansi atta",
-                    "image": "https://example.com/bansiatta.jpg"
+                    "name": "bansi(wheat) atta ",
+                    "image": "assets/products/flours/bansi-flour.png"
                 },
                 {
-                    "name": "besan",
-                    "image": "https://example.com/besan.jpg"
+                    "name": "Gram Flour(Besan)",
+                    "image": "assets/products/flours/gram-flour.png"
                 },
                 {
-                    "name": "makkai atta",
-                    "image": "https://example.com/makkaiatta.jpg"
+                    "name": "corn flour",
+                    "image": "assets/products/flours/corn-flour.png"
                 }
             ]
         },
         {
             "name": "cereals",
-            "icon": "assets/category-icons/flour.svg",
+            "icon": "assets/category-icons/cer2.png",
             "catImg": "assets/category-icons/cer1.png",
             "description": "Start your day right with our nutritious selection of cereals. From hearty wheat to protein-rich lentils, our cereals are packed with essential nutrients to fuel your day.",
             "bgColor": "#EAF6D9",
             "products": [
                 {
                     "name": "wheat",
-                    "image": "https://example.com/wheat.jpg"
+                    "image": "assets/products/cereals/wheat.png"
                 },
                 {
                     "name": "rice",
-                    "image": "https://example.com/rice.jpg"
+                    "image": "assets/products/cereals/rice.png"
                 },
                 {
                     "name": "broken wheat",
-                    "image": "https://example.com/brokenwheat.jpg"
-                },
-                {
-                    "name": "moong",
-                    "image": "https://example.com/moong.jpg"
+                    "image": "assets/products/cereals/broken-wheat.png"
                 },
                 {
                     "name": "chickpeas",
-                    "image": "https://example.com/chickpeas.jpg"
-                },
-                {
-                    "name": "lentils",
-                    "image": "https://example.com/lentils.jpg"
+                    "image": "assets/products/cereals/chickpeas.png"
                 }
+              
             ]
         },
         {
             "name": "pulses",
-            "icon": "assets/category-icons/flour.svg",
+            "icon": "assets/category-icons/pul2.png",
             "catImg": "assets/category-icons/pul1.png",
             "description": "Add a protein punch to your meals with our range of pulses. From creamy moong dal to nutty chickpeas, our pulses are a versatile and nutritious addition to any dish.",
             "bgColor": "#E2E4FE",
             "products": [
                 {
                     "name": "moong dal",
-                    "image": "https://example.com/moongdal.jpg"
+                    "image": "assets/products/pulses/moong.png"
                 },
                 {
                     "name": "dhuli moong dal",
-                    "image": "https://example.com/dhulimoongdal.jpg"
+                    "image": "assets/products/pulses/dhooli-moong-dal.png"
                 },
                 {
                     "name": "channa dal",
-                    "image": "https://example.com/channadal.jpg"
+                    "image": "assets/products/pulses/chickpea-lentil.png"
                 },
                 {
                     "name": "toor dal",
-                    "image": "https://example.com/toordal.jpg"
+                    "image": "assets/products/pulses/toor.png"
                 },
                 {
                     "name": "masoor dal",
-                    "image": "https://example.com/masoordal.jpg"
+                    "image": "assets/products/pulses/masoor.png"
                 }
             ]
         },
         {
             "name": "grocery",
-            "icon": "assets/category-icons/flour.svg",
+            "icon": "assets/category-icons/gro2.png",
             "catImg": "assets/category-icons/gro1.png",
             "description": "Stock your pantry with our premium grocery essentials. From rich ghee to flavorful honey, our grocery selection includes everything you need for a well-stocked kitchen.",
             "bgColor": "#FFE7E7",
             "products": [
                 {
                     "name": "ghee",
-                    "image": "https://example.com/ghee.jpg"
+                    "image": "assets/products/grocery/ghee.png"
                 },
                 {
                     "name": "mushroom powder",
-                    "image": "https://example.com/mushroompowder.jpg"
+                    "image": "assets/products/grocery/mushroom-powder.png"
                 },
                 {
                     "name": "honey",
-                    "image": "https://example.com/honey.jpg"
+                    "image": "assets/products/grocery/honey.png"
                 },
                 {
                     "name": "jaggery",
-                    "image": "https://example.com/jaggery.jpg"
+                    "image": "assets/products/grocery/jaggery.png"
                 },
                 {
                     "name": "brown sugar",
-                    "image": "https://example.com/brownsugar.jpg"
+                    "image": "assets/products/grocery/brown-sugar.png"
                 }
             ]
         }

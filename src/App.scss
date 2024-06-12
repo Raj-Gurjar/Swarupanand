@@ -28,7 +28,7 @@
             align-items: center;
             text-align: left;
             justify-content: left;
-            margin: 8px 0px;
+            margin-bottom: 8px;
             transition: all 0.3s ease-in-out;
 
             span {
@@ -166,7 +166,7 @@
 
 .contact-card-container {
     background-color: #b2d659;
-    padding: 40px 5px;
+    padding: 20px 5px;
     text-align: center;
     position: relative;
     display: flex;
@@ -253,11 +253,19 @@
     // font-family: architects daughter, "sans-serif";
     color: #76a713;
     font-family: "Architects Daughter", cursive;
-    font-size: 21px;
-    background-color: rgb(111, 75, 75);
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    // background-color: rgb(111, 75, 75);
 
-    span {
-        margin-top: 39px;
+    span1 {
+        span {
+            position: relative;
+            top: 8px;
+            margin: 10px;
+       
+        }
     }
 }
 

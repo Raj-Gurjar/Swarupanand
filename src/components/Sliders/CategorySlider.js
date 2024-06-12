@@ -20,12 +20,12 @@ export default function CategorySlider() {
   return (
     <div className="m-5">
       {/* <h1 className="title">Explore our all Categories</h1> */}
-      <div className="head-2 justify-center text-center m-5">
-        <span>
+      <div className="head-2 flex justify-center text-center m-5">
+        <span1>
           <span>~</span>
-           Explore Our Categories
+          Explore Our Categories
           <span>~</span>
-        </span>
+        </span1>
       </div>
       {/* <p className="wave"></p> */}
       <Swiper

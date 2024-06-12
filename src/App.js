@@ -8,11 +8,13 @@ import Error from "./pages/Error";
 import Products from "./pages/Products";
 import Gallery from "./pages/Gallery";
 import Blog from "./components/Blog";
+import ScrollUp from "./components/ScrollUp";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
+      <ScrollUp />
       <div className="">
         <Routes>
           <Route index element={<Home />} />
