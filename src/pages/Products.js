@@ -4,6 +4,7 @@ import ProductCard from "../components/Cards/ProductCard";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./product.scss";
 import categoryBg from "../data/assets/background/category-bg.jpeg";
+import Footer from "../components/Footer";
 
 export default function Products() {
   const location = useLocation();
@@ -20,17 +21,18 @@ export default function Products() {
     setSelectedCategory(categoryName);
   };
 
+  console.log("selected cat", selectedCategory);
+  console.log("cat name", allProducts.categories.name);
   return (
     <div>
       <div className=" h-[300px]  flex justify-center align-middle text-center overflow-hidden bg-black">
-        <div className="z-10 absolute bg-red-300 mt-[140px]">
+        <div className="z-10 absolute mt-[140px]">
           <h1 className="title-2">Product Category</h1>
           <div className="text-[16px] text-white">
             <span onClick={() => navigate("/")} className="cursor-pointer">
-              {" "}
               Home
-            </span>{" "}
-            <span>- </span>
+            </span>
+            <span> - </span>
             <span className="capitalize">{selectedCategory}</span>
           </div>
         </div>
@@ -42,17 +44,23 @@ export default function Products() {
       </div>
 
       <div className="products">
-        <h1 className="m-auto text-center text-2xl">Choose a Category </h1>
+        <div className="head-2">
+          <span1>
+            <span>~</span>
+            Choose a Category
+            <span>~</span>
+          </span1>
+        </div>
 
         <img src={allProducts?.categories?.product?.image} alt="" />
 
-        <div className="flex  flex-wrap mt-8 mb-10 justify-between ">
+        <div className="flex flex-wrap mt-8 mb-10 justify-between ">
           {allProducts.categories.map((category, index) => (
             <div
               onClick={() => handleCategoryClick(category.name)}
               key={index}
-              className={` flex  h-[65px] w-[75px] cursor-pointer m-auto justify-center align-middle text-center capitalize  flex-col bg-[#f7f7f7] border-black  rounded-md ${
-                category.name === selectedCategory ? "bg-[#6ad07d]" : ""
+              className={` product-category-buttons ${
+                category.name === selectedCategory ? "selected-category" : ""
               }`}
             >
               <div className="flex justify-center">
@@ -69,7 +77,7 @@ export default function Products() {
         </div>
 
         <div>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-4 gap-8 relative">
             {allProducts.categories
               .find((cat) => cat.name === selectedCategory)
               ?.products.map((product, index) => (
@@ -77,6 +85,10 @@ export default function Products() {
               ))}
           </div>
         </div>
+      </div>
+
+      <div className="bg-[#E1F3F2] mt-[-40px] pt-[100px]">
+        <Footer />
       </div>
     </div>
   );

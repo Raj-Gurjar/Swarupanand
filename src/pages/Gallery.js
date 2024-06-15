@@ -16,15 +16,16 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 import media from "../data/gallery.json";
 import { useNavigate } from "react-router-dom";
+import Footer from "../components/Footer";
 
 export default function App() {
   const [index, setIndex] = useState(-1);
   const navigate = useNavigate();
 
   return (
-    <div className="bg-red-100 mt-5">
-      <div className=" h-[300px] mb-[110px] flex justify-center align-middle text-center overflow-hidden bg-black">
-        <div className="z-10 absolute bg-red-300 mt-[140px]">
+    <div className="">
+      <div className=" h-[300px] mb-[50px] flex justify-center align-middle text-center overflow-hidden bg-black">
+        <div className="z-10 absolute mt-[140px]">
           <h1 className="title-2">Gallery</h1>
           <div className="text-[16px] text-white">
             <span onClick={() => navigate("/")} className="cursor-pointer">
@@ -42,23 +43,21 @@ export default function App() {
         />
       </div>
 
-      <div className="flex flex-col justify-center text-center m-5 mt-10">
+      <div className="flex flex-col justify-center text-center m-5 mt-1">
         <div className="head-2">
-          <span>
+          <span1>
             <span>~</span>
             Don't Panic Go Organic
             <span>~</span>
-          </span>
+          </span1>
         </div>
         <div className="head-3">
           <h1>Watch Our Portfolio</h1>
         </div>
       </div>
 
-      <div>
-        
-      </div>
-      <div className="bg-red-400 py-10 px-4">
+      <div></div>
+      <div className="gallery-bg py-10 px-4">
         <PhotoAlbum
           style={{ backgroundColor: "green" }}
           photos={media?.images}
@@ -80,6 +79,8 @@ export default function App() {
           plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
         />
       </div>
+
+      <Footer />
     </div>
   );
 }

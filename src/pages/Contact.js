@@ -15,7 +15,7 @@ export default function Contact() {
   return (
     <div className="pb-10">
       <div className=" h-[300px] mb-[110px] flex justify-center align-middle text-center overflow-hidden bg-black">
-        <div className="z-10 absolute bg-red-300 mt-[140px]">
+        <div className="z-10 absolute mt-[140px]">
           <h1 className="title-2">Contact Us</h1>
           <div className="text-[16px] text-white">
             <span onClick={() => navigate("/")} className="cursor-pointer">
@@ -60,7 +60,7 @@ export default function Contact() {
               <span>~</span>
             </span1>
           </div>
-          <div className="flex bg-red-100 justify-evenly gap-5 text-center align-middle">
+          <div className="flex bg-[#76a713] p-5 my-5 mb-[100px] mx-[80px] rounded justify-evenly gap-5 text-center align-middle">
             <div className="contact-social">
               <p className="contact-icon">
                 <FaInstagram />
@@ -112,21 +112,21 @@ export default function Contact() {
         <div className="contact-form">
           <form action="">
             <div>
-              <label htmlFor="name">Full Name </label>
+              <label htmlFor="name">Full Name* </label>
               <div>
                 <input type="text" placeholder="Full Name" required />
               </div>
             </div>
 
             <div>
-              <label htmlFor="email">Email </label>
+              <label htmlFor="email">Email* </label>
               <div className="inp">
                 <input type="email" placeholder="Email" required />
               </div>
             </div>
 
             <div>
-              <label htmlFor="Message">Message </label>
+              <label htmlFor="Message">Message* </label>
               <div>
                 <textarea placeholder="Enter your message" required />
               </div>

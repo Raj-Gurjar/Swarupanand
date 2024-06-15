@@ -7,21 +7,27 @@ export default function Blog() {
 
   return (
     <div>
-      <h1>Blogs</h1>
+      <div className="head-2">
+        <span1>
+          <span>~</span>
+          Blogs
+          <span>~</span>
+        </span1>
+      </div>
 
       <div className="blog-page">
         {allPostData?.map((post) => (
           <div className="w-[29%]">
-            <div className="card split">
-              <div className="image">
+            <div className="blog-card split">
+              <div className="blog-image">
                 <img src={post?.image?.url} alt="post-img" />
               </div>
 
-              <div className="content">
+              <div className="blog-content">
                 <h1>{post?.title}</h1>
                 <div className="flex justify-between">
-                  <p>By : {post?.author}</p>
-                  <p>Data : {post?.datePublished}</p>
+                  <h2>By : {post?.author}</h2>
+                  <h2>{post?.datePublished}</h2>
                 </div>
                 <p className="copy">{post?.content.substring(0, 100)}....</p>
                 <div className="btn">

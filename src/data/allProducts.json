@@ -9,43 +9,43 @@
             "products": [
                 {
                     "name": "mango",
-                    "image": "https://example.com/mango.jpg"
+                    "image": "assets/products/fruits/mango.png"
                 },
                 {
                     "name": "banana",
-                    "image": "https://example.com/banana.jpg"
+                    "image": "assets/products/fruits/banana.png"
                 },
                 {
                     "name": "tomato",
-                    "image": "https://example.com/tomato.jpg"
+                    "image": "assets/products/vegetables/tomato.png"
                 },
                 {
                     "name": "onion",
-                    "image": "https://example.com/onion.jpg"
+                    "image": "assets/products/vegetables/onion.png"
                 },
                 {
                     "name": "ginger",
-                    "image": "https://example.com/ginger.jpg"
+                    "image": "assets/products/vegetables/ginger.png"
                 },
                 {
                     "name": "garlic",
-                    "image": "https://example.com/garlic.jpg"
+                    "image": "assets/products/vegetables/garlic.png"
                 },
                 {
                     "name": "coriander powder",
-                    "image": "https://example.com/corianderpowder.jpg"
+                    "image": "assets/products/spices/coriander-powder.png"
                 },
                 {
                     "name": "red chili powder",
-                    "image": "https://example.com/redchilipowder.jpg"
+                    "image": "assets/products/spices/redChilli-powder.png"
                 },
                 {
                     "name": "multi grain atta",
-                    "image": "https://example.com/multigrainatta.jpg"
+                    "image": "assets/products/flours/multi-grain-flour.png"
                 },
                 {
                     "name": "ghee",
-                    "image": "https://example.com/ghee.jpg"
+                    "image": "assets/products/grocery/ghee.png"
                 }
             ]
         },
@@ -300,7 +300,6 @@
                     "name": "chickpeas",
                     "image": "assets/products/cereals/chickpeas.png"
                 }
-              
             ]
         },
         {

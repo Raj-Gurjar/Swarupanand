@@ -26,7 +26,7 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className={`navbar bg-[#ffffff] fixed z-10 w-[90%]`}>
+    <div className={`navbar bg-[#ffffff] fixed  w-[90%]`}>
       <div
         className={`nav-menu row flex flex-wrap align-middle justify-between ${
           scrolled ? "sticky" : "px-[50px] py-5"

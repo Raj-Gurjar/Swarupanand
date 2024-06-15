@@ -27,7 +27,7 @@ export default function TopBanner() {
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     fade: true,
     autoplaySpeed: 2500,
     cssEase: "linear",
@@ -40,7 +40,7 @@ export default function TopBanner() {
     <div className="homeBanner">
       <Slider {...settings}>
         <div>
-          <div className="absolute z-10 my-[130px] mx-[40px]">
+          <div className="absolute z-10 my-[130px] ml-[140px]">
             <h1 className="topBanner-head-1">
               <span>Swarupanand's</span> 100% Genuine Product Served
             </h1>
@@ -62,13 +62,13 @@ export default function TopBanner() {
             <img
               src={banner1}
               alt={banner1}
-              className="object-cover min-h-[14vh] w-[60%] opacity-0"
+              className="object-contain w-[60%] opacity-0"
             />
           </div>
         </div>
 
         <div>
-          <div className="absolute z-10 my-[70px] mx-[30px]">
+          <div className="absolute mt-[90px] m-auto ml-[230px] z-10 ">
             <h1 className="topBanner-head-1">
               We are <span>Swarupanand's</span>
             </h1>
@@ -76,7 +76,7 @@ export default function TopBanner() {
               We will serve you the Best <span>Organic</span> Food Everyday
             </h2>
 
-             <btn className="flex">
+            <btn className="flex">
               <div className="btn-11">
                 <Link to="/view-products"> Shop Now</Link>
               </div>
@@ -86,11 +86,11 @@ export default function TopBanner() {
             </btn>
           </div>
 
-          <div className="border-none overflow-hidden">
+          <div className="border-none  h-100vh">
             <img
-              src={banner2}
-              alt={banner2}
-              className="object-fill w-full"
+              src={banner1}
+              alt={banner1}
+              className="object-fill w-full h-[90vh]"
             />
           </div>
         </div>

@@ -9,7 +9,7 @@ import { IoIosArrowForward } from "react-icons/io";
 export default function Footer() {
   return (
     <div className="footer-container">
-      <div className="bg-slate-300 min-h-[70vh] footer mt-5 text-white">
+      <div className=" min-h-[70vh] footer mt-5 text-white">
         <div className="flex justify-between px-[40px] p-5 pt-20">
           <div>
             <p>Logo</p>
@@ -70,7 +70,6 @@ export default function Footer() {
                   </div>
                 </NavLink>
               </li>
-              
             </ul>
           </div>
 
@@ -120,7 +119,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer2 z-20 h-[20px] ">
-        <p className="m-auto text-center mt-[-40px]">Made By Raj Chhalotre</p>
+        {/* <p className="m-auto text-center mt-[-40px]">Made By Raj Chhalotre</p> */}
       </div>
     </div>
   );

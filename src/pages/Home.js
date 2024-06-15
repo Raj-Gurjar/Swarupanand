@@ -13,9 +13,9 @@ export default function Home() {
       <TopBanner />
       <CategorySlider />
       <Features />
-      <BestSellers />
-      <Testimonials />
+      {/* <BestSellers /> */}
       <Blog />
+      <Testimonials />
       <Footer />
     </div>
   );

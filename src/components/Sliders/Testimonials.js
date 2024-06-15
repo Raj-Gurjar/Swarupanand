@@ -22,14 +22,21 @@ export default function Testimonials() {
     centerPadding: "60px",
     slidesToShow: 3,
     speed: 500,
+    rows: 1,
+    slidesPerRow: 1,
   };
   return (
     <div>
-      <h1>Home Slider</h1>
+      {/* <h1>Home Slider</h1> */}
 
-      <div className="m-5">
-        <h1 className="title">Explore our all Categories</h1>
-        <p className="wave"></p>
+      <div className="m-5 my-[90px]">
+        <div className="head-2">
+          <span1>
+            <span>~</span>
+            Testimonials
+            <span>~</span>
+          </span1>
+        </div>
 
         <div className="slider-container overflow-x-hidden">
           <Slider {...settings}>
@@ -44,7 +51,7 @@ export default function Testimonials() {
             <div className="bg-blue-400 h-[300px]">
               <p>2</p>
             </div>
-            <div  className="bg-green-400 h-[300px]">
+            <div className="bg-green-400 h-[300px]">
               <p>3</p>
             </div>
           </Slider>

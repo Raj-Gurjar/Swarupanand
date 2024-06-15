@@ -7,38 +7,21 @@
     flex-wrap: wrap;
     gap: 10px;
     background: #8c5b5b6b;
-    background: url("https://picsum.photos/960/?blur") 0 0 no-repeat;
+    background: url("../data/assets/background/blog-bg.jpg") 0 0 no-repeat;
     align-items: center;
-    padding: 10px;
+    padding: 30px 10px;
     width: 100%;
-    height: 100%;
+    // height: 500px;
     background-size: cover;
+    overflow: hidden;
 
-    h1 {
-        font-family: "Josefin Sans", serif;
-        font-size: 20px;
-        line-height: 24px;
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-        // Color change on hover for split card
-        .split:hover & {
-            color: #161616;
-        }
-    }
+    .blog-card {
+        background-color: red;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        // padding: 10px;
 
-    p {
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: 0.5px;
-
-        // Color change on hover for split card
-        .split:hover & {
-            color: #161616;
-        }
-    }
-
-    // The cards
-    .card {
         box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.32);
         cursor: pointer;
         position: relative;
@@ -55,9 +38,45 @@
             transform: scale(1.05);
         }
 
-        .content {
+        .blog-image {
+            width: 100%;
+
+            img {
+                object-fit: cover;
+                height: 250px;
+                width: 100%;
+            }
+        }
+        .blog-content {
             padding: 20px;
             position: relative;
+
+            h1 {
+                font-family: "Josefin Sans", serif;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 0.5px;
+                text-transform: uppercase;
+                // Color change on hover for split card
+                .split:hover & {
+                    color: #161616;
+                }
+            }
+
+            h2 {
+                font-weight: 500;
+            }
+            p {
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 0.5px;
+
+                // Color change on hover for split card
+                .split:hover & {
+                    color: #161616;
+                }
+            }
 
             h1,
             p {
@@ -70,9 +89,8 @@
             }
         }
 
-        // Split card styling
         &.split {
-            height: 450px;
+            height: 100%;
             background: rgba(28, 237, 59, 0.8);
 
             &:before {
@@ -90,17 +108,7 @@
             // Hover state for the split card
             &:hover {
                 &:before {
-                    height: 277px;
-                }
-            }
-
-            .image {
-                display: block;
-                position: relative;
-
-                img {
-                    width: 100%;
-                    height: auto;
+                    height: 200px;
                 }
             }
         }
@@ -108,7 +116,6 @@
 }
 
 // -------------------------------
-
 
 .ftr-container {
     // background-color: rgba(232, 27, 27, 0.674);
@@ -191,5 +198,4 @@
             }
         }
     }
-
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ArrowButton from "../Buttons/ArrowButton";
 
 export default function CategoryCard({ data }) {
   return (
@@ -8,6 +9,8 @@ export default function CategoryCard({ data }) {
           {data?.name.charAt(0).toUpperCase() + data?.name.slice(1)}
         </h1>
         <p className="">{data?.description}</p>
+
+        <ArrowButton btn_text={"See Now"}/>
       </div>
       <div className="cat-img">
         <img
