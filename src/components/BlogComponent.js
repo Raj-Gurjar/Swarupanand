@@ -4,7 +4,7 @@ import "./Blog.scss";
 import CurlyTitles from "./Headings/CurlyTitles";
 
 export default function Blog() {
-  const allPostData = blogData.blogPage.posts;
+  const allPostData = blogData.blogHomePage.posts;
 
   return (
     <div>

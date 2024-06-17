@@ -11,6 +11,7 @@ import Blog from "./components/BlogComponent";
 import ScrollUp from "./components/ScrollUp";
 import Blogs from "./pages/Blogs";
 
+
 function App() {
   return (
     <div className="App">
