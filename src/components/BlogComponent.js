@@ -1,19 +1,14 @@
 import React from "react";
 import blogData from "../data/blog.json";
 import "./Blog.scss";
+import CurlyTitles from "./Headings/CurlyTitles";
 
 export default function Blog() {
   const allPostData = blogData.blogPage.posts;
 
   return (
     <div>
-      <div className="head-2">
-        <span1>
-          <span>~</span>
-          Blogs
-          <span>~</span>
-        </span1>
-      </div>
+       <CurlyTitles titleName={"Blogs"} />
 
       <div className="blog-page">
         {allPostData?.map((post) => (

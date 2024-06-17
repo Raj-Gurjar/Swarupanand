@@ -11,6 +11,7 @@ import TestimonialsData from "../../data/testimonial.json";
 import TestimonialCard from "../Cards/TestimonialCard";
 
 import Slider from "react-slick";
+import CurlyTitles from "../Headings/CurlyTitles";
 
 export default function Testimonials() {
   const allTestimonials = TestimonialsData?.testimonials;
@@ -30,13 +31,7 @@ export default function Testimonials() {
       {/* <h1>Home Slider</h1> */}
 
       <div className="m-5 my-[90px]">
-        <div className="head-2">
-          <span1>
-            <span>~</span>
-            Testimonials
-            <span>~</span>
-          </span1>
-        </div>
+        <CurlyTitles titleName={"Our Customers' Reviews"} />
 
         <div className="slider-container overflow-x-hidden">
           <Slider {...settings}>

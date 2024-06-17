@@ -3,8 +3,10 @@ import productsData from "../data/allProducts.json";
 import ProductCard from "../components/Cards/ProductCard";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./product.scss";
-import categoryBg from "../data/assets/background/category-bg.jpeg";
+import AboutBg from "../data/assets/background/contact-bg.jpg";
 import Footer from "../components/Footer";
+import SectionHeading from "../components/Headings/SectionHeading";
+import CurlyTitles from "../components/Headings/CurlyTitles";
 
 export default function Products() {
   const location = useLocation();
@@ -25,32 +27,10 @@ export default function Products() {
   console.log("cat name", allProducts.categories.name);
   return (
     <div>
-      <div className=" h-[300px]  flex justify-center align-middle text-center overflow-hidden bg-black">
-        <div className="z-10 absolute mt-[140px]">
-          <h1 className="title-2">Product Category</h1>
-          <div className="text-[16px] text-white">
-            <span onClick={() => navigate("/")} className="cursor-pointer">
-              Home
-            </span>
-            <span> - </span>
-            <span className="capitalize">{selectedCategory}</span>
-          </div>
-        </div>
-        <img
-          src={categoryBg}
-          alt="categoryBg"
-          className="z-1 object-fill h-[300px] w-full rounded-lg opacity-60"
-        />
-      </div>
+      <SectionHeading sectionName={"Products"} sectionBg={AboutBg} />
 
       <div className="products">
-        <div className="head-2">
-          <span1>
-            <span>~</span>
-            Choose a Category
-            <span>~</span>
-          </span1>
-        </div>
+        <CurlyTitles titleName={" Choose a Category"} />
 
         <img src={allProducts?.categories?.product?.image} alt="" />
 

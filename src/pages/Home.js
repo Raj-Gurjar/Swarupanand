@@ -5,7 +5,7 @@ import Testimonials from "../components/Sliders/Testimonials";
 import BestSellers from "../components/BestSellers";
 import TopBanner from "../components/Sliders/TopBanner";
 import Footer from "../components/Footer";
-import Blog from "../components/Blog";
+import Blog from "../components/BlogComponent";
 
 export default function Home() {
   return (

@@ -9,29 +9,14 @@ import { IoIosMail } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
+import SectionHeading from "../components/Headings/SectionHeading";
+import CurlyTitles from "../components/Headings/CurlyTitles";
 
 export default function Contact() {
   const navigate = useNavigate();
   return (
     <div className="pb-10">
-      <div className=" h-[300px] mb-[110px] flex justify-center align-middle text-center overflow-hidden bg-black">
-        <div className="z-10 absolute mt-[140px]">
-          <h1 className="title-2">Contact Us</h1>
-          <div className="text-[16px] text-white">
-            <span onClick={() => navigate("/")} className="cursor-pointer">
-              {" "}
-              Home
-            </span>{" "}
-            <span>- </span>
-            <span className="capitalize">Contact Us</span>
-          </div>
-        </div>
-        <img
-          src={contactBg}
-          alt="categoryBg"
-          className="z-1 object-fill h-[300px] w-full rounded-lg opacity-50"
-        />
-      </div>
+      <SectionHeading sectionName={"Contact"} sectionBg={contactBg} />
 
       <div>
         <div className="px-[80px] flex gap-10 justify-around">
@@ -53,13 +38,8 @@ export default function Contact() {
         </div>
 
         <div className="">
-          <div className="head-2">
-            <span1>
-              <span>~</span>
-              Follow Us On
-              <span>~</span>
-            </span1>
-          </div>
+          <CurlyTitles titleName={"follow us on"} />
+
           <div className="flex bg-[#76a713] p-5 my-5 mb-[100px] mx-[80px] rounded justify-evenly gap-5 text-center align-middle">
             <div className="contact-social">
               <p className="contact-icon">
@@ -97,13 +77,7 @@ export default function Contact() {
         </div>
 
         <div className="flex flex-col justify-center text-center m-5 mt-10">
-          <div className="head-2">
-            <span1>
-              <span>~</span>
-              Contact Us
-              <span>~</span>
-            </span1>
-          </div>
+          <CurlyTitles titleName={"Contact us"} />
           <div className="head-3">
             <h1>Feel Free to Contact us Anytime</h1>
           </div>

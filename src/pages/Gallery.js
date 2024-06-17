@@ -17,6 +17,8 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 import media from "../data/gallery.json";
 import { useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
+import SectionHeading from "../components/Headings/SectionHeading";
+import CurlyTitles from "../components/Headings/CurlyTitles";
 
 export default function App() {
   const [index, setIndex] = useState(-1);
@@ -24,33 +26,10 @@ export default function App() {
 
   return (
     <div className="">
-      <div className=" h-[300px] mb-[50px] flex justify-center align-middle text-center overflow-hidden bg-black">
-        <div className="z-10 absolute mt-[140px]">
-          <h1 className="title-2">Gallery</h1>
-          <div className="text-[16px] text-white">
-            <span onClick={() => navigate("/")} className="cursor-pointer">
-              {" "}
-              Home
-            </span>{" "}
-            <span>- </span>
-            <span className="capitalize">Photo Gallery</span>
-          </div>
-        </div>
-        <img
-          src={galleryBg}
-          alt="categoryBg"
-          className="z-1 object-fill h-[300px] w-full rounded-lg opacity-50"
-        />
-      </div>
+      <SectionHeading sectionName={"Gallery"} sectionBg={galleryBg} />
 
       <div className="flex flex-col justify-center text-center m-5 mt-1">
-        <div className="head-2">
-          <span1>
-            <span>~</span>
-            Don't Panic Go Organic
-            <span>~</span>
-          </span1>
-        </div>
+        <CurlyTitles titleName={"Don't Panic Go Organic"} />
         <div className="head-3">
           <h1>Watch Our Portfolio</h1>
         </div>

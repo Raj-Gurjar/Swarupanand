@@ -7,8 +7,9 @@ import Home from "./pages/Home";
 import Error from "./pages/Error";
 import Products from "./pages/Products";
 import Gallery from "./pages/Gallery";
-import Blog from "./components/Blog";
+import Blog from "./components/BlogComponent";
 import ScrollUp from "./components/ScrollUp";
+import Blogs from "./pages/Blogs";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/blogs" element={<Blogs />} />
 
           {/* <Route path="/category/:categoryName" element={<Category />} /> */}
 
