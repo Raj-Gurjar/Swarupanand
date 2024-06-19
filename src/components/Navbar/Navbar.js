@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../../data/assets/logos/swarupanand-high-resolution-logo-transparent.png";
 import "./navbar.scss";
 
 const Navbar = () => {
@@ -27,11 +28,7 @@ const Navbar = () => {
   }, []);
   return (
     <div className={`navbar bg-[#ffffff] fixed  w-[90%]`}>
-      <div
-        className={`nav-menu row flex flex-wrap align-middle justify-between ${
-          scrolled ? "sticky" : "px-[50px] py-5"
-        } `}
-      >
+      <div className={`nav-menu ${scrolled ? "sticky" : "px-[50px] py-[12px]"} `}>
         <div className="">
           <ul className="flex align-middle gap-[90px]">
             <li className="nav-link">
@@ -51,8 +48,10 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-green-400">
-          <h1>LOGO</h1>
+        <div className="bg-red-400 mx-[20px]">
+          <Link to="/">
+            <img src={logo} alt="logo" className="h-[40px] w-[100px]" />
+          </Link>
         </div>
         <div>
           <ul className="flex align-middle gap-[90px]">

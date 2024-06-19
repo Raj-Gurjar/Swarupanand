@@ -11,70 +11,87 @@ import { FaFacebook } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
 import SectionHeading from "../components/Headings/SectionHeading";
 import CurlyTitles from "../components/Headings/CurlyTitles";
+import { FaYoutube } from "react-icons/fa6";
+import Footer from "../components/Footer";
+import ContactForm from "../components/ContactForm";
 
 export default function Contact() {
   const navigate = useNavigate();
   return (
-    <div className="pb-10">
+    <div className="contact-section">
       <SectionHeading sectionName={"Contact"} sectionBg={contactBg} />
 
       <div>
-        <div className="px-[80px] flex gap-10 justify-around">
+        <div className="px-[80px] flex gap-5 justify-around">
           <ContactCard
             icon={<FaLocationDot />}
             head="Address"
-            data="lorem5fsdfsdf sdfsdf"
+            data="Ward no.03 Dharamkundi, post Satwasa, tehi-Seoni Malwa, district-Narmadapurm, MP, 461221"
           />
           <ContactCard
             icon={<FaPhoneVolume />}
             head="Phone No."
-            data="lorem5fsdfsdf sdfsdf"
+            data={`+91 7987049181, +91 8889507870`}
           />
           <ContactCard
             icon={<IoIosMail />}
             head="Email"
-            data="lorem5fsdfsdf sdfsdf"
+            data="arpangour80@gmail.com"
           />
         </div>
 
         <div className="">
           <CurlyTitles titleName={"follow us on"} />
 
-          <div className="flex bg-[#76a713] p-5 my-5 mb-[100px] mx-[80px] rounded justify-evenly gap-5 text-center align-middle">
+          <div className="flex opp-border bg-[#84bb16] p-5 my-5 mb-[100px] mx-[80px]  justify-evenly gap-5 text-center align-middle">
             <div className="contact-social">
-              <p className="contact-icon">
-                <FaInstagram />
-              </p>
-              <a href="www.google.com">Instagram</a>
+              <a href="www.google.com">
+                <p className="contact-icon  text-white hover:text-[#f46f30]">
+                  <FaInstagram />
+                </p>
+                Instagram
+              </a>
             </div>
             <div className="contact-social">
-              <p className="contact-icon">
-                <FaFacebook />
-              </p>
-              <a href="www.google.com">Facebook</a>
+              <a href="www.google.com">
+                <p className="contact-icon  text-white  hover:text-[#1877f2]">
+                  <FaFacebook />
+                </p>
+                Facebook
+              </a>
             </div>
             <div className="contact-social">
-              <p className="contact-icon">
-                <RiWhatsappFill />
-              </p>
-              <a href="www.google.com">Whatsapp</a>
+              <a href="www.google.com">
+                <p className="contact-icon  text-white hover:text-[#25d366]">
+                  <RiWhatsappFill />
+                </p>
+                Whatsapp
+              </a>
+            </div>
+            <div className="contact-social">
+              <a href="www.google.com">
+                <p className="contact-icon  text-white hover:text-[#ff0000]">
+                  <FaYoutube />
+                </p>
+                Youtube
+              </a>
             </div>
           </div>
         </div>
 
-        <div className="g-map-container">
+        {/* <div className="g-map-container">
           <iframe
             width="100%"
             height="600"
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
+            // frameborder="0"
+            // scrolling="no"
+            // margineight="0"
+            // marginwidth="0"
             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=gupta%20ground,narmadapuram+(Home)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           >
             <a href="https://www.gps.ie/">gps vehicle tracker</a>
           </iframe>
-        </div>
+        </div> */}
 
         <div className="flex flex-col justify-center text-center m-5 mt-10">
           <CurlyTitles titleName={"Contact us"} />
@@ -83,35 +100,12 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="contact-form">
-          <form action="">
-            <div>
-              <label htmlFor="name">Full Name* </label>
-              <div>
-                <input type="text" placeholder="Full Name" required />
-              </div>
-            </div>
-
-            <div>
-              <label htmlFor="email">Email* </label>
-              <div className="inp">
-                <input type="email" placeholder="Email" required />
-              </div>
-            </div>
-
-            <div>
-              <label htmlFor="Message">Message* </label>
-              <div>
-                <textarea placeholder="Enter your message" required />
-              </div>
-            </div>
-
-            <div className="text-center">
-              <button type="submit">Send Us</button>
-            </div>
-          </form>
+        <div>
+          <ContactForm />
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

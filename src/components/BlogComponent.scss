@@ -1,0 +1,232 @@
+// Typography
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto");
+
+.blog-component {
+    background: #8c5b5b6b;
+    background: url("../data/assets/background/blog-bg.jpg") 0 0 no-repeat;
+    align-items: center;
+    padding: 30px 10px;
+    width: 100%;
+    // height: 500px;
+    background-size: cover;
+    overflow: hidden;
+
+    .blog-comp-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-bottom: 30px;
+
+        .blog-card {
+            background-color: red;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            // padding: 10px;
+
+            box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.32);
+            cursor: pointer;
+            position: relative;
+            transform-origin: center;
+            // easeOutQuart
+            transition: all 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+            margin: 0 10px 0 0;
+
+            &:last-child {
+                margin: 0;
+            }
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            .blog-image {
+                width: 100%;
+
+                img {
+                    object-fit: cover;
+                    height: 250px;
+                    width: 100%;
+                }
+            }
+            .blog-content {
+                padding: 20px;
+                position: relative;
+
+                h1 {
+                    font-family: "Josefin Sans", serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 24px;
+                    letter-spacing: 0.5px;
+                    text-transform: uppercase;
+                    // Color change on hover for split card
+                    .split:hover & {
+                        color: #161616;
+                    }
+                }
+
+                h2 {
+                    font-weight: 500;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 0.5px;
+
+                    // Color change on hover for split card
+                    .split:hover & {
+                        color: #161616;
+                    }
+                }
+
+                h1,
+                p {
+                    // easeInOutSine
+                    transition: all 400ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+                    &.copy {
+                        margin: 16px 0 0 0;
+                    }
+                }
+            }
+
+            &.split {
+                height: 100%;
+                background: rgba(28, 237, 59, 0.8);
+
+                &:before {
+                    content: "";
+                    width: 100%;
+                    height: 0;
+                    background: #f3f3f3;
+                    position: absolute;
+                    bottom: 0;
+                    transform-origin: bottom;
+                    // easeOutQuart
+                    transition: all 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+                }
+
+                // Hover state for the split card
+                &:hover {
+                    &:before {
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog-btn {
+        background-color: #33ae03;
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        border-radius: 40px;
+        padding: 10px 15px;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        color: white;
+        gap: 10px;
+        font-size: 16px;
+        transition: all 0.3s ease;
+
+        h1 {
+            font-weight: 700;
+        }
+        span {
+           
+        }
+
+        &:hover {
+            background-color: #258001;
+        }
+    }
+}
+
+// -------------------------------
+
+.ftr-container {
+    // background-color: rgba(232, 27, 27, 0.674);
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px 10px;
+
+    .ftr-title {
+        font-family: "Playfair Display", serif;
+        font-size: 37px;
+        font-weight: 900;
+        text-transform: capitalize;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: -50px;
+        margin-bottom: 10px;
+    }
+
+    .ftr-row {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-right: -15px;
+        margin-left: -15px;
+
+        // background-color: aqua;
+
+        .sub-title {
+            font-family: "Playfair Display", serif;
+            font-size: 18px;
+            font-weight: 700;
+            margin: 10px;
+            text-transform: uppercase;
+        }
+
+        .block {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+            max-width: 300px;
+            unicode-bidi: isolate;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            // background-color: #f3f3f3;
+            margin: 40px 10px;
+
+            img {
+                overflow-clip-margin: content-box;
+                overflow: clip;
+                height: 60px;
+                width: 60px;
+            }
+        }
+
+        .block_img {
+            // background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: scale(1.3);
+
+            .response_img {
+                height: 500px;
+                width: 400px;
+                // background-color: aquamarine;
+                img {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}

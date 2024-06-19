@@ -25,25 +25,25 @@ export default function App() {
   const navigate = useNavigate();
 
   return (
-    <div className="">
+    <div className="gallery-section">
       <SectionHeading sectionName={"Gallery"} sectionBg={galleryBg} />
 
-      <div className="flex flex-col justify-center text-center m-5 mt-1">
-        <CurlyTitles titleName={"Don't Panic Go Organic"} />
-        <div className="head-3">
-          <h1>Watch Our Portfolio</h1>
+      <div className="gallery-bg py-10 px-4 mt-[-110px] ">
+        <div className="flex flex-col justify-center text-center mb-8 mt-[-10px]">
+          <CurlyTitles titleName={"Don't Panic Go Organic"} />
+          <div className="head-3">
+            <h1>Watch Our Portfolio</h1>
+          </div>
         </div>
-      </div>
-
-      <div></div>
-      <div className="gallery-bg py-10 px-4">
         <PhotoAlbum
           style={{ backgroundColor: "green" }}
           photos={media?.images}
-          layout="masonry"
+          layout="rows"
           spacing={20}
           columns={3}
-          // targetColumnHeight={3}
+          rows={2}
+          targetRowHeight={400}
+          // targetColumnHeight={2}
           onClick={({ index }) => setIndex(index)}
         />
       </div>

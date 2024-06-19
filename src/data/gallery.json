@@ -1,17 +1,27 @@
 {
   "images": [
     {
-      "src": "assets/gallery/IMG-20240515-WA0001.jpg",
+      "src": "assets/gallery/IMG-20240515-WA0006.jpg",
+      "width": 3500,
+      "height": 2000
+    },
+    {
+      "src": "assets/gallery/IMG-40.jpg",
       "width": 700,
       "height": 700
     },
     {
-      "src": "assets/gallery/IMG-20240515-WA0002.jpg",
+      "src": "assets/gallery/IMG-41.jpg",
       "width": 700,
-      "height": 800
+      "height": 700
     },
     {
-      "src": "assets/gallery/IMG-20240515-WA0003.jpg",
+      "src": "assets/gallery/IMG-20240515-WA0039.jpg",
+      "width": 2000,
+      "height": 900
+    },
+    {
+      "src": "assets/gallery/IMG-20240515-WA0002.jpg",
       "width": 650,
       "height": 900
     },
@@ -24,11 +34,6 @@
       "src": "assets/gallery/IMG-20240515-WA0005.jpg",
       "width": 950,
       "height": 880
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0006.jpg",
-      "width": 780,
-      "height": 690
     },
     {
       "src": "assets/gallery/IMG-20240515-WA0007.jpg",
@@ -77,7 +82,7 @@
     },
     {
       "src": "assets/gallery/IMG-20240515-WA0016.jpg",
-      "width": 485,
+      "width": 785,
       "height": 880
     },
     {
@@ -97,7 +102,7 @@
     },
     {
       "src": "assets/gallery/IMG-20240515-WA0020.jpg",
-      "width": 920,
+      "width": 520,
       "height": 490
     },
     {
@@ -116,18 +121,13 @@
       "height": 465
     },
     {
-      "src": "assets/gallery/IMG-20240515-WA0024.jpg",
-      "width": 880,
-      "height": 490
-    },
-    {
       "src": "assets/gallery/IMG-20240515-WA0025.jpg",
       "width": 495,
       "height": 720
     },
     {
       "src": "assets/gallery/IMG-20240515-WA0026.jpg",
-      "width": 475,
+      "width": 775,
       "height": 980
     },
     {
@@ -144,11 +144,6 @@
       "src": "assets/gallery/IMG-20240515-WA0029.jpg",
       "width": 800,
       "height": 760
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0030.jpg",
-      "width": 910,
-      "height": 600
     },
     {
       "src": "assets/gallery/IMG-20240515-WA0031.jpg",
@@ -191,91 +186,9 @@
       "height": 850
     },
     {
-      "src": "assets/gallery/IMG-20240515-WA0039.jpg",
+      "src": "assets/gallery/IMG-20240515-WA0001.jpg",
       "width": 780,
       "height": 800
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0040.jpg",
-      "width": 910,
-      "height": 600
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0041.jpg",
-      "width": 720,
-      "height": 800
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0042.jpg",
-      "width": 750,
-      "height": 640
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0043.jpg",
-      "width": 810,
-      "height": 520
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0044.jpg",
-      "width": 700,
-      "height": 820
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0045.jpg",
-      "width": 480,
-      "height": 960
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0046.jpg",
-      "width": 800,
-      "height": 600
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0047.jpg",
-      "width": 820,
-      "height": 730
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0048.jpg",
-      "width": 600,
-      "height": 680
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0049.jpg",
-      "width": 480,
-      "height": 840
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0050.jpg",
-      "width": 910,
-      "height": 610
-    },
-    {
-      "src": "assets/gallery/IMG-20240515-WA0051.jpg",
-      "width": 750,
-      "height": 840
-    }
-  ],
-  "videos": [
-    {
-      "src": "assets/gallery/VID-20240515-WA0001.mp4",
-      "width": 700,
-      "height": 700
-    },
-    {
-      "src": "assets/gallery/VID-20240515-WA0002.mp4",
-      "width": 700,
-      "height": 700
-    },
-    {
-      "src": "assets/gallery/VID-20240515-WA0003.mp4",
-      "width": 700,
-      "height": 700
-    },
-    {
-      "src": "assets/gallery/VID-20240515-WA0006.mp4",
-      "width": 700,
-      "height": 700
     }
   ]
 }

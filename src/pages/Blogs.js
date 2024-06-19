@@ -12,7 +12,7 @@ export default function Blogs() {
   const blogsData = BlogData?.blogPage?.posts;
 
   return (
-    <div>
+    <div className="blog-section">
       <SectionHeading sectionName={"Blogs"} sectionBg={contactBg} />
 
       <div className="pb-10">

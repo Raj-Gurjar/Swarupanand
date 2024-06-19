@@ -8,6 +8,7 @@ import { FreeMode, Pagination, Autoplay, Navigation } from "swiper/modules";
 import productsData from "../../data/allProducts.json";
 import CategoryCard from "../Cards/CategoryCard";
 import { useNavigate } from "react-router-dom";
+import CurlyTitles from "../Headings/CurlyTitles";
 
 export default function CategorySlider() {
   const allProducts = productsData;
@@ -20,13 +21,7 @@ export default function CategorySlider() {
   return (
     <div className="m-5">
       {/* <h1 className="title">Explore our all Categories</h1> */}
-      <div className="head-2 flex justify-center text-center m-5">
-        <span1>
-          <span>~</span>
-          Explore Our Categories
-          <span>~</span>
-        </span1>
-      </div>
+      <CurlyTitles titleName={"Explore Our Categories"} />
       {/* <p className="wave"></p> */}
       <Swiper
         style={{

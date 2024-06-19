@@ -4,12 +4,14 @@
     background-position: -6px 165px;
     background-repeat: no-repeat;
     padding: 40px;
+    margin-top: -130px;
     position: relative;
     overflow: hidden;
     z-index: 1;
 
     .product-category-buttons {
         display: flex;
+
         height: 65px;
         width: 75px;
         cursor: pointer;
@@ -96,7 +98,4 @@
     &:hover {
         background-color: green;
     }
-}
-.active-cat-text {
-    background: red;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import SectionHeading from "../components/Headings/SectionHeading";
 import AboutBg from "../data/assets/background/contact-bg.jpg";
+import FounderDp from "../data/assets/founder.jpg";
+import CoFounderDp from "../data/assets/co-founder.jpg";
 import AboutDpBg from "../data/assets/background/about-dp-bg.png";
 import CurlyTitles from "../components/Headings/CurlyTitles";
 import Footer from "../components/Footer";
@@ -8,48 +10,55 @@ import { BsPersonLinesFill } from "react-icons/bs";
 import { CiBoxes } from "react-icons/ci";
 import { MdOutlineGppGood } from "react-icons/md";
 import { RiPlantLine } from "react-icons/ri";
+import { BsBoxes } from "react-icons/bs";
 
 export default function About() {
   return (
-    <div>
+    <div className="about-section">
       <div>
         <SectionHeading sectionName={"About"} sectionBg={AboutBg} />
 
         <div className="about-our-story">
           <div className="about-stats">
-            <div className="flex gap-5 bg-pink-300 flex-col justify-around">
+            <div className="flex gap-5 flex-col justify-around">
               <div className="about-stat-box">
                 <span>
                   <i>
-                    <CiBoxes />
+                    <BsBoxes />
                   </i>
                 </span>
                 <h1>60+ Products</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit,
+                  We offer a diverse range of over 60 high-quality organic
+                  products, ensuring you have access to fresh and healthy
+                  options.
                 </p>
               </div>
             </div>
-            <div className="flex gap-5 bg-pink-300 flex-col justify-around">
+            <div className="flex gap-5 flex-col justify-around">
               <div className="about-stat-box">
                 <span>
                   <i>
                     <MdOutlineGppGood />
                   </i>
                 </span>
-                <h1>fssai Approved</h1>
+                <h1>FSSAI Approved</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+                  Our products are certified by the Food Safety and Standards
+                  Authority of India, ensuring the highest quality and safety.
                 </p>
               </div>
               <div className="about-stat-box">
                 <span>
                   <i>
-                    <RiPlantLine />{" "}
+                    <RiPlantLine />
                   </i>
                 </span>
                 <h1>100% Organic</h1>
-                <p>Lorem ipsum dolor sit amet consectetur naearuuia.</p>
+                <p>
+                  Committed to sustainable and eco-friendly farming practices,
+                  all our products are 100% organic and naturally grown.
+                </p>
               </div>
             </div>
           </div>
@@ -97,7 +106,7 @@ export default function About() {
           <div className="flex justify-evenly mt-10">
             <div>
               <div className="about-dp">
-                <img src={AboutBg} alt="" />
+                <img src={FounderDp} alt="" />
               </div>
 
               <div className="about-dp-text">
@@ -112,7 +121,7 @@ export default function About() {
             </div>
             <div>
               <div className="about-dp">
-                <img src={AboutBg} alt="" />
+                <img src={CoFounderDp} alt="" />
               </div>
 
               <div className="about-dp-text">
