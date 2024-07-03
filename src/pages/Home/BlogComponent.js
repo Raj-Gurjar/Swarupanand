@@ -1,7 +1,6 @@
 import React from "react";
-import blogData from "../data/blog.json";
-import "./BlogComponent.scss";
-import CurlyTitles from "./Headings/CurlyTitles";
+import blogData from "../../data/blog.json";
+import CurlyTitles from "../../components/Headings/CurlyTitles";
 import { Link } from "react-router-dom";
 
 import { FaArrowRight } from "react-icons/fa";

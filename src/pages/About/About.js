@@ -1,16 +1,17 @@
 import React from "react";
-import SectionHeading from "../components/Headings/SectionHeading";
-import AboutBg from "../data/assets/background/contact-bg.jpg";
-import FounderDp from "../data/assets/founder.jpg";
-import CoFounderDp from "../data/assets/co-founder.jpg";
-import AboutDpBg from "../data/assets/background/about-dp-bg.png";
-import CurlyTitles from "../components/Headings/CurlyTitles";
-import Footer from "../components/Footer";
+import SectionHeading from "../../components/Headings/SectionHeading";
+import AboutBg from "../../data/assets/background/contact-bg.jpg";
+import FounderDp from "../../data/assets/founder.jpg";
+import CoFounderDp from "../../data/assets/co-founder.jpg";
+import AboutDpBg from "../../data/assets/background/about-dp-bg.png";
+import CurlyTitles from "../../components/Headings/CurlyTitles";
+import Footer from "../../components/Footer/Footer";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { CiBoxes } from "react-icons/ci";
 import { MdOutlineGppGood } from "react-icons/md";
 import { RiPlantLine } from "react-icons/ri";
 import { BsBoxes } from "react-icons/bs";
+import "./About.scss";
 
 export default function About() {
   return (

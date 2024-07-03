@@ -1,19 +1,20 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
-import contactBg from "../data/assets/background/contact-bg.jpg";
+import contactBg from "../../data/assets/background/contact-bg.jpg";
 import { useNavigate } from "react-router-dom";
-import ContactCard from "../components/Cards/ContactCard";
+import ContactCard from "../../components/Cards/ContactCard";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
-import SectionHeading from "../components/Headings/SectionHeading";
-import CurlyTitles from "../components/Headings/CurlyTitles";
+import SectionHeading from "../../components/Headings/SectionHeading";
+import CurlyTitles from "../../components/Headings/CurlyTitles";
 import { FaYoutube } from "react-icons/fa6";
-import Footer from "../components/Footer";
-import ContactForm from "../components/ContactForm";
+import Footer from "../../components/Footer/Footer";
+import ContactForm from "./ContactForm";
+import "./Contact.scss";
 
 export default function Contact() {
   const navigate = useNavigate();
@@ -95,7 +96,7 @@ export default function Contact() {
 
         <div className="flex flex-col justify-center text-center m-5 mt-10">
           <CurlyTitles titleName={"Contact us"} />
-          <div className="head-3">
+          <div className="curly-subTitle">
             <h1>Feel Free to Contact us Anytime</h1>
           </div>
         </div>

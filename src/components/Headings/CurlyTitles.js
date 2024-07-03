@@ -3,7 +3,7 @@ import React from "react";
 export default function CurlyTitles({ titleName }) {
   return (
     <div>
-      <div className="head-2">
+      <div className="curly-title">
         <span1>
           <span>~</span>
           {titleName}

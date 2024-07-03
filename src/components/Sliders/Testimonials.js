@@ -12,6 +12,7 @@ import TestimonialCard from "../Cards/TestimonialCard";
 
 import Slider from "react-slick";
 import CurlyTitles from "../Headings/CurlyTitles";
+import "../../pages/Home/Home.scss";
 
 export default function Testimonials() {
   const allTestimonials = TestimonialsData?.testimonials;

@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import productsData from "../data/allProducts.json";
-import ProductCard from "../components/Cards/ProductCard";
+import productsData from "../../data/allProducts.json";
+import ProductCard from "../../components/Cards/ProductCard";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./product.scss";
-import AboutBg from "../data/assets/background/contact-bg.jpg";
-import Footer from "../components/Footer";
-import SectionHeading from "../components/Headings/SectionHeading";
-import CurlyTitles from "../components/Headings/CurlyTitles";
+import AboutBg from "../../data/assets/background/contact-bg.jpg";
+import Footer from "../../components/Footer/Footer";
+import SectionHeading from "../../components/Headings/SectionHeading";
+import CurlyTitles from "../../components/Headings/CurlyTitles";
 
 export default function Products() {
   const location = useLocation();

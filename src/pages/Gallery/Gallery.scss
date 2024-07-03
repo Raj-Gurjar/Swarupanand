@@ -1,0 +1,25 @@
+.gallery-section {
+    .gallery-bg {
+        background-image: linear-gradient(
+            190deg,
+            hsl(240, 32%, 90%) 0%,
+            hsl(240, 32%, 91%) 9%,
+            hsl(240deg 80% 92%) 55%,
+            hsl(240deg 80% 94%) 62%,
+            hsl(240deg 80% 96%) 68%,
+            hsl(240deg 79% 97%) 77%,
+            hsl(240deg 79% 99%) 87%,
+            hsl(0deg 0% 100%) 100%
+        );
+    }
+
+    .react-photo-album--photo {
+        background-color: #bb5903;
+        border-radius: 10px;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

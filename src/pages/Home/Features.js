@@ -1,8 +1,8 @@
 import React from "react";
-import fresh_img from "../data/assets/Features/fresh.png";
-import natural_img from "../data/assets/Features/natural.png";
-import healthy_img from "../data/assets/Features/healthy.png";
-import quality_img from "../data/assets/Features/quality.png";
+import fresh_img from "../../data/assets/Features/fresh.png";
+import natural_img from "../../data/assets/Features/natural.png";
+import healthy_img from "../../data/assets/Features/healthy.png";
+import quality_img from "../../data/assets/Features/quality.png";
 
 const FeatureBlock = ({ image, title, tagline }) => (
   <div className="block">

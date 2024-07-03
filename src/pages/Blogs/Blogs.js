@@ -1,12 +1,12 @@
 import React from "react";
-import SectionHeading from "../components/Headings/SectionHeading";
-import contactBg from "../data/assets/background/contact-bg.jpg";
-import CurlyTitles from "../components/Headings/CurlyTitles";
+import SectionHeading from "../../components/Headings/SectionHeading";
+import contactBg from "../../data/assets/background/contact-bg.jpg";
+import CurlyTitles from "../../components/Headings/CurlyTitles";
 import "./Blogs.scss";
-import Footer from "../components/Footer";
+import Footer from "../../components/Footer/Footer";
 import { MdAccessTime } from "react-icons/md";
 import { BsPersonLinesFill } from "react-icons/bs";
-import BlogData from "../data/blog.json";
+import BlogData from "../../data/blog.json";
 
 export default function Blogs() {
   const blogsData = BlogData?.blogPage?.posts;
@@ -18,6 +18,7 @@ export default function Blogs() {
       <div className="pb-10">
         <div className="mt-[-50px] mb-12">
           <CurlyTitles titleName={"Read some blogs"} />
+          <h2 className="curly-subTitle">Learn About Organic Farming</h2>
         </div>
 
         <div className="pb-10 flex flex-col gap-10 flex-wrap">

@@ -1,22 +1,23 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Navbar from "./components/Navbar/Navbar";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Home from "./pages/Home";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
+import Home from "./pages/Home/Home";
 import Error from "./pages/Error";
-import Products from "./pages/Products";
-import Gallery from "./pages/Gallery";
-import Blog from "./components/BlogComponent";
-import ScrollUp from "./components/ScrollUp";
-import Blogs from "./pages/Blogs";
+import Products from "./pages/Products/Products";
+import Gallery from "./pages/Gallery/Gallery";
+import Blog from "./pages/Home/BlogComponent";
+import ScrollUp from "./components/Scroll Up/ScrollUp";
+import Blogs from "./pages/Blogs/Blogs";
 
 function App() {
+  
   return (
     <div className="App">
       <Navbar />
       <ScrollUp />
-      <div className="">
+      <div className="app-inside">
         <Routes>
           <Route index element={<Home />} />
 

@@ -1,5 +1,5 @@
 import React from "react";
-import bgFooterTop from "../data/assets/background/footer-top.png";
+import bgFooterTop from "../../data/assets/background/footer-top.png";
 import { Link, NavLink } from "react-router-dom";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
@@ -11,13 +11,14 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
 import { FaYoutube } from "react-icons/fa6";
-import logo from "../data/assets/logos/logo1.jpg";
+import logo from "../../data/assets/logos/logo1.jpg";
+import "./Footer.scss";
 
 export default function Footer() {
   return (
     <div className="footer-section">
-      <div className=" min-h-[70vh] footer mt-5 text-white">
-        <div className="flex justify-between px-[40px] p-5 pt-20">
+      <div className="max-h-[55vh] footer mt-5 text-white">
+        <div className="flex justify-between px-[40px] p-5 pt-20 bg-[#95101070]">
           <div className="w-[15%]">
             <div>
               <img src={logo} alt="" className="w-[300px] h-[200px]" />
@@ -27,7 +28,7 @@ export default function Footer() {
 
           <div className="footer-links-container w-[15%]">
             <h1 className="footer-head-1 ">Links</h1>
-            <span className="underline"></span>
+            <span className="footer-underline"></span>
             <ul>
               <li>
                 <NavLink to="/home">
@@ -50,14 +51,14 @@ export default function Footer() {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/view-products">
+                <Link to="/view-products">
                   <div className="footer-link">
                     <span>
                       <IoIosArrowForward />
                     </span>
                     <h3>All Products</h3>
                   </div>
-                </NavLink>
+                </Link>
               </li>
               <li>
                 <NavLink to="/gallery">
@@ -86,7 +87,7 @@ export default function Footer() {
             <div>
               <div>
                 <h1 className="footer-head-1">Official Info</h1>
-                <span className="underline"></span>
+                <span className="footer-underline"></span>
               </div>
 
               <div className="flex flex-wrap mb-2">
@@ -121,7 +122,7 @@ export default function Footer() {
 
           <div className="w-[20%]">
             <h1 className="footer-head-1 ">Social Media</h1>
-            <span className="underline"></span>
+            <span className="footer-underline"></span>
             <div className="flex gap-8 text-[25px]">
               <div className="">
                 <a href="www.google.com">
@@ -157,10 +158,15 @@ export default function Footer() {
       </div>
       <div className="footer2 z-20 h-[40px] ">
         <div className="m-auto text-center p-5">
-          <p className=" mt-[-40px] text-[19px] font-bold">Made By Raj Chhalotre</p>
+          <p className=" mt-[-40px] text-[19px] font-bold">
+            Made By Raj Chhalotre
+          </p>
           <p>
             Mail at :{" "}
-            <a href="mailto:rajchhalotre15@gmail.com" className="text-orange-300">
+            <a
+              href="mailto:rajchhalotre15@gmail.com"
+              className="text-orange-300"
+            >
               rajchhalotre15@gmail.com
             </a>
           </p>

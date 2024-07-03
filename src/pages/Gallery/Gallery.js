@@ -5,7 +5,7 @@ import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-import galleryBg from "../data/assets/background/gallary-bh.jpg";
+import galleryBg from "../../data/assets/background/gallary-bh.jpg";
 
 // import optional lightbox plugins
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
@@ -14,11 +14,12 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-import media from "../data/gallery.json";
+import media from "../../data/gallery.json";
 import { useNavigate } from "react-router-dom";
-import Footer from "../components/Footer";
-import SectionHeading from "../components/Headings/SectionHeading";
-import CurlyTitles from "../components/Headings/CurlyTitles";
+import Footer from "../../components/Footer/Footer";
+import SectionHeading from "../../components/Headings/SectionHeading";
+import CurlyTitles from "../../components/Headings/CurlyTitles";
+import "./Gallery.scss";
 
 export default function App() {
   const [index, setIndex] = useState(-1);
@@ -31,7 +32,7 @@ export default function App() {
       <div className="gallery-bg py-10 px-4 mt-[-110px] ">
         <div className="flex flex-col justify-center text-center mb-8 mt-[-10px]">
           <CurlyTitles titleName={"Don't Panic Go Organic"} />
-          <div className="head-3">
+          <div className="curly-subTitle">
             <h1>Watch Our Portfolio</h1>
           </div>
         </div>
