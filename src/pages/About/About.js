@@ -21,7 +21,7 @@ export default function About() {
 
         <div className="about-our-story">
           <div className="about-stats">
-            <div className="flex gap-5 flex-col justify-around">
+            <div className="about-stats-col">
               <div className="about-stat-box">
                 <span>
                   <i>
@@ -36,7 +36,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-5 flex-col justify-around">
+            <div className="about-stats-col">
               <div className="about-stat-box">
                 <span>
                   <i>
@@ -102,9 +102,10 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="about-founder">
+
+        <div className="mt-10">
           <CurlyTitles titleName={"Meet our Founders"} />
-          <div className="flex justify-evenly mt-10">
+          <div className="about-founder">
             <div>
               <div className="about-dp">
                 <img src={FounderDp} alt="" />

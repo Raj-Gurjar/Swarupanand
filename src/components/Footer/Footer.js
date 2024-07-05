@@ -17,16 +17,16 @@ import "./Footer.scss";
 export default function Footer() {
   return (
     <div className="footer-section">
-      <div className="max-h-[55vh] footer mt-5 text-white">
-        <div className="flex justify-between px-[40px] p-5 pt-20 bg-[#95101070]">
-          <div className="w-[15%]">
+      <div className="footer-1 ">
+        <div className="footer-1-container">
+          <div className="footer-logo-container">
             <div>
               <img src={logo} alt="" className="w-[300px] h-[200px]" />
             </div>
             <p>Tagline</p>
           </div>
 
-          <div className="footer-links-container w-[15%]">
+          <div className="footer-links-container">
             <h1 className="footer-head-1 ">Links</h1>
             <span className="footer-underline"></span>
             <ul>
@@ -83,7 +83,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="footer-official-info w-[30%]">
+          <div className="footer-official-info">
             <div>
               <div>
                 <h1 className="footer-head-1">Official Info</h1>
@@ -120,7 +120,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="w-[20%]">
+          <div className="footer-social-info">
             <h1 className="footer-head-1 ">Social Media</h1>
             <span className="footer-underline"></span>
             <div className="flex gap-8 text-[25px]">

@@ -30,6 +30,7 @@ const Features = () => (
         />
         <strong className="text-[#78b144]">Why Choose Us</strong>
       </div>
+      
       <div className="ftr-row">
         <div className="block_text">
           <div className="block_content">

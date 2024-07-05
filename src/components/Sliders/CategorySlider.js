@@ -29,7 +29,7 @@ export default function CategorySlider() {
           "--swiper-pagination-bullet-size": "6px",
         }}
         loop={true}
-        slidesPerView={2}
+        slidesPerView={1}
         spaceBetween={40}
         pagination={{
           clickable: true,
@@ -43,6 +43,8 @@ export default function CategorySlider() {
         breakpoints={{
           1000: { slidesPerView: 2 },
           768: { slidesPerView: 1 },
+          767: { slidesPerView: 1 },
+          
         }}
         className="mySwiper"
       >
