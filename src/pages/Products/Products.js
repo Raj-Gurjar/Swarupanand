@@ -34,7 +34,7 @@ export default function Products() {
 
         <img src={allProducts?.categories?.product?.image} alt="" />
 
-        <div className="flex flex-wrap mt-8 mb-10 justify-between ">
+        <div className="flex flex-wrap mt-8 mb-10 gap-[5px] justify-between">
           {allProducts.categories.map((category, index) => (
             <div
               onClick={() => handleCategoryClick(category.name)}
@@ -57,7 +57,7 @@ export default function Products() {
         </div>
 
         <div>
-          <div className="grid grid-cols-4 gap-8 relative">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative">
             {allProducts.categories
               .find((cat) => cat.name === selectedCategory)
               ?.products.map((product, index) => (

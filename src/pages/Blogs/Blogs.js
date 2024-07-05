@@ -30,7 +30,7 @@ export default function Blogs() {
               <div>
                 <h1>{blog?.title}</h1>
               </div>
-              <div className="blog-details flex gap-[150px] text-left">
+              <div className="blog-details flex  gap-[150px] text-left">
                 <div>
                   <span>
                     <MdAccessTime />

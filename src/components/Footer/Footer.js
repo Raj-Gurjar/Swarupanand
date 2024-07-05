@@ -71,6 +71,14 @@ export default function Footer() {
                 </NavLink>
               </li>
               <li>
+                <NavLink to="/blogs">
+                  <div className="footer-link">
+                    <span>
+                      <IoIosArrowForward />
+                    </span>
+                    <h3>Read Blogs</h3>
+                  </div>
+                </NavLink>
                 <NavLink to="/contact">
                   <div className="footer-link">
                     <span>

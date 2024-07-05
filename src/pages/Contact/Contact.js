@@ -23,7 +23,7 @@ export default function Contact() {
       <SectionHeading sectionName={"Contact"} sectionBg={contactBg} />
 
       <div>
-        <div className="px-[80px] flex gap-5 justify-around">
+        <div className="contact-card-container ">
           <ContactCard
             icon={<FaLocationDot />}
             head="Address"
@@ -41,10 +41,10 @@ export default function Contact() {
           />
         </div>
 
-        <div className="">
+        <div className="mx-[15px]">
           <CurlyTitles titleName={"follow us on"} />
 
-          <div className="flex opp-border bg-[#84bb16] p-5 my-5 mb-[100px] mx-[80px]  justify-evenly gap-5 text-center align-middle">
+          <div className="flex wrap opp-border bg-[#84bb16] p-5 my-5 mb-[100px] sm:mx-[5px] lg:mx-[80px]  justify-evenly gap-5 text-center align-middle">
             <div className="contact-social">
               <a href="www.google.com">
                 <p className="contact-icon  text-white hover:text-[#f46f30]">

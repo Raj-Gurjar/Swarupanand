@@ -43,7 +43,7 @@ export default function CategorySlider() {
         breakpoints={{
           1000: { slidesPerView: 2 },
           768: { slidesPerView: 1 },
-          767: { slidesPerView: 1 },
+          667: { slidesPerView: 1 },
           
         }}
         className="mySwiper"

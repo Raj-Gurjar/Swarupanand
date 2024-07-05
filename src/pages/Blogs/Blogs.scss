@@ -20,7 +20,7 @@
     }
 
     img {
-        height: 300px;
+        height: 450px;
         object-fit: fill;
         width: 100%;
     }
@@ -42,7 +42,6 @@
         margin-bottom: 1.1em !important;
         padding-bottom: 0.5rem;
         border-bottom: 2px #e5e5e5 solid;
-        display: flex;
 
         span {
             display: inline-block;
@@ -89,6 +88,95 @@
 
         &:hover {
             background-color: #3c5816;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .blog-container {
+        position: relative;
+
+        background-color: rgb(255, 255, 255);
+
+        border: 1px solid;
+
+        border-color: #eee #eee #d5d5d5 #eee;
+        box-shadow: 0 5px 0 rgba(200, 200, 200, 0.2);
+
+        padding: 15px;
+        font-size: 13px;
+        font-family: "Open Sans", sans-serif;
+        width: 90%;
+        margin: auto;
+
+        &::before {
+            display: table;
+            content: " ";
+        }
+
+        img {
+            height: 300px;
+            object-fit: fill;
+            width: 100%;
+        }
+        h1 {
+            font-size: 26px;
+        }
+
+        .blog-details {
+            font-family: "Open Sans", sans-serif;
+            margin-bottom: 1.1em !important;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px #e5e5e5 solid;
+            display: flex;
+
+            span {
+                display: inline-block;
+                margin-right: 7px;
+                color: #a7a7a7;
+                text-transform: none;
+                font-size: 16px;
+                margin-bottom: -2px;
+            }
+
+            h2 {
+                // background-color: red;
+
+                display: inline-block;
+                width: 100%;
+                margin-right: 10px;
+                color: #80b435;
+                text-transform: none;
+                font-size: 16px;
+            }
+        }
+
+        p {
+            margin: 0 0 1.5em 0;
+            font-size: 14px;
+            line-height: 1.9em;
+        }
+
+        button {
+            background: #80b435;
+            color: #fff;
+            font-size: 14px;
+            text-shadow: none;
+            padding: 10px 40px 8px 40px;
+            margin-top: 0px;
+            font-weight: 500;
+            border-radius: 999px;
+            display: block;
+            font-family: "Rubik", sans-serif;
+            text-transform: uppercase;
+            border: none;
+            letter-spacing: 0.5px;
+            display: inline-block;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                background-color: #3c5816;
+            }
         }
     }
 }
