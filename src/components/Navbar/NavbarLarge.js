@@ -50,7 +50,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-red-400 mx-[20px]">
+        <div className="mx-[30px]">
           <Link to="/">
             <img src={logo} alt="logo" className="h-[40px] w-[100px]" />
           </Link>

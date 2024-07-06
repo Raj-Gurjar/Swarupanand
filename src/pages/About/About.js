@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SectionHeading from "../../components/Headings/SectionHeading";
 import AboutBg from "../../data/assets/background/contact-bg.jpg";
 import FounderDp from "../../data/assets/founder.jpg";
@@ -13,14 +13,22 @@ import { RiPlantLine } from "react-icons/ri";
 import { BsBoxes } from "react-icons/bs";
 import "./About.scss";
 
+
 export default function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="about-section">
       <div>
         <SectionHeading sectionName={"About"} sectionBg={AboutBg} />
 
         <div className="about-our-story">
-          <div className="about-stats">
+          <div
+            className="about-stats"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
             <div className="about-stats-col">
               <div className="about-stat-box">
                 <span>
@@ -63,7 +71,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="about-story-text">
+          <div className="about-story-text" data-aos="fade-left">
             <CurlyTitles titleName={"Our Story"} />
             <p className="">
               In 2018, an elderly man proposed a 50% partnership to cultivate
@@ -107,7 +115,7 @@ export default function About() {
           <CurlyTitles titleName={"Meet our Founders"} />
           <div className="about-founder">
             <div>
-              <div className="about-dp">
+              <div className="about-dp" data-aos="zoom-in">
                 <img src={FounderDp} alt="" />
               </div>
 
@@ -122,7 +130,7 @@ export default function About() {
               </div>
             </div>
             <div>
-              <div className="about-dp">
+              <div className="about-dp" data-aos="zoom-in">
                 <img src={CoFounderDp} alt="" />
               </div>
 

@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
-import React from "react";
+import React, { useEffect } from "react";
 import contactBg from "../../data/assets/background/contact-bg.jpg";
 import { useNavigate } from "react-router-dom";
 import ContactCard from "../../components/Cards/ContactCard";
@@ -16,14 +16,18 @@ import Footer from "../../components/Footer/Footer";
 import ContactForm from "./ContactForm";
 import "./Contact.scss";
 
+
 export default function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const navigate = useNavigate();
   return (
     <div className="contact-section">
       <SectionHeading sectionName={"Contact"} sectionBg={contactBg} />
 
       <div>
-        <div className="contact-card-container ">
+        <div className="contact-card-container " data-aos="fade-up">
           <ContactCard
             icon={<FaLocationDot />}
             head="Address"
@@ -41,7 +45,7 @@ export default function Contact() {
           />
         </div>
 
-        <div className="mx-[15px]">
+        <div className="mx-[15px]" data-aos="fade-up">
           <CurlyTitles titleName={"follow us on"} />
 
           <div className="flex wrap opp-border bg-[#84bb16] p-5 my-5 mb-[100px] sm:mx-[5px] lg:mx-[80px]  justify-evenly gap-5 text-center align-middle">
@@ -94,14 +98,17 @@ export default function Contact() {
           </iframe>
         </div> */}
 
-        <div className="flex flex-col justify-center text-center m-5 mt-10">
+        <div
+          className="flex flex-col justify-center text-center m-5 mt-10"
+          data-aos="fade-up"
+        >
           <CurlyTitles titleName={"Contact us"} />
           <div className="curly-subTitle">
             <h1>Feel Free to Contact us Anytime</h1>
           </div>
         </div>
 
-        <div>
+        <div data-aos="fade-up">
           <ContactForm />
         </div>
       </div>

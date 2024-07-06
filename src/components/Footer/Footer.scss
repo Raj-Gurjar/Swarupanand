@@ -8,7 +8,6 @@
     background-size: cover;
     margin-top: 20px;
     color: white;
-    
 
     .footer-1-container {
         // flex justify-between py-[50px] px-[40px] p-5 pt-20
@@ -88,39 +87,44 @@
 
 @media (max-width: 950px) {
     .footer-1 {
-        margin-top: 20px;
+        margin-top:20px;
         color: white;
         margin-bottom: 10px;
 
         .footer-1-container {
             display: flex;
-            justify-content: center;
-            flex-direction: column;
+            // justify-content: center;
+            // flex-direction: column;
             flex-wrap: wrap;
+            // align-items: center;
+            margin: auto;
             gap: 30px;
-            padding: 50px 40px;
-            padding-top: 70px;
+            padding: 50px 20px;
+            padding-top: 110px;
 
             .footer-logo-container {
-                width: 100%;
+                width: 40%;
+                // background-color: rgba(216, 112, 147, 0.362);
             }
             .footer-links-container {
-                width: 50%;
+                width: 40%;
+                // background-color: rgba(0, 255, 255, 0.439);
                 .footer-link {
                     display: flex;
                     align-items: center;
                     text-align: left;
+                    flex-wrap: wrap;
                     justify-content: left;
                     margin-bottom: 8px;
                     transition: all 0.3s ease-in-out;
 
                     span {
-                        font-size: 15px;
+                        font-size: 18px;
                         margin-right: 5px;
                         margin-left: -5px;
                     }
                     h3 {
-                        font-size: 14px;
+                        font-size: 16px;
                     }
 
                     &:hover {
@@ -140,7 +144,9 @@
             }
             .footer-official-info {
                 width: 50%;
+                // background-color: rgba(238, 232, 170, 0.464);
                 span1 {
+
                     color: #04bd35;
                     margin-top: 5px;
                     margin-right: 10px;
@@ -148,7 +154,8 @@
                 }
             }
             .footer-social-info {
-                width: 20%;
+                // background-color: rgba(255, 0, 0, 0.491);
+                width: 40%;
             }
         }
     }

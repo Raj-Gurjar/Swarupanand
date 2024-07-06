@@ -31,7 +31,7 @@ export default function Footer() {
             <span className="footer-underline"></span>
             <ul>
               <li>
-                <NavLink to="/home">
+                <NavLink to="/">
                   <div className="footer-link">
                     <span>
                       <IoIosArrowForward />
@@ -84,7 +84,7 @@ export default function Footer() {
                     <span>
                       <IoIosArrowForward />
                     </span>
-                    <h3>Write us</h3>
+                    <h3>Contact us</h3>
                   </div>
                 </NavLink>
               </li>
@@ -97,33 +97,34 @@ export default function Footer() {
                 <h1 className="footer-head-1">Official Info</h1>
                 <span className="footer-underline"></span>
               </div>
+              <div className="flex justify-left flex-wrap">
+                <div className="flex flex-wrap mb-2">
+                  <span1>
+                    <FaLocationDot />
+                  </span1>
+                  <h2 className="">
+                    Ward no.03 Dharamkundi,
+                    <h1>district-Narmadapurm,MP,461221</h1>
+                  </h2>
+                </div>
 
-              <div className="flex flex-wrap mb-2">
-                <span1>
-                  <FaLocationDot />
-                </span1>
-                <h2 className="">
-                  Ward no.03 Dharamkundi,
-                  <h1>district-Narmadapurm,MP,461221</h1>
-                </h2>
-              </div>
+                <div className="flex flex-wrap mb-2">
+                  <span1>
+                    <FaPhone />
+                  </span1>
+                  <h2>+91 7987049181, +91 8889507870</h2>
+                </div>
 
-              <div className="flex flex-wrap mb-2">
-                <span1>
-                  <FaPhone />
-                </span1>
-                <h2>+91 7987049181, +91 8889507870</h2>
-              </div>
-
-              <div className="flex flex-wrap ">
-                <span1>
-                  <IoMdMail />
-                </span1>
-                <h2>
-                  <a href="mailto:rajchhalotre15@gmail.com">
-                    arpangour80@gmail.com
-                  </a>
-                </h2>
+                <div className="flex flex-wrap ">
+                  <span1>
+                    <IoMdMail />
+                  </span1>
+                  <h2>
+                    <a href="mailto:rajchhalotre15@gmail.com">
+                      arpangour80@gmail.com
+                    </a>
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
@@ -131,7 +132,7 @@ export default function Footer() {
           <div className="footer-social-info">
             <h1 className="footer-head-1 ">Social Media</h1>
             <span className="footer-underline"></span>
-            <div className="flex gap-8 text-[25px]">
+            <div className="flex justify-left flex-wrap gap-7 text-[28px]">
               <div className="">
                 <a href="www.google.com">
                   <p className="contact-icon  text-white hover:text-[#f46f30]">
@@ -170,12 +171,9 @@ export default function Footer() {
             Made By Raj Chhalotre
           </p>
           <p>
-            Mail at :{" "}
-            <a
-              href="mailto:rajchhalotre15@gmail.com"
-              className="text-orange-300"
-            >
-              rajchhalotre15@gmail.com
+            Visit My Portfolio :{" "}
+            <a href="https://raj-portfolio101.netlify.app/" target="_blank">
+              <span className="text-orange-300 hover:text-orange-500">{" "}Click Here</span>
             </a>
           </p>
         </div>

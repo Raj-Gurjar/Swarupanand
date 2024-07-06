@@ -51,47 +51,56 @@
     }
 }
 
-
 .navbar-small {
     display: none;
     position: relative;
 
     .navbar-small-btn {
-        background-color: #022e70;
+        background-color: #04bd35;
         z-index: 900;
         position: fixed;
         top: -15px;
         right: 10px;
-        padding: 30px 70px 16px 20px;
+        padding: 65px 40px 10px 15px;
         border-radius: 15px;
         // box-shadow: $shadow-blue;
 
         animation: dropIn 0.5s ease-in-out forwards;
 
         h1 {
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 700;
             // font-family: $base-font-family;
-            margin-top: 40px;
+
+            color: white;
             cursor: pointer;
             // background-color: red;
         }
     }
 
     .small-menu-container {
-        background-color: #022e70;
+        background: url("../../data/assets/background/blog-bg-4.jpg");
+        // background-repeat: no-repeat;
+        background-color: #ffffff;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
         position: fixed;
         z-index: 900;
         top: 0;
         left: 0;
         width: 100%;
         height: 100vh;
-        color: white;
+        color: #04bd35;
         text-transform: capitalize;
         overflow-y: auto;
         // display: none;
         padding: 5%;
         animation: dropIn 0.5s ease-in-out forwards;
+
+        &:before {
+            background-color: red;
+        }
 
         .close-menu {
             cursor: pointer;
@@ -110,32 +119,14 @@
         .menu-links {
             padding-top: 10%;
             padding-left: 7%;
-            color: white;
+            color: #04bd35;
 
             .bold-links {
                 // background-color: red;
                 // font-family: $secondary-font-family;
                 font-size: 32px;
-                color: white;
+                color: #04bd35;
                 font-weight: 700;
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-
-                & > div {
-                    // text-shadow: $shadow-blue;
-                    transition: all 0.3s ease-in-out;
-
-                    &:hover {
-                        transform: translateX(5px);
-                    }
-                }
-            }
-            .normal-links {
-                margin-top: 10%;
-                // background-color: pink;
-                // font-family: $base-font-family;
-                font-size: 20px;
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
@@ -153,12 +144,9 @@
     }
 }
 
-
-
-
 //! --- responsive ---
 
-@media (max-width: 1000px) {
+@media (max-width: 1120px) {
     .navbar-large {
         display: none;
     }

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import PhotoAlbum from "react-photo-album";
 
@@ -22,6 +22,9 @@ import CurlyTitles from "../../components/Headings/CurlyTitles";
 import "./Gallery.scss";
 
 export default function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [index, setIndex] = useState(-1);
   const navigate = useNavigate();
 
@@ -36,17 +39,19 @@ export default function App() {
             <h1>Watch Our Portfolio</h1>
           </div>
         </div>
-        <PhotoAlbum
-          style={{ backgroundColor: "green" }}
-          photos={media?.images}
-          layout="rows"
-          spacing={20}
-          columns={3}
-          rows={2}
-          targetRowHeight={400}
-          // targetColumnHeight={2}
-          onClick={({ index }) => setIndex(index)}
-        />
+        <div data-aos="zoom-in-up" data-aos-offset="10">
+          <PhotoAlbum
+            style={{ backgroundColor: "green" }}
+            photos={media?.images}
+            layout="rows"
+            spacing={20}
+            columns={3}
+            rows={2}
+            targetRowHeight={400}
+            // targetColumnHeight={2}
+            onClick={({ index }) => setIndex(index)}
+          />
+        </div>
       </div>
 
       <div>

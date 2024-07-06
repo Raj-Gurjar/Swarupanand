@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SectionHeading from "../../components/Headings/SectionHeading";
 import contactBg from "../../data/assets/background/contact-bg.jpg";
 import CurlyTitles from "../../components/Headings/CurlyTitles";
@@ -9,6 +9,9 @@ import { BsPersonLinesFill } from "react-icons/bs";
 import BlogData from "../../data/blog.json";
 
 export default function Blogs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const blogsData = BlogData?.blogPage?.posts;
 
   return (
@@ -21,7 +24,10 @@ export default function Blogs() {
           <h2 className="curly-subTitle">Learn About Organic Farming</h2>
         </div>
 
-        <div className="pb-10 flex flex-col gap-10 flex-wrap">
+        <div
+          className="pb-10 flex flex-col gap-10 flex-wrap"
+          data-aos="fade-up"
+        >
           {blogsData?.map((blog, index) => (
             <div key={blog?.id} className="blog-container">
               <div>

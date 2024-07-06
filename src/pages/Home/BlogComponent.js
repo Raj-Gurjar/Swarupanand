@@ -14,9 +14,9 @@ export default function BlogComponent() {
         <CurlyTitles titleName={"Blogs"} />
       </div>
 
-      <div className="blog-comp-container">
+      <div className="blog-comp-container" data-aos="fade-right">
         {allPostData?.map((post) => (
-          <div className="lg:w-[29%] sm:w-[100%]">
+          <div className="lg:w-[29%] sm:w-[100%] ">
             <div className="blog-card split">
               <div className="blog-image">
                 <img src={post?.image?.url} alt="post-img" />

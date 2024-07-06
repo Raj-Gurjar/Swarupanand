@@ -30,9 +30,9 @@ const Features = () => (
         />
         <strong className="text-[#78b144]">Why Choose Us</strong>
       </div>
-      
+
       <div className="ftr-row">
-        <div className="block_text">
+        <div className="block_text" data-aos="fade-up">
           <div className="block_content">
             <FeatureBlock
               image={fresh_img}
@@ -46,7 +46,7 @@ const Features = () => (
             />
           </div>
         </div>
-        <div className="block_img block-2">
+        <div className="block_img block-2" data-aos="fade-up">
           <div className="response_image">
             <img
               className=""
@@ -57,7 +57,7 @@ const Features = () => (
             />
           </div>
         </div>
-        <div className="block_text text-center">
+        <div className="block_text text-center" data-aos="fade-up">
           <div className="block_content">
             <FeatureBlock
               image={quality_img}

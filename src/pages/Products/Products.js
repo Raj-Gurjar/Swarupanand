@@ -9,6 +9,10 @@ import SectionHeading from "../../components/Headings/SectionHeading";
 import CurlyTitles from "../../components/Headings/CurlyTitles";
 
 export default function Products() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   const location = useLocation();
   const [selectedCategory, setSelectedCategory] = useState("top Products");
   const navigate = useNavigate();
@@ -34,7 +38,10 @@ export default function Products() {
 
         <img src={allProducts?.categories?.product?.image} alt="" />
 
-        <div className="flex flex-wrap mt-8 mb-10 gap-[5px] justify-between">
+        <div
+          className="flex flex-wrap mt-8 mb-10 gap-[10px] justify-between"
+          data-aos="zoom-in-down" data-aos-offset="100"
+        >
           {allProducts.categories.map((category, index) => (
             <div
               onClick={() => handleCategoryClick(category.name)}
@@ -57,7 +64,7 @@ export default function Products() {
         </div>
 
         <div>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative">
+          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative"  data-aos="zoom-in-right">
             {allProducts.categories
               .find((cat) => cat.name === selectedCategory)
               ?.products.map((product, index) => (

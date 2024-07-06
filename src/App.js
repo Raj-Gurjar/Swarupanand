@@ -10,9 +10,21 @@ import Gallery from "./pages/Gallery/Gallery";
 import Blog from "./pages/Home/BlogComponent";
 import ScrollUp from "./components/Scroll Up/ScrollUp";
 import Blogs from "./pages/Blogs/Blogs";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function App() {
-  
+  useEffect(() => {
+    AOS.init({
+      duration: 900, // Set the animation duration to 1200ms (1.2 seconds)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: true, // whether elements should animate out while scrolling past them
+    });
+  }, []);
+
   return (
     <div className="App">
       <Navbar />

@@ -28,7 +28,8 @@
             rgba(50, 50, 93, 0.25) 0px 20px 30px -12px inset,
             rgba(0, 0, 0, 0.3) 0px 8px 6px -18px inset;
 
-        img {
+        &:hover {
+            background-color: rgba(11, 133, 11, 0.762);
         }
     }
     .selected-category {
@@ -98,4 +99,20 @@
     &:hover {
         background-color: green;
     }
+}
+
+@media (max-width: 550px) {
+    .products {
+        background-color: #e1f3f2;
+        background-image: url(https://botanica.risingbamboo.com/wp-content/uploads/2023/05/bg-blog.png);
+        background-position: -6px 165px;
+        background-repeat: no-repeat;
+        padding: 30px;
+        margin-top: -130px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+
 }

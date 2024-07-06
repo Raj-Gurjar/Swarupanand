@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { RxCross2 } from "react-icons/rx";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
 
 export default function NavbarSmall() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -10,17 +8,6 @@ export default function NavbarSmall() {
   const handleMenuToggle = () => {
     setToggleMenu(!toggleMenu);
   };
-  console.log("cc", toggleMenu);
-
-//   useEffect(() => {
-//     AOS.init({
-//       duration: 2900,
-//       debounceDelay: 50,
-
-//       once: false,
-//       mirror: true,
-//     });
-//   }, []);
 
   return (
     <div className="navbar-small">
@@ -32,7 +19,7 @@ export default function NavbarSmall() {
 
       <div className={` ${toggleMenu ? "small-menu-container" : "hidden"}`}>
         <div onClick={() => handleMenuToggle()} className="close-menu">
-          <span data-aos="zoom-in">
+          <span>
             <RxCross2 />
           </span>
         </div>
@@ -40,28 +27,22 @@ export default function NavbarSmall() {
         <div className="menu-links">
           <div className="bold-links">
             <div>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={() => handleMenuToggle()}>Home</Link>
             </div>
             <div>
-              <Link to="/products">Products</Link>
+              <Link to="/about" onClick={() => handleMenuToggle()}>About</Link>
             </div>
             <div>
-              <Link to="/">FAQ</Link>
+              <Link to="/view-products" onClick={() => handleMenuToggle()}>Products</Link>
             </div>
             <div>
-              <Link to="/">History</Link>
-            </div>
-          </div>
-
-          <div className="normal-links">
-            <div>
-              <a href="/">Legal Notice</a>
+              <Link to="/gallery" onClick={() => handleMenuToggle()}>Gallery</Link>
             </div>
             <div>
-              <a href="/">Contact Us</a>
+              <Link to="/blogs" onClick={() => handleMenuToggle()}>Blogs</Link>
             </div>
             <div>
-              <a href="/">Countries</a>
+              <Link to="/contact" onClick={() => handleMenuToggle()}>Contact</Link>
             </div>
           </div>
         </div>
