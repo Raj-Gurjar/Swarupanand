@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "react-slick";
 import home_img_1 from "../../data/assets/Home-Banners/veg-basket.png";
 import { Link } from "react-router-dom";
 import AOS from "aos";
