@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
-import { FreeMode, Pagination, Autoplay, Navigation } from "swiper/modules";
+import { Pagination, Autoplay, Navigation } from "swiper/modules";
 
 import TestimonialsData from "../../data/testimonial.json";
 import TestimonialCard from "../Cards/TestimonialCard";
 
-import Slider from "react-slick";
 import CurlyTitles from "../Headings/CurlyTitles";
 import "../../pages/Home/Home.scss";
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ArrowButton from "../Buttons/ArrowButton";
 
 export default function CategoryCard({ data }) {

@@ -58,7 +58,7 @@ export default function Blogs() {
 
               <div>
                 <button>
-                  <a href={blog?.readUrl} target="_blank">
+                  <a href={blog?.readUrl} target="_blank" rel="noreferrer">
                     Read more
                   </a>
                 </button>

@@ -1,12 +1,9 @@
 import React from "react";
-import bgFooterTop from "../../data/assets/background/footer-top.png";
 import { Link, NavLink } from "react-router-dom";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
-import { FaPhoneVolume } from "react-icons/fa6";
-import { IoIosMail } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
@@ -172,8 +169,15 @@ export default function Footer() {
           </p>
           <p>
             Visit My Portfolio :{" "}
-            <a href="https://raj-portfolio101.netlify.app/" target="_blank">
-              <span className="text-orange-300 hover:text-orange-500">{" "}Click Here</span>
+            <a
+              href="https://raj-portfolio101.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="text-orange-300 hover:text-orange-500">
+                {" "}
+                Click Here
+              </span>
             </a>
           </p>
         </div>

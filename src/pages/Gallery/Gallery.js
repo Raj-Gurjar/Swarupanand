@@ -5,7 +5,7 @@ import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-import galleryBg from "../../data/assets/background/gallary-bh.jpg";
+import galleryBg from "../../data/assets/background/gallery-bh.jpg";
 
 // import optional lightbox plugins
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
@@ -15,7 +15,6 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 import media from "../../data/gallery.json";
-import { useNavigate } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 import SectionHeading from "../../components/Headings/SectionHeading";
 import CurlyTitles from "../../components/Headings/CurlyTitles";
@@ -26,7 +25,6 @@ export default function App() {
     window.scrollTo(0, 0);
   }, []);
   const [index, setIndex] = useState(-1);
-  const navigate = useNavigate();
 
   return (
     <div className="gallery-section">

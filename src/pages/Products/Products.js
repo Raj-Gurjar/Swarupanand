@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import productsData from "../../data/allProducts.json";
 import ProductCard from "../../components/Cards/ProductCard";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import "./product.scss";
 import AboutBg from "../../data/assets/background/contact-bg.jpg";
 import Footer from "../../components/Footer/Footer";
@@ -10,12 +10,11 @@ import CurlyTitles from "../../components/Headings/CurlyTitles";
 
 export default function Products() {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  
+    window.scrollTo(0, 0);
+  }, []);
+
   const location = useLocation();
   const [selectedCategory, setSelectedCategory] = useState("top Products");
-  const navigate = useNavigate();
   useEffect(() => {
     if (location.state?.chooseCategory) {
       setSelectedCategory(location.state.chooseCategory);
@@ -40,7 +39,8 @@ export default function Products() {
 
         <div
           className="flex flex-wrap mt-8 mb-10 gap-[10px] justify-between"
-          data-aos="zoom-in-down" data-aos-offset="100"
+          data-aos="zoom-in-down"
+          data-aos-offset="100"
         >
           {allProducts.categories.map((category, index) => (
             <div
@@ -64,7 +64,10 @@ export default function Products() {
         </div>
 
         <div>
-          <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative"  data-aos="zoom-in-right">
+          <div
+            className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative"
+            data-aos="zoom-in-right"
+          >
             {allProducts.categories
               .find((cat) => cat.name === selectedCategory)
               ?.products.map((product, index) => (

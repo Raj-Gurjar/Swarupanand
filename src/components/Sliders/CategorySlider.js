@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
-import { FreeMode, Pagination, Autoplay, Navigation } from "swiper/modules";
+import {  Pagination, Autoplay, Navigation } from "swiper/modules";
 import productsData from "../../data/allProducts.json";
 import CategoryCard from "../Cards/CategoryCard";
 import { useNavigate } from "react-router-dom";

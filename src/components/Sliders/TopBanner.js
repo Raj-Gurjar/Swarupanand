@@ -1,7 +1,6 @@
 import React from "react";
 import home_img_1 from "../../data/assets/Home-Banners/veg-basket.png";
 import { Link } from "react-router-dom";
-import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function TopBanner() {

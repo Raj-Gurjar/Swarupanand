@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useEffect } from "react";
 import contactBg from "../../data/assets/background/contact-bg.jpg";
-import { useNavigate } from "react-router-dom";
 import ContactCard from "../../components/Cards/ContactCard";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -21,7 +20,6 @@ export default function Contact() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
-  const navigate = useNavigate();
   return (
     <div className="contact-section">
       <SectionHeading sectionName={"Contact"} sectionBg={contactBg} />

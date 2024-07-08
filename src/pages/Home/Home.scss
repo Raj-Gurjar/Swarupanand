@@ -382,8 +382,6 @@
         h1 {
             font-weight: 700;
         }
-        span {
-        }
 
         &:hover {
             background-color: #258001;
@@ -445,20 +443,17 @@
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
     .TopBanner-comp {
-     
         padding: 40px 60px;
-  
-      
 
-   
         .home-container {
+            // background-color: red;
             display: flex;
             margin-top: 50px;
             flex-wrap: wrap;
             justify-content: space-around;
-   
+
             .home-text {
                 padding-top: 73px;
                 width: 55%;

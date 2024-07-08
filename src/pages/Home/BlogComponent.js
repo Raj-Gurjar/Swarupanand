@@ -33,7 +33,7 @@ export default function BlogComponent() {
                   <a
                     href={post?.readUrl}
                     target="_blank"
-                    className="text-blue-500"
+                    className="text-blue-500" rel="noreferrer"
                   >
                     Read More
                   </a>
