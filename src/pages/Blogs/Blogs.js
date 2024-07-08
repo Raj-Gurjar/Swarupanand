@@ -27,6 +27,7 @@ export default function Blogs() {
         <div
           className="pb-10 flex flex-col gap-10 flex-wrap"
           data-aos="fade-up"
+          data-aos-offset="10"
         >
           {blogsData?.map((blog, index) => (
             <div key={blog?.id} className="blog-container">

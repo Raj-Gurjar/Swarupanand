@@ -40,7 +40,7 @@ export default function Products() {
         <div
           className="flex flex-wrap mt-8 mb-10 gap-[10px] justify-between"
           data-aos="zoom-in-down"
-          data-aos-offset="100"
+          data-aos-offset="10"
         >
           {allProducts.categories.map((category, index) => (
             <div
@@ -49,6 +49,7 @@ export default function Products() {
               className={` product-category-buttons ${
                 category.name === selectedCategory ? "selected-category" : ""
               }`}
+              
             >
               <div className="flex justify-center">
                 <img
