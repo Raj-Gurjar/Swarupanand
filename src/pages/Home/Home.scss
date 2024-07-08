@@ -445,6 +445,99 @@
     }
 }
 
+@media (min-width: 1400px) {
+    .TopBanner-comp {
+     
+        padding: 40px 60px;
+  
+      
+
+   
+        .home-container {
+            display: flex;
+            margin-top: 50px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+   
+            .home-text {
+                padding-top: 73px;
+                width: 55%;
+                padding-left: 30px;
+                // background-color: #bdb40452;
+                .topBanner-head-1 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    width: 100%;
+                    // margin: 0px 30px;
+                    line-height: 60px;
+
+                    span {
+                        color: green;
+                        font-size: 25px;
+                        font-weight: 700;
+                    }
+                }
+                btn {
+                    display: flex;
+                    margin-top: 30px;
+                    gap: 20px;
+                    .btn-11 {
+                        background-color: rgb(4, 189, 53);
+                        padding: 10px 30px;
+                        border-radius: 20px;
+                        // margin-top: 150px;
+                        color: white;
+                        font-weight: 500;
+                        transition: all 0.3s ease-in-out;
+
+                        &:hover {
+                            background-color: #2b8f03;
+                        }
+                    }
+
+                    .btn-22 {
+                        // background-color: #04bd35;
+                        padding: 10px 30px;
+                        border-radius: 20px;
+                        // margin-top: 150px;
+
+                        font-weight: 500;
+                        border: 2px solid #04bd35;
+                        transition: all 0.3s ease-in-out;
+
+                        &:hover {
+                            border: 2px solid #ffffff;
+                            color: #04bd35;
+                        }
+                    }
+                }
+
+                .topBanner-head-2 {
+                    font-size: 50px;
+                    font-family: "lexend", sans-serif;
+                    font-weight: 700;
+                    width: 90%;
+                    // margin-bottom: 30px;
+                    line-height: 60px;
+
+                    span {
+                        color: green;
+                    }
+                }
+            }
+
+            .home-img {
+                // background-color: rgba(255, 0, 0, 0.232);
+                width: 45%;
+
+                img {
+                    animation: float 6s ease-in-out infinite;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 1020px) {
     .blog-component {
         padding: 30px 30px;
