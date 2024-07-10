@@ -32,7 +32,11 @@ export default function Blogs() {
           {blogsData?.map((blog, index) => (
             <div key={blog?.id} className="blog-container">
               <div>
-                <img src={blog?.image?.url} alt={blog?.image?.alt} />
+                <img
+                  src={blog?.image?.url}
+                  alt={blog?.image?.alt}
+                  loading="lazy"
+                />
               </div>
               <div>
                 <h1>{blog?.title}</h1>

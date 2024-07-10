@@ -6,7 +6,7 @@ import quality_img from "../../data/assets/Features/quality.png";
 
 const FeatureBlock = ({ image, title, tagline }) => (
   <div className="block">
-    <img src={image} alt={title} />
+    <img src={image} alt={title} loading="lazy"/>
     <div className="sub-title font-700 text-uppercase">{title}</div>
     <div className="desc text-[14px]">
       <p>{tagline}</p>
@@ -54,6 +54,7 @@ const Features = () => (
               srcSet="https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/img-vegetables_360x.png?v=1614305453 360w, https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/img-vegetables_540x.png?v=1614305453 540w, https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/img-vegetables_720x.png?v=1614305453 720w, https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/img-vegetables_900x.png?v=1614305453 900w, https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/img-vegetables_1080x.png?v=1614305453 1080w, https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/img-vegetables_1296x.png?v=1614305453 1296w, https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/img-vegetables_1512x.png?v=1614305453 1512w, https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/img-vegetables_1728x.png?v=1614305453 1728w, https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/img-vegetables_1944x.png?v=1614305453 1944w, https://freshmart-vinovatheme.myshopify.com/cdn/shop/files/img-vegetables_2048x.png?v=1614305453 2048w"
               sizes="290px"
               alt="Vegetables"
+              loading="lazy"
             />
           </div>
         </div>
