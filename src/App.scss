@@ -38,12 +38,9 @@
     font-weight: 700;
 }
 
-@media (max-width:600px)
-{
-    .section-heading 
-    {
-        img
-        {
+@media (max-width: 600px) {
+    .section-heading {
+        img {
             object-fit: cover;
         }
     }
@@ -124,15 +121,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff30;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
-    z-index: 1;
-    left: 0;
+    z-index: 900;
     top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    color: #04bd35;
+    text-transform: capitalize;
+    overflow-y: auto;
 
     .modal-content {
         background-color: #fefefe;
