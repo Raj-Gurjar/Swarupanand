@@ -1,13 +1,11 @@
 import { useEffect, useState } from "react";
 
 import PhotoAlbum from "react-photo-album";
-
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
 import galleryBg from "../../data/assets/background/gallery-bh.jpg";
 
-// import optional lightbox plugins
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
@@ -18,13 +16,27 @@ import media from "../../data/gallery.json";
 import Footer from "../../components/Footer/Footer";
 import SectionHeading from "../../components/Headings/SectionHeading";
 import CurlyTitles from "../../components/Headings/CurlyTitles";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import "./Gallery.scss";
 
 export default function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   const [index, setIndex] = useState(-1);
+
+  // const renderPhoto = ({ photo, imageProps }) => (
+  //   // <LazyLoadImage
+  //   //   key={photo.key}
+  //   //   alt={photo.alt}
+  //   //   effect="blur"
+  //   //   src={photo.src}
+  //   //   {...imageProps}
+  //   // />
+
+  // );
 
   return (
     <div className="gallery-section">
@@ -39,14 +51,24 @@ export default function App() {
         </div>
         <div data-aos="zoom-in-up" data-aos-offset="10">
           <PhotoAlbum
-            style={{ backgroundColor: "green" }}
             photos={media?.images}
             layout="rows"
             spacing={20}
             columns={3}
             rows={2}
             targetRowHeight={400}
-            // targetColumnHeight={2}
+            // renderPhoto={renderPhoto}
+            renderPhoto={({
+              imageProps: { src, alt, style, ...restImageProps },
+            }) => (
+              <img
+                src={src}
+                alt={alt}
+                style={style}
+                {...restImageProps}
+                loading="lazy"
+              />
+            )}
             onClick={({ index }) => setIndex(index)}
           />
         </div>
@@ -58,7 +80,6 @@ export default function App() {
           open={index >= 0}
           index={index}
           close={() => setIndex(-1)}
-          // enable optional lightbox plugins
           plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
         />
       </div>

@@ -26,7 +26,7 @@ export default function TopBanner() {
         </div>
 
         <div className="home-img"  data-aos="fade-left" data-aos-duration="500">
-          <img src={home_img_1} alt="home-img" className="object-cover" />
+          <img src={home_img_1} alt="home-img" className="object-cover" loading="lazy" />
         </div>
       </div>
     </div>

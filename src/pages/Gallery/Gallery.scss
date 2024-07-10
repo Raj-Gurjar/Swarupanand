@@ -14,12 +14,26 @@
     }
 
     .react-photo-album--photo {
-        background-color: #bb5903;
+        // background-color: #bb5903;
         border-radius: 10px;
         transition: all 0.3s ease-in-out;
+        background: linear-gradient(90deg, #000000, #ffffff, #828282);
+        background-size: 180% 180%;
+        animation: gradient-animation 3s ease infinite;
 
         &:hover {
             transform: scale(1.05);
         }
+    }
+}
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }

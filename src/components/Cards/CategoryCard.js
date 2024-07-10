@@ -17,6 +17,7 @@ export default function CategoryCard({ data }) {
           src={data?.catImg}
           alt="cat-icon"
           className=""
+          loading="lazy"
         />
       </div>
     </div>
