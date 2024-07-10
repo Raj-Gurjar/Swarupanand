@@ -29,7 +29,7 @@ export default function ContactForm() {
       data.append(key, formData[key]);
     });
 
-    data.append("access_key", "44b60023-7b4c-47bf-904f-05ef351fb008");
+    data.append("access_key", process.env.REACT_APP_ACCESS_KEY);
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
