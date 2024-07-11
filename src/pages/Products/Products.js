@@ -7,6 +7,7 @@ import AboutBg from "../../data/assets/background/contact-bg.jpg";
 import Footer from "../../components/Footer/Footer";
 import SectionHeading from "../../components/Headings/SectionHeading";
 import CurlyTitles from "../../components/Headings/CurlyTitles";
+import Loader from "../../components/Loader/Loader";
 
 export default function Products() {
   useEffect(() => {
@@ -15,6 +16,8 @@ export default function Products() {
 
   const location = useLocation();
   const [selectedCategory, setSelectedCategory] = useState("top Products");
+  const [loading, setLoading] = useState(false); // Add loading state
+
   useEffect(() => {
     if (location.state?.chooseCategory) {
       setSelectedCategory(location.state.chooseCategory);
@@ -22,20 +25,41 @@ export default function Products() {
   }, [location.state?.chooseCategory]);
 
   const allProducts = productsData;
+
   const handleCategoryClick = (categoryName) => {
+    setLoading(true); // Set loading to true when a new category is selected
     setSelectedCategory(categoryName);
   };
 
-  console.log("selected cat", selectedCategory);
-  console.log("cat name", allProducts.categories.name);
+  useEffect(() => {
+    if (selectedCategory) {
+      const category = allProducts.categories.find(
+        (cat) => cat.name === selectedCategory
+      );
+
+      if (category) {
+        const imagePromises = category.products.map(
+          (product) =>
+            new Promise((resolve) => {
+              const img = new Image();
+              img.src = product.image;
+              img.onload = resolve;
+            })
+        );
+
+        Promise.all(imagePromises).then(() => {
+          setLoading(false); // Set loading to false when all images are loaded
+        });
+      }
+    }
+  }, [selectedCategory]);
+
   return (
     <div>
       <SectionHeading sectionName={"Products"} sectionBg={AboutBg} />
 
       <div className="products">
         <CurlyTitles titleName={" Choose a Category"} />
-
-        <img src={allProducts?.categories?.product?.image} alt="" />
 
         <div
           className="flex flex-wrap mt-8 mb-10 gap-[10px] justify-between"
@@ -46,16 +70,15 @@ export default function Products() {
             <div
               onClick={() => handleCategoryClick(category.name)}
               key={index}
-              className={` product-category-buttons ${
+              className={`product-category-buttons ${
                 category.name === selectedCategory ? "selected-category" : ""
               }`}
-              
             >
               <div className="flex justify-center">
                 <img
                   src={category?.icon}
                   alt={category.name + "-img"}
-                  className={` h-[35px] w-[35px]`}
+                  className={`h-[35px] w-[35px]`}
                 />
               </div>
 
@@ -64,18 +87,22 @@ export default function Products() {
           ))}
         </div>
 
-        <div>
-          <div
-            className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative"
-            data-aos="zoom-in-right"
-          >
-            {allProducts.categories
-              .find((cat) => cat.name === selectedCategory)
-              ?.products.map((product, index) => (
-                <ProductCard key={index} product={product} />
-              ))}
+        {loading ? (
+          <Loader />
+        ) : (
+          <div>
+            <div
+              className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative"
+              data-aos="zoom-in"
+            >
+              {allProducts.categories
+                .find((cat) => cat.name === selectedCategory)
+                ?.products.map((product, index) => (
+                  <ProductCard key={index} product={product} />
+                ))}
+            </div>
           </div>
-        </div>
+        )}
       </div>
 
       <div className="bg-[#E1F3F2] mt-[-40px] pt-[100px]">
