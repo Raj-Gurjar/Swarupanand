@@ -4,7 +4,7 @@ import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
-import galleryBg from "../../data/assets/background/gallery-bh.jpg";
+import galleryBg from "../../data/assets/background/gallery-bh.webp";
 
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Slideshow from "yet-another-react-lightbox/plugins/slideshow";

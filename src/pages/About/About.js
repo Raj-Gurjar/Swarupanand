@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import SectionHeading from "../../components/Headings/SectionHeading";
-import AboutBg from "../../data/assets/background/contact-bg.jpg";
+import AboutBg from "../../data/assets/background/contact-bg.webp";
 import FounderDp from "../../data/assets/founder.jpg";
 import CoFounderDp from "../../data/assets/co-founder.jpg";
-import AboutDpBg from "../../data/assets/background/about-dp-bg.png";
+import AboutDpBg from "../../data/assets/background/about-dp-bg.webp";
 import CurlyTitles from "../../components/Headings/CurlyTitles";
 import Footer from "../../components/Footer/Footer";
 

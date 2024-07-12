@@ -1,5 +1,5 @@
 import React from "react";
-import home_img_1 from "../../data/assets/Home-Banners/veg-basket.png";
+import home_img_1 from "../../data/assets/Home-Banners/veg-basket.webp";
 import { Link } from "react-router-dom";
 import "aos/dist/aos.css";
 

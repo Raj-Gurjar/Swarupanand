@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import SectionHeading from "../../components/Headings/SectionHeading";
-import contactBg from "../../data/assets/background/contact-bg.jpg";
+import contactBg from "../../data/assets/background/contact-bg.webp";
 import CurlyTitles from "../../components/Headings/CurlyTitles";
 import "./Blogs.scss";
 import Footer from "../../components/Footer/Footer";

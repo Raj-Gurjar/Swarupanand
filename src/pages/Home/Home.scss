@@ -5,9 +5,10 @@
     position: relative;
     overflow: hidden;
     padding: 40px 10px;
+
     z-index: 1;
     background-color: #ffffff;
-    background: url("../../data/assets/Home-Banners/home-bg-1.png");
+    background: url("../../data/assets/Home-Banners/home-bg-1.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,6 +30,8 @@
         margin-top: 50px;
         flex-wrap: wrap;
         justify-content: space-around;
+        padding-bottom: 30px;
+        // background-color: red;
         .home-text {
             padding-top: 50px;
             width: 55%;
@@ -99,9 +102,16 @@
         .home-img {
             // background-color: rgba(255, 0, 0, 0.232);
             width: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        
 
             img {
                 animation: float 6s ease-in-out infinite;
+                width: 400px;
+                height: 400px;
             }
         }
     }
@@ -249,7 +259,7 @@
 
 .blog-component {
     background: #8c5b5b6b;
-    background: url("../../data/assets/background/blog-bg.jpg") 0 0 no-repeat;
+    background: url("../../data/assets/background/blog-bg.webp") 0 0 no-repeat;
     align-items: center;
     padding: 30px 10px;
     width: 100%;
@@ -545,7 +555,6 @@
         padding: 40px 10px;
         z-index: 1;
         background-color: #ffffff;
-        background: url("../../data/assets/Home-Banners/home-bg-1.png");
         background-position: center right;
         background-repeat: no-repeat;
         background-size: cover;
@@ -647,16 +656,13 @@
 
 @media (max-width: 550px) {
     .TopBanner-comp {
-        position: relative;
-        overflow: hidden;
+      
         padding: 40px 10px;
         z-index: 1;
-        background-color: #ffffff;
-        background: url("../../data/assets/Home-Banners/home-bg-1.png");
+      
         background-position: center right;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: all 0.3s ease-in-out;
+     
+      
 
         .home-container {
             display: flex;
@@ -724,7 +730,9 @@
                 padding: 0;
 
                 img {
-                    animation: float 20s ease-in-out infinite;
+                    width: 330px;
+                    height: 330px;
+                    animation: float 8s ease-in-out infinite;
                 }
             }
         }

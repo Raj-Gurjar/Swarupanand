@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 import React, { useEffect } from "react";
-import contactBg from "../../data/assets/background/contact-bg.jpg";
+import contactBg from "../../data/assets/background/contact-bg.webp";
 import ContactCard from "../../components/Cards/ContactCard";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";

@@ -3,7 +3,7 @@ import productsData from "../../data/allProducts.json";
 import ProductCard from "../../components/Cards/ProductCard";
 import { useLocation } from "react-router-dom";
 import "./product.scss";
-import AboutBg from "../../data/assets/background/contact-bg.jpg";
+import AboutBg from "../../data/assets/background/contact-bg.webp";
 import Footer from "../../components/Footer/Footer";
 import SectionHeading from "../../components/Headings/SectionHeading";
 import CurlyTitles from "../../components/Headings/CurlyTitles";

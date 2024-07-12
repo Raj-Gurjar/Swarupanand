@@ -2,361 +2,361 @@
     "categories": [
         {
             "name": "top Products",
-            "icon": "assets/category-icons/top2.png",
-            "catImg": "assets/category-icons/top1.png",
+            "icon": "assets/category-icons/top2.webp",
+            "catImg": "assets/category-icons/top1.webp",
             "description": "Explore our selection of fresh, top-quality produce harvested directly from our organic farm. From juicy mangoes to flavorful spices, find everything you need for a healthy lifestyle.",
             "bgColor": "#E2E4FE",
             "products": [
                 {
                     "name": "mango",
-                    "image": "assets/products/fruits/mango.png"
+                    "image": "assets/products/fruits/mango.webp"
                 },
                 {
                     "name": "banana",
-                    "image": "assets/products/fruits/banana.png"
+                    "image": "assets/products/fruits/banana.webp"
                 },
                 {
                     "name": "tomato",
-                    "image": "assets/products/vegetables/tomato.png"
+                    "image": "assets/products/vegetables/tomato.webp"
                 },
                 {
                     "name": "onion",
-                    "image": "assets/products/vegetables/onion.png"
+                    "image": "assets/products/vegetables/onion.webp"
                 },
                 {
                     "name": "ginger",
-                    "image": "assets/products/vegetables/ginger.png"
+                    "image": "assets/products/vegetables/ginger.webp"
                 },
                 {
                     "name": "garlic",
-                    "image": "assets/products/vegetables/garlic.png"
+                    "image": "assets/products/vegetables/garlic.webp"
                 },
                 {
                     "name": "coriander powder",
-                    "image": "assets/products/spices/coriander-powder.png"
+                    "image": "assets/products/spices/coriander-powder.webp"
                 },
                 {
                     "name": "red chili powder",
-                    "image": "assets/products/spices/redChilli-powder.png"
+                    "image": "assets/products/spices/redChilli-powder.webp"
                 },
                 {
                     "name": "multi grain atta",
-                    "image": "assets/products/flours/multi-grain-flour.png"
+                    "image": "assets/products/flours/multi-grain-flour.webp"
                 },
                 {
                     "name": "ghee",
-                    "image": "assets/products/grocery/ghee.png"
+                    "image": "assets/products/grocery/ghee.webp"
                 }
             ]
         },
         {
             "name": "fruits",
-            "icon": "assets/category-icons/fru2.png",
-            "catImg": "assets/category-icons/fru1.png",
+            "icon": "assets/category-icons/fru2.webp",
+            "catImg": "assets/category-icons/fru1.webp",
             "description": "Indulge in the sweetness of nature with our delicious assortment of organically grown fruits. From watermelons to bananas, each bite is bursting with natural flavor and nutrition.",
             "bgColor": "#FFE7E7",
             "products": [
                 {
                     "name": "watermelon",
-                    "image": "assets/products/fruits/watermelon.png"
+                    "image": "assets/products/fruits/watermelon.webp"
                 },
                 {
                     "name": "kharbuj",
-                    "image": "assets/products/fruits/muskmelon.png"
+                    "image": "assets/products/fruits/muskmelon.webp"
                 },
                 {
                     "name": "banana",
-                    "image": "assets/products/fruits/banana.png"
+                    "image": "assets/products/fruits/banana.webp"
                 },
                 {
                     "name": "papaya",
-                    "image": "assets/products/fruits/papaya.png"
+                    "image": "assets/products/fruits/papaya.webp"
                 },
                 {
                     "name": "mango",
-                    "image": "assets/products/fruits/mango.png"
+                    "image": "assets/products/fruits/mango.webp"
                 },
                 {
                     "name": "chiku",
-                    "image": "assets/products/fruits/chiku.png"
+                    "image": "assets/products/fruits/chiku.webp"
                 },
                 {
                     "name": "jackfruit",
-                    "image": "assets/products/fruits/Jackfruit.png"
+                    "image": "assets/products/fruits/Jackfruit.webp"
                 },
                 {
                     "name": "guava",
-                    "image": "assets/products/fruits/Guava.png"
+                    "image": "assets/products/fruits/Guava.webp"
                 },
                 {
                     "name": "lemon",
-                    "image": "assets/products/fruits/lemon.png"
+                    "image": "assets/products/fruits/lemon.webp"
                 },
                 {
                     "name": "orange",
-                    "image": "assets/products/fruits/orange.png"
+                    "image": "assets/products/fruits/orange.webp"
                 }
             ]
         },
         {
             "name": "vegetables",
-            "icon": "assets/category-icons/veg2.png",
-            "catImg": "assets/category-icons/veg1.png",
+            "icon": "assets/category-icons/veg2.webp",
+            "catImg": "assets/category-icons/veg1.webp",
             "description": "Discover a rainbow of freshness with our vibrant array of organically cultivated vegetables. From crunchy cucumbers to leafy spinach, our farm-fresh produce will elevate any meal.",
             "bgColor": "#EAF6D9",
             "products": [
                 {
                     "name": "potato",
-                    "image": "assets/products/vegetables/potato.png"
+                    "image": "assets/products/vegetables/potato.webp"
                 },
                 {
                     "name": "onion",
-                    "image": "assets/products/vegetables/onion.png"
+                    "image": "assets/products/vegetables/onion.webp"
                 },
                 {
                     "name": "ginger",
-                    "image": "assets/products/vegetables/ginger.png"
+                    "image": "assets/products/vegetables/ginger.webp"
                 },
                 {
                     "name": "garlic",
-                    "image": "assets/products/vegetables/garlic.png"
+                    "image": "assets/products/vegetables/garlic.webp"
                 },
                 {
                     "name": "arvi",
-                    "image": "assets/products/vegetables/arvi.png"
+                    "image": "assets/products/vegetables/arvi.webp"
                 },
                 {
                     "name": "sweet potato",
-                    "image": "assets/products/vegetables/sweet-potato.png"
+                    "image": "assets/products/vegetables/sweet-potato.webp"
                 },
                 {
                     "name": "tomato",
-                    "image": "assets/products/vegetables/tomato.png"
+                    "image": "assets/products/vegetables/tomato.webp"
                 },
                 {
                     "name": "brinjal",
-                    "image": "assets/products/vegetables/Eggplant.png"
+                    "image": "assets/products/vegetables/Eggplant.webp"
                 },
                 {
                     "name": "pumpkin",
-                    "image": "assets/products/vegetables/pumpkin.png"
+                    "image": "assets/products/vegetables/pumpkin.webp"
                 },
                 {
                     "name": "bottle gourd",
-                    "image": "assets/products/vegetables/bottle-gourd.png"
+                    "image": "assets/products/vegetables/bottle-gourd.webp"
                 },
                 {
                     "name": "ridge gourd",
-                    "image": "assets/products/vegetables/ridge-gourd.png"
+                    "image": "assets/products/vegetables/ridge-gourd.webp"
                 },
                 {
                     "name": "cucumber",
-                    "image": "assets/products/vegetables/cucumber.png"
+                    "image": "assets/products/vegetables/cucumber.webp"
                 },
                 {
                     "name": "radish",
-                    "image": "assets/products/vegetables/radish.png"
+                    "image": "assets/products/vegetables/radish.webp"
                 },
                 {
                     "name": "cauliflower",
-                    "image": "assets/products/vegetables/cauliflower.png"
+                    "image": "assets/products/vegetables/cauliflower.webp"
                 },
                 {
                     "name": "okra",
-                    "image": "assets/products/vegetables/okra.png"
+                    "image": "assets/products/vegetables/okra.webp"
                 },
                 {
                     "name": "chili",
-                    "image": "assets/products/vegetables/chili.png"
+                    "image": "assets/products/vegetables/chili.webp"
                 },
                 {
                     "name": "bell pepper",
-                    "image": "assets/products/vegetables/bell-pepper.png"
+                    "image": "assets/products/vegetables/bell-pepper.webp"
                 },
                 {
                     "name": "yam",
-                    "image": "assets/products/vegetables/yam.png"
+                    "image": "assets/products/vegetables/yam.webp"
                 },
                 {
                     "name": "bitter gourd",
-                    "image": "assets/products/vegetables/bitter-gourd.png"
+                    "image": "assets/products/vegetables/bitter-gourd.webp"
                 },
                 {
                     "name": "cluster beans",
-                    "image": "assets/products/vegetables/cluster-bean.png"
+                    "image": "assets/products/vegetables/cluster-bean.webp"
                 },
                 {
                     "name": "tinda",
-                    "image": "assets/products/vegetables/tinda.png"
+                    "image": "assets/products/vegetables/tinda.webp"
                 },
                 {
                     "name": "carrot",
-                    "image": "assets/products/vegetables/carrot.png"
+                    "image": "assets/products/vegetables/carrot.webp"
                 },
                 {
                     "name": "mint",
-                    "image": "assets/products/vegetables/mint.png"
+                    "image": "assets/products/vegetables/mint.webp"
                 },
                 {
                     "name": "coriander",
-                    "image": "assets/products/vegetables/coriander.png"
+                    "image": "assets/products/vegetables/coriander.webp"
                 },
                 {
                     "name": "spinach",
-                    "image": "assets/products/vegetables/spinach.png"
+                    "image": "assets/products/vegetables/spinach.webp"
                 },
                 {
                     "name": "basil",
-                    "image": "assets/products/vegetables/basil.png"
+                    "image": "assets/products/vegetables/basil.webp"
                 }
             ]
         },
         {
             "name": "spices",
-            "icon": "assets/category-icons/spi2.png",
-            "catImg": "assets/category-icons/spi1.png",
+            "icon": "assets/category-icons/spi2.webp",
+            "catImg": "assets/category-icons/spi1.webp",
             "description": "Enhance your culinary creations with our aromatic selection of spices. From fiery red chili powder to fragrant coriander, add depth and complexity to your dishes with our premium spices.",
             "bgColor": "#E2E4FE",
             "products": [
                 {
                     "name": "coriander powder",
-                    "image": "assets/products/spices/coriander-powder.png"
+                    "image": "assets/products/spices/coriander-powder.webp"
                 },
                 {
                     "name": "red chili powder",
-                    "image": "assets/products/spices/redChilli-powder.png"
+                    "image": "assets/products/spices/redChilli-powder.webp"
                 },
                 {
                     "name": "chili flakes",
-                    "image": "assets/products/spices/chilli-flakes.png"
+                    "image": "assets/products/spices/chilli-flakes.webp"
                 },
                 {
                     "name": "turmeric powder",
-                    "image": "assets/products/spices/turmeric-powder.png"
+                    "image": "assets/products/spices/turmeric-powder.webp"
                 },
                 {
                     "name": "ginger powder",
-                    "image": "assets/products/spices/ginger-powder.png"
+                    "image": "assets/products/spices/ginger-powder.webp"
                 },
                 {
                     "name": "fenugreek seeds",
-                    "image": "assets/products/spices/fenugreek-seeds.png"
+                    "image": "assets/products/spices/fenugreek-seeds.webp"
                 },
                 {
                     "name": "mustard seeds",
-                    "image": "assets/products/spices/mustard-seeds.png"
+                    "image": "assets/products/spices/mustard-seeds.webp"
                 }
             ]
         },
         {
             "name": "flour",
-            "icon": "assets/category-icons/flo2.png",
-            "catImg": "assets/category-icons/flo1.png",
+            "icon": "assets/category-icons/flo2.webp",
+            "catImg": "assets/category-icons/flo1.webp",
             "description": "Savor the wholesome goodness of our freshly milled flours. Whether you're baking bread or making rotis, our premium-quality flours ensure delicious results every time.",
             "bgColor": "#FFE7E7",
             "products": [
                 {
                     "name": "multi grain flour",
-                    "image": "assets/products/flours/multi-grain-flour.png"
+                    "image": "assets/products/flours/multi-grain-flour.webp"
                 },
                 {
                     "name": "sharbati(wheat) atta",
-                    "image": "assets/products/flours/sharbati-flour.png"
+                    "image": "assets/products/flours/sharbati-flour.webp"
                 },
                 {
                     "name": "bansi(wheat) atta ",
-                    "image": "assets/products/flours/bansi-flour.png"
+                    "image": "assets/products/flours/bansi-flour.webp"
                 },
                 {
                     "name": "Gram Flour(Besan)",
-                    "image": "assets/products/flours/gram-flour.png"
+                    "image": "assets/products/flours/gram-flour.webp"
                 },
                 {
                     "name": "corn flour",
-                    "image": "assets/products/flours/corn-flour.png"
+                    "image": "assets/products/flours/corn-flour.webp"
                 }
             ]
         },
         {
             "name": "cereals",
-            "icon": "assets/category-icons/cer2.png",
-            "catImg": "assets/category-icons/cer1.png",
+            "icon": "assets/category-icons/cer2.webp",
+            "catImg": "assets/category-icons/cer1.webp",
             "description": "Start your day right with our nutritious selection of cereals. From hearty wheat to protein-rich lentils, our cereals are packed with essential nutrients to fuel your day.",
             "bgColor": "#EAF6D9",
             "products": [
                 {
                     "name": "wheat",
-                    "image": "assets/products/cereals/wheat.png"
+                    "image": "assets/products/cereals/wheat.webp"
                 },
                 {
                     "name": "rice",
-                    "image": "assets/products/cereals/rice.png"
+                    "image": "assets/products/cereals/rice.webp"
                 },
                 {
                     "name": "broken wheat",
-                    "image": "assets/products/cereals/broken-wheat.png"
+                    "image": "assets/products/cereals/broken-wheat.webp"
                 },
                 {
                     "name": "chickpeas",
-                    "image": "assets/products/cereals/chickpeas.png"
+                    "image": "assets/products/cereals/chickpeas.webp"
                 }
             ]
         },
         {
             "name": "pulses",
-            "icon": "assets/category-icons/pul2.png",
-            "catImg": "assets/category-icons/pul1.png",
+            "icon": "assets/category-icons/pul2.webp",
+            "catImg": "assets/category-icons/pul1.webp",
             "description": "Add a protein punch to your meals with our range of pulses. From creamy moong dal to nutty chickpeas, our pulses are a versatile and nutritious addition to any dish.",
             "bgColor": "#E2E4FE",
             "products": [
                 {
                     "name": "moong dal",
-                    "image": "assets/products/pulses/moong.png"
+                    "image": "assets/products/pulses/moong.webp"
                 },
                 {
                     "name": "dhuli moong dal",
-                    "image": "assets/products/pulses/dhooli-moong-dal.png"
+                    "image": "assets/products/pulses/dhooli-moong-dal.webp"
                 },
                 {
                     "name": "channa dal",
-                    "image": "assets/products/pulses/chickpea-lentil.png"
+                    "image": "assets/products/pulses/chickpea-lentil.webp"
                 },
                 {
                     "name": "toor dal",
-                    "image": "assets/products/pulses/toor.png"
+                    "image": "assets/products/pulses/toor.webp"
                 },
                 {
                     "name": "masoor dal",
-                    "image": "assets/products/pulses/masoor.png"
+                    "image": "assets/products/pulses/masoor.webp"
                 }
             ]
         },
         {
             "name": "grocery",
-            "icon": "assets/category-icons/gro2.png",
-            "catImg": "assets/category-icons/gro1.png",
+            "icon": "assets/category-icons/gro2.webp",
+            "catImg": "assets/category-icons/gro1.webp",
             "description": "Stock your pantry with our premium grocery essentials. From rich ghee to flavorful honey, our grocery selection includes everything you need for a well-stocked kitchen.",
             "bgColor": "#FFE7E7",
             "products": [
                 {
                     "name": "ghee",
-                    "image": "assets/products/grocery/ghee.png"
+                    "image": "assets/products/grocery/ghee.webp"
                 },
                 {
                     "name": "mushroom powder",
-                    "image": "assets/products/grocery/mushroom-powder.png"
+                    "image": "assets/products/grocery/mushroom-powder.webp"
                 },
                 {
                     "name": "honey",
-                    "image": "assets/products/grocery/honey.png"
+                    "image": "assets/products/grocery/honey.webp"
                 },
                 {
                     "name": "jaggery",
-                    "image": "assets/products/grocery/jaggery.png"
+                    "image": "assets/products/grocery/jaggery.webp"
                 },
                 {
                     "name": "brown sugar",
-                    "image": "assets/products/grocery/brown-sugar.png"
+                    "image": "assets/products/grocery/brown-sugar.webp"
                 }
             ]
         }
