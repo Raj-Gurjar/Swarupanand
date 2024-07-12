@@ -131,28 +131,28 @@ export default function Footer() {
             <span className="footer-underline"></span>
             <div className="flex justify-left flex-wrap gap-7 text-[28px]">
               <div className="">
-                <a href="www.google.com">
+                <a href="www.google.com" target="_blank" rel="external">
                   <p className="contact-icon  text-white hover:text-[#f46f30]">
                     <FaInstagram />
                   </p>
                 </a>
               </div>
               <div className="">
-                <a href="www.google.com">
+                <a href="www.google.com" target="_blank" rel="external">
                   <p className="contact-icon  text-white  hover:text-[#1877f2]">
                     <FaFacebook />
                   </p>
                 </a>
               </div>
               <div className="">
-                <a href="www.google.com">
+                <a href="www.google.com" target="_blank" rel="external">
                   <p className="contact-icon  text-white hover:text-[#25d366]">
                     <RiWhatsappFill />
                   </p>
                 </a>
               </div>
               <div className="">
-                <a href="www.google.com">
+                <a href="www.google.com" target="_blank" rel="external">
                   <p className="contact-icon  text-white hover:text-[#ff0000]">
                     <FaYoutube />
                   </p>

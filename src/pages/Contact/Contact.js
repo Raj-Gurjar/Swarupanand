@@ -48,7 +48,7 @@ export default function Contact() {
 
           <div className="flex wrap opp-border bg-[#84bb16] p-5 my-5 mb-[100px] sm:mx-[5px] lg:mx-[80px]  justify-evenly gap-5 text-center align-middle">
             <div className="contact-social">
-              <a href="www.google.com">
+              <a href="www.google.com" target="_blank" rel="external">
                 <p className="contact-icon  text-white hover:text-[#f46f30]">
                   <FaInstagram />
                 </p>
@@ -56,7 +56,7 @@ export default function Contact() {
               </a>
             </div>
             <div className="contact-social">
-              <a href="www.google.com">
+              <a href="www.google.com" target="_blank" rel="external">
                 <p className="contact-icon  text-white  hover:text-[#1877f2]">
                   <FaFacebook />
                 </p>
@@ -64,7 +64,7 @@ export default function Contact() {
               </a>
             </div>
             <div className="contact-social">
-              <a href="www.google.com">
+              <a href="www.google.com" target="_blank" rel="external">
                 <p className="contact-icon  text-white hover:text-[#25d366]">
                   <RiWhatsappFill />
                 </p>
@@ -72,7 +72,7 @@ export default function Contact() {
               </a>
             </div>
             <div className="contact-social">
-              <a href="www.google.com">
+              <a href="www.google.com" target="_blank" rel="external">
                 <p className="contact-icon  text-white hover:text-[#ff0000]">
                   <FaYoutube />
                 </p>
