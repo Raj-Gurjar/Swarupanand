@@ -9,7 +9,7 @@ export default function TopBanner() {
       <div className="home-container">
         <div className="home-text">
           <h1 className="topBanner-head-1" data-aos="fade-right">
-            We are <span>Swarupanand</span>
+            We are <span>FreshLeaf Organics</span>
           </h1>
           <h2 className="topBanner-head-2" data-aos="fade-right" data-aos-duration="500">
             We will serve you the Best <span>Organic</span> Food Everyday

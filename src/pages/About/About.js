@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import SectionHeading from "../../components/Headings/SectionHeading";
 import AboutBg from "../../data/assets/background/contact-bg.webp";
 import FounderDp from "../../data/assets/founder.jpg";
-import CoFounderDp from "../../data/assets/co-founder.jpg";
+import CoFounderDp from "../../data/assets/co-founder.jpeg";
 import AboutDpBg from "../../data/assets/background/about-dp-bg.webp";
 import CurlyTitles from "../../components/Headings/CurlyTitles";
 import Footer from "../../components/Footer/Footer";
@@ -12,11 +12,10 @@ import { RiPlantLine } from "react-icons/ri";
 import { BsBoxes } from "react-icons/bs";
 import "./About.scss";
 
-
 export default function About() {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="about-section">
       <div>
@@ -73,39 +72,42 @@ export default function About() {
           <div className="about-story-text" data-aos="fade-left">
             <CurlyTitles titleName={"Our Story"} />
             <p className="">
-              In 2018, an elderly man proposed a 50% partnership to cultivate
-              vegetables on our field, which we accepted. However, when we
-              decided to switch to organic farming, he left dissatisfied.
-              Unfamiliar with large-scale vegetable production and unable to
-              find workers, we continued the work ourselves. Selling the produce
-              became a new challenge as local markets didn't recognize our
-              organic farming efforts. We then found a local organization, Gram
-              Seva Samiti, which offered market stalls for organic farmers. This
-              opportunity helped us establish a presence in the market.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
+              aliquid, reiciendis laboriosam perspiciatis maiores molestiae
+              minima, tempora asperiores error libero impedit adipisci et facere
+              voluptate praesentium itaque quam porro modi est ex! Amet eum
+              soluta quis assumenda accusantium, ipsum earum quaerat? A soluta
+              doloremque maxime neque ea, veniam placeat, assumenda molestias
+              accusantium eum provident, magni corporis exercitationem nemo at
+              qui quidem! Magnam illum corporis itaque suscipit accusantium,
+              obcaecati, veniam vel voluptas temporibus, error dolore? Beatae
+              adipisci possimus optio vitae odio corporis, accusamus laborum
+              corrupti ducimus, dolorum culpa labore velit unde rerum
+              praesentium deleniti similique repellat facilis obcaecati
+              repellendus blanditiis? Tempora.
             </p>
-            <p className="">
-              Subsequently, a startup named Green and Grains from Bhopal
-              approached us to purchase our organic products, which helped us
-              expand our production. Everything was going well until the
-              COVID-19 pandemic struck, causing the local market to shut down
-              completely. Fortunately, the Bhopal market continued to support us
-              during the initial lockdown. However, during the second phase,
-              even the Bhopal market ceased operations, and our family fell ill
-              with COVID-19, halting all activities and resulting in wasted
-              produce. Determined to overcome these challenges, we devised a
-              plan to dry our vegetables using a solar dryer, suggested by a
-              friend, to preserve them until markets reopened. When the pandemic
-              subsided, we were ready with our dried products but faced
-              difficulties as both markets we relied on had not fully recovered.
-              The Gram Seva Samiti market suffered from low producer
-              participation and consumer awareness. We adapted by focusing on a
-              smaller customer base, fulfilling the needs of 10-20 families with
-              kitchen essentials like spices, pulses, grains, seasonal
-              vegetables, and fruits. By slightly increasing prices, we managed
-              to sustain our business. Eventually, the Bhopal market reopened,
-              allowing us to expand our sales again. Our resilience and
-              adaptability helped us navigate through these challenging times,
-              leading to a stable and improved operation.
+            <p className=" mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+              doloribus inventore, praesentium beatae error minima voluptate,
+              iusto sunt unde quae ex, itaque repudiandae eum impedit quasi
+              blanditiis ea ab! Officiis quod, odit eaque rem perspiciatis autem
+              dignissimos, facilis tempora sint, similique dicta voluptatem
+              iste? Sint nostrum distinctio quasi, autem labore enim. Esse nam
+              cumque quibusdam eveniet rerum laboriosam officia accusamus minima
+              dolore nemo optio sapiente quia facilis voluptatibus, totam
+              praesentium, modi ad deleniti, labore quasi adipisci natus
+              cupiditate quos ex? Adipisci architecto explicabo ab assumenda cum
+              animi? Odit officiis iusto quos omnis quod corporis. Illum dolorum
+              neque sapiente hic aspernatur!
+            </p>
+            <p className=" mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              recusandae sit, fuga, nam laudantium ipsum ex mollitia,
+              dignissimos ea nulla eos debitis laboriosam nemo repudiandae nisi
+              beatae delectus corporis saepe enim inventore eaque pariatur
+              exercitationem. Beatae ipsum alias necessitatibus assumenda
+              magnam, debitis tempore est voluptas praesentium nulla. Odio,
+              atque vel.
             </p>
           </div>
         </div>
@@ -119,7 +121,7 @@ export default function About() {
               </div>
 
               <div className="about-dp-text">
-                <h1>Rakesh Gour</h1>
+                <h1>Ethan Cooper</h1>
                 <h2>Founder</h2>
 
                 <div className="about-dp-bg">
@@ -134,7 +136,7 @@ export default function About() {
               </div>
 
               <div className="about-dp-text">
-                <h1>Arpan Gour</h1>
+                <h1>Arjun Mehta</h1>
                 <h2>Co-Founder</h2>
 
                 <div className="about-dp-bg">

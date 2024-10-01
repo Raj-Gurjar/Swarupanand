@@ -106,7 +106,6 @@
             justify-content: center;
             align-items: center;
             margin-top: 50px;
-        
 
             img {
                 animation: float 6s ease-in-out infinite;
@@ -405,7 +404,7 @@
     // height: 200px;
     // height: auto;
 
-    background-color: #d0afafb8;
+    background-color: #E5E2E4;
     padding: 40px 30px 38px;
     box-shadow: 0 22px 21px rgba(22, 22, 22, 5%);
     margin-top: 60px;
@@ -414,24 +413,25 @@
     overflow: hidden;
 
     figure {
-        height: 112px;
-        width: 112px;
-        border-radius: 112px;
-        border: 2px solid green;
-        padding: 12px;
-        margin: -100px;
-        margin-left: -50px;
-        position: absolute;
-        left: 50%;
+    
 
         img {
-            height: auto;
-            max-width: 100%;
-            border: none;
-            border-radius: 0;
-            box-shadow: none;
-            border-radius: 112px;
+            height: 112px;
+            width: 112px;
+            // border: none;
+            // border-radius: 0;
+            // box-shadow: none;
+            border-radius:100%;
             object-fit: fill;
+            height: 112px;
+            width: 112px;
+            border-radius: 112px;
+            border: 2px solid green;
+            padding: 5px;
+            margin: -100px;
+            margin-left: -50px;
+            position: absolute;
+            left: 50%;
         }
     }
 
@@ -656,13 +656,10 @@
 
 @media (max-width: 550px) {
     .TopBanner-comp {
-      
         padding: 40px 10px;
         z-index: 1;
-      
+
         background-position: center right;
-     
-      
 
         .home-container {
             display: flex;

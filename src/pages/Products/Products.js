@@ -92,7 +92,7 @@ export default function Products() {
         ) : (
           <div>
             <div
-              className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-8 relative"
+              className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  gap-8 relative"
               data-aos="zoom-in"
             >
               {allProducts.categories

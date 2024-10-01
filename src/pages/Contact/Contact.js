@@ -15,11 +15,11 @@ import Footer from "../../components/Footer/Footer";
 import ContactForm from "./ContactForm";
 import "./Contact.scss";
 
-
 export default function Contact() {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="contact-section">
       <SectionHeading sectionName={"Contact"} sectionBg={contactBg} />
@@ -29,17 +29,17 @@ export default function Contact() {
           <ContactCard
             icon={<FaLocationDot />}
             head="Address"
-            data="Ward no.03 Dharamkundi, post Satwasa, tehi-Seoni Malwa, district-Narmadapurm, MP, 461221"
+            data="1234 Oakwood Lane, Springfield, Illinois, 62704, USA"
           />
           <ContactCard
             icon={<FaPhoneVolume />}
             head="Phone No."
-            data={`+91 7987049181, +91 8889507870`}
+            data={`+1 312-555-6789, +1 312-555-9876`}
           />
           <ContactCard
             icon={<IoIosMail />}
             head="Email"
-            data="arpangour80@gmail.com"
+            data="info@randomcompany.com"
           />
         </div>
 
@@ -48,7 +48,7 @@ export default function Contact() {
 
           <div className="flex wrap opp-border bg-[#84bb16] p-5 my-5 mb-[100px] sm:mx-[5px] lg:mx-[80px]  justify-evenly gap-5 text-center align-middle">
             <div className="contact-social">
-              <a href="www.google.com" target="_blank" rel="external">
+              <a href="social-media-links" target="_blank" rel="external">
                 <p className="contact-icon  text-white hover:text-[#f46f30]">
                   <FaInstagram />
                 </p>
@@ -56,7 +56,7 @@ export default function Contact() {
               </a>
             </div>
             <div className="contact-social">
-              <a href="www.google.com" target="_blank" rel="external">
+              <a href="social-media-links" target="_blank" rel="external">
                 <p className="contact-icon  text-white  hover:text-[#1877f2]">
                   <FaFacebook />
                 </p>
@@ -64,7 +64,7 @@ export default function Contact() {
               </a>
             </div>
             <div className="contact-social">
-              <a href="www.google.com" target="_blank" rel="external">
+              <a href="social-media-links" target="_blank" rel="external">
                 <p className="contact-icon  text-white hover:text-[#25d366]">
                   <RiWhatsappFill />
                 </p>
@@ -72,7 +72,7 @@ export default function Contact() {
               </a>
             </div>
             <div className="contact-social">
-              <a href="www.google.com" target="_blank" rel="external">
+              <a href="social-media-links" target="_blank" rel="external">
                 <p className="contact-icon  text-white hover:text-[#ff0000]">
                   <FaYoutube />
                 </p>
@@ -90,7 +90,7 @@ export default function Contact() {
             // scrolling="no"
             // margineight="0"
             // marginwidth="0"
-            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=gupta%20ground,narmadapuram+(Home)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1234%20Oakwood%20Lane,%20Springfield&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           >
             <a href="https://www.gps.ie/">gps vehicle tracker</a>
           </iframe>

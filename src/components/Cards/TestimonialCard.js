@@ -7,7 +7,7 @@ export default function TestimonialCard({ data }) {
         <img
           src={data?.img}
           alt={data?.name + "-img"}
-          className="bg-purple-400"
+          className=""
         />
       </figure>
       <p>{data?.review}</p>

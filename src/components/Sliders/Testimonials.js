@@ -32,7 +32,7 @@ export default function Testimonials() {
         }}
         autoplay={{
           delay: 1500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         navigation={true}
         modules={[Pagination, Autoplay, Navigation]}

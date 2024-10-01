@@ -100,8 +100,7 @@ export default function Footer() {
                     <FaLocationDot />
                   </span1>
                   <h2 className="">
-                    Ward no.03 Dharamkundi,
-                    <h1>district-Narmadapurm,MP,461221</h1>
+                    1234 Oakwoodd Lane, Springsfield, 62704, USA
                   </h2>
                 </div>
 
@@ -109,7 +108,7 @@ export default function Footer() {
                   <span1>
                     <FaPhone />
                   </span1>
-                  <h2>+91 7987049181, +91 8889507870</h2>
+                  <h2>+1 312-555-6789, +1 312-555-9876 </h2>
                 </div>
 
                 <div className="flex flex-wrap ">
@@ -118,7 +117,7 @@ export default function Footer() {
                   </span1>
                   <h2>
                     <a href="mailto:rajchhalotre15@gmail.com">
-                      arpangour80@gmail.com
+                      abcdefg80@gmail.com
                     </a>
                   </h2>
                 </div>
@@ -131,28 +130,28 @@ export default function Footer() {
             <span className="footer-underline"></span>
             <div className="flex justify-left flex-wrap gap-7 text-[28px]">
               <div className="">
-                <a href="www.google.com" target="_blank" rel="external">
+                <a href="social-media-links" target="_blank" rel="external">
                   <p className="contact-icon  text-white hover:text-[#f46f30]">
                     <FaInstagram />
                   </p>
                 </a>
               </div>
               <div className="">
-                <a href="www.google.com" target="_blank" rel="external">
+                <a href="social-media-links" target="_blank" rel="external">
                   <p className="contact-icon  text-white  hover:text-[#1877f2]">
                     <FaFacebook />
                   </p>
                 </a>
               </div>
               <div className="">
-                <a href="www.google.com" target="_blank" rel="external">
+                <a href="social-media-links" target="_blank" rel="external">
                   <p className="contact-icon  text-white hover:text-[#25d366]">
                     <RiWhatsappFill />
                   </p>
                 </a>
               </div>
               <div className="">
-                <a href="www.google.com" target="_blank" rel="external">
+                <a href="social-media-links" target="_blank" rel="external">
                   <p className="contact-icon  text-white hover:text-[#ff0000]">
                     <FaYoutube />
                   </p>
@@ -163,7 +162,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer2 z-20 h-[40px] ">
-        <div className="m-auto text-center p-5">
+        <div className="m-auto text-center p-2">
           <p className=" mt-[-40px] text-[19px] font-bold">
             Made By Raj Chhalotre
           </p>
@@ -180,6 +179,8 @@ export default function Footer() {
               </span>
             </a>
           </p>
+
+          <p> <span className="text-red-600 text-xl">*</span> This is a demo website. So, the details and people are not real.</p>
         </div>
       </div>
     </div>
