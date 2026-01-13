@@ -2,31 +2,31 @@
     "testimonials": [
         {
             "name": "Anjali Kapoor",
-            "img": "assets/testimonials/test1.jpeg",
+            "img": "/assets/testimonials/test1.jpeg",
             "review_date": "2024-05-20",
             "review": "Visiting this organic farm has been a delightful experience! The freshness of the produce is unmatched, and it's wonderful to see where and how the food we eat is grown. I feel great knowing I'm supporting local farmers who are dedicated to sustainable practices."
         },
         {
             "name": "Ravi Sharma",
-            "img": "assets/testimonials/test2.jpeg",
+            "img": "/assets/testimonials/test2.jpeg",
             "review_date": "2024-04-30",
             "review": "As a chef, quality ingredients are paramount, and this farm delivers every time. The organic fruits and vegetables have a depth of flavor that's hard to find elsewhere. The farm visit was also a great learning experience about organic farming techniques."
         },
         {
             "name": "Priya Singh",
-            "img": "assets/testimonials/test3.jpeg",
+            "img": "/assets/testimonials/test3.jpeg",
             "review_date": "2024-03-15",
             "review": "I've been coming to this organic farm for my weekly groceries, and it has transformed my cooking. The produce is always fresh, vibrant, and full of nutrients. Plus, the staff is friendly and knowledgeable about organic farming."
         },
         {
             "name": "Amit Desai",
-            "img": "assets/testimonials/test4.jpeg",
+            "img": "/assets/testimonials/test4.jpeg",
             "review_date": "2024-02-28",
             "review": "This organic farm is a hidden gem! The variety of fresh produce available is fantastic, and the quality is simply outstanding. I love bringing my kids here to show them the importance of organic farming and healthy eating."
         },
         {
             "name": "Aman Nair",
-            "img": "assets/testimonials/test5.jpeg",
+            "img": "/assets/testimonials/test5.jpeg",
             "review_date": "2024-01-18",
             "review": "Supporting local and sustainable agriculture is important to me, and this farm makes it easy. The organic vegetables and fruits are always fresh, and it feels good to know that I'm feeding my family healthy, pesticide-free food. The farm visits are also very enjoyable and educational."
         }
