@@ -3,7 +3,6 @@ import { Link, NavLink } from "react-router-dom";
 import logo from "../../data/assets/logos/swarupanand-high-resolution-logo-transparent.png";
 
 export default function NavbarLarge() {
-  const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -29,17 +28,17 @@ export default function NavbarLarge() {
         <div className="">
           <ul className="flex align-middle gap-[90px]">
             <li className="nav-link">
-              <NavLink to="/" onClick={() => setMenuOpen(false)}>
+              <NavLink to="/">
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" onClick={() => setMenuOpen(false)}>
+              <NavLink to="/about">
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/view-products" onClick={() => setMenuOpen(false)}>
+              <NavLink to="/view-products">
                 View Products
               </NavLink>
             </li>
@@ -53,17 +52,17 @@ export default function NavbarLarge() {
         <div>
           <ul className="flex align-middle gap-[90px]">
             <li>
-              <NavLink to="/gallery" onClick={() => setMenuOpen(false)}>
+              <NavLink to="/gallery">
                 Gallery
               </NavLink>
             </li>
             <li>
-              <NavLink to="/blogs" onClick={() => setMenuOpen(false)}>
+              <NavLink to="/blogs">
                 Blogs
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" onClick={() => setMenuOpen(false)}>
+              <NavLink to="/contact">
                 Contact
               </NavLink>
             </li>

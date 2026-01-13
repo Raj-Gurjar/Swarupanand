@@ -16,8 +16,6 @@ import media from "../../data/gallery.json";
 import Footer from "../../components/Footer/Footer";
 import SectionHeading from "../../components/Headings/SectionHeading";
 import CurlyTitles from "../../components/Headings/CurlyTitles";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
 import "./Gallery.scss";
 
 export default function App() {
